@@ -434,11 +434,12 @@ body{
 
       /*-------------------------------------------------------Media phone-X 360px landing page---------------------------------------- */
   
-      @media all and (max-width:375px){
+      @media all and (max-width:360px){
         .landing_page{
           position: relative;
-          width: 358vw;
+          width: 401vw;
           height: 397vh;
+          top: -4em;
          
           
       }
@@ -1451,10 +1452,10 @@ body{
     }
     .myPhoto > img{
       position: absolute;
-      width: 39em;
+      width: 60em;
       height: auto;
       left: -1em;
-      top: 108em;
+      top: 114em;
       right: 0;
       margin: auto;
       border-radius: 20px;
@@ -1481,10 +1482,10 @@ body{
     }
     .myphotoborder{
       position: absolute;
-      width: 40em;
-      height: 57em;
-      left: 1em;
-      top: 108em;
+      width: 63em;
+      height: 89em;
+      left: 2em;
+      top: 114em;
       right: 0;
       margin: auto;
       border-radius: 20px;
@@ -1583,368 +1584,6 @@ body{
 
 
   /*-----------------------------------------------------------------END OF Media phone 360px landing page------------------------------------------------------------------ */
-
-  /*-------------------------------------------------------  Media phone 360px landing page---------------------------------------- */
-  @media all and (max-width:414px){
-
-    .AboutMe{
-      width: 400vw;
-      height: 419vh;
-      position: relative;
-    }
-    .desabout{
-      font-family: 'Dosis';
-      font-size: 48px;
-      /* text-shadow: 4px 4px 4px #aaa; */
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      left: 26%;
-      top: 0;
-      right: 0;
-      margin: auto;
-      font-size: 133px;
-    
-    
-    }
-    .desme{
-      font-family: 'Dosis', arial;
-      font-size: 48px;
-      /* text-shadow: 4px 4px 4px #aaa; */
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      left: 56%;
-      top: 0;
-      right: 0;
-      margin: auto;
-      font-size: 133px;
-    }
-    .bar1{
-      position: absolute;
-      left: 35%;
-      top: 149px;
-      margin: auto;
-      width: 325px;
-      height: 14px;
-      background-color: #f89d36;
-    }
-    .myPhoto > img{
-      position: absolute;
-      width: 39em;
-      height: auto;
-      left: -1em;
-      top: 108em;
-      right: 0;
-      margin: auto;
-      border-radius: 20px;
-      z-index: 9;
-      
-    
-    }
-    .myPhoto > img:hover{
-      animation: shake 3s ease-in;
-    }
-    @keyframes shake{
-      0%{}
-      25%,
-      50%,
-      75%{
-          transform: translate(.1em);
-          box-shadow: 0px 7px 9px rgb(94, 87, 87);
-      }
-      10%,
-      35%,
-      60%{ transform: translate(-.1em);}
-      85%,
-      100%{transform: translate(0);}
-    }
-    .myphotoborder{
-      position: absolute;
-      width: 40em;
-      height: 57em;
-      left: 1em;
-      top: 108em;
-      right: 0;
-      margin: auto;
-      border-radius: 20px;
-      border: 5px solid#cccccc;
-    }
-    .aboutus{
-      position: absolute;
-      width: 655px;
-      height: 57%;
-      right: 181px;
-      top: 153px;
-      margin: auto;
-    }
-    .aboutus_name{
-      font-family: 'Dosis';
-      font-size: 5.8em;
-      color: #f89d36;
-      position: relative;
-      right: 5.2em;
-      top: 2.7em;
-    
-    }
-    .aboutus_job1{
-      font-family: 'Sniglet', cursive;
-      position: relative;
-      display: inline;
-      font-size: 4em;
-      top: 4em;
-      left: -7.5em;
-      right: -3em;
-  
-    }
-    .aboutus_job2{
-      font-family: 'Sniglet', cursive;
-      position: relative;
-      display: inline;
-      font-size: 3em;
-      top: 5.3em;
-      left: -9.5em;
-      right: -3em;
-      width: 112em;
-  
-    }
-    .aboutus_me{
-      font-family: 'Advent Pro', sans-serif;
-      font-family: 'Merienda', cursive;
-      font-size: 3.2em;
-      position: relative;
-      left: -9.2em;
-      top: 6em;
-      width: 24em;
-      
-    
-    }
-    .aboutu_img >img{
-      position: relative;
-      width: 47em;
-      height: auto;
-      top: 19em;
-      left: -40em;
-    }
-    
-    .aboutu_cv1{
-      position: relative;
-      width: 27em;
-      height: 10em;
-      top: 16em;
-      left: -29em;
-      background-color:#f89d36 ;
-      border:1px solid #f89d36;
-      border-radius: 7px;
-    }
-    .aboutu_cv1 >h2{
-      font-size: 5em;
-      position: relative;
-      top: -29px;
-    
-    }
-    .aboutu_con1{
-      position: relative;
-      width: 27em;
-      height: 10em;
-      top: 6em;
-      left: 4em;
-      border:1px solid #f89d36;
-      border-radius: 7px;
-    }
-    .aboutu_con1 >h2{
-      color: #f89d36;
-      font-size: 5em;
-      position: relative;
-      top: -29px;  
-    }
-  }
-  
-
-
-  /*-----------------------------------------------------------------END OF Media phone 360px landing page------------------------------------------------------------------ */
-
-
-  /*-------------------------------------------------------  Media phone 360px landing page---------------------------------------- */
-  @media all and (max-width:360px){
-
-    .AboutMe{
-      width: 400vw;
-      height: 419vh;
-      position: relative;
-    }
-    .desabout{
-      font-family: 'Dosis';
-      font-size: 48px;
-      /* text-shadow: 4px 4px 4px #aaa; */
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      left: 26%;
-      top: 0;
-      right: 0;
-      margin: auto;
-      font-size: 133px;
-    
-    
-    }
-    .desme{
-      font-family: 'Dosis', arial;
-      font-size: 48px;
-      /* text-shadow: 4px 4px 4px #aaa; */
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      left: 56%;
-      top: 0;
-      right: 0;
-      margin: auto;
-      font-size: 133px;
-    }
-    .bar1{
-      position: absolute;
-      left: 35%;
-      top: 149px;
-      margin: auto;
-      width: 325px;
-      height: 14px;
-      background-color: #f89d36;
-    }
-    .myPhoto > img{
-      position: absolute;
-      width: 39em;
-      height: auto;
-      left: -1em;
-      top: 108em;
-      right: 0;
-      margin: auto;
-      border-radius: 20px;
-      z-index: 9;
-      
-    
-    }
-    .myPhoto > img:hover{
-      animation: shake 3s ease-in;
-    }
-    @keyframes shake{
-      0%{}
-      25%,
-      50%,
-      75%{
-          transform: translate(.1em);
-          box-shadow: 0px 7px 9px rgb(94, 87, 87);
-      }
-      10%,
-      35%,
-      60%{ transform: translate(-.1em);}
-      85%,
-      100%{transform: translate(0);}
-    }
-    .myphotoborder{
-      position: absolute;
-      width: 40em;
-      height: 57em;
-      left: 1em;
-      top: 108em;
-      right: 0;
-      margin: auto;
-      border-radius: 20px;
-      border: 5px solid#cccccc;
-    }
-    .aboutus{
-      position: absolute;
-      width: 655px;
-      height: 57%;
-      right: 181px;
-      top: 153px;
-      margin: auto;
-    }
-    .aboutus_name{
-      font-family: 'Dosis';
-      font-size: 5.8em;
-      color: #f89d36;
-      position: relative;
-      right: 5.2em;
-      top: 2.7em;
-    
-    }
-    .aboutus_job1{
-      font-family: 'Sniglet', cursive;
-      position: relative;
-      display: inline;
-      font-size: 4em;
-      top: 4em;
-      left: -7.5em;
-      right: -3em;
-  
-    }
-    .aboutus_job2{
-      font-family: 'Sniglet', cursive;
-      position: relative;
-      display: inline;
-      font-size: 3em;
-      top: 5.3em;
-      left: -9.5em;
-      right: -3em;
-      width: 112em;
-  
-    }
-    .aboutus_me{
-      font-family: 'Advent Pro', sans-serif;
-      font-family: 'Merienda', cursive;
-      font-size: 3.2em;
-      position: relative;
-      left: -9.2em;
-      top: 6em;
-      width: 24em;
-      
-    
-    }
-    .aboutu_img >img{
-      position: relative;
-      width: 47em;
-      height: auto;
-      top: 19em;
-      left: -40em;
-    }
-    
-    .aboutu_cv1{
-      position: relative;
-      width: 27em;
-      height: 10em;
-      top: 16em;
-      left: -29em;
-      background-color:#f89d36 ;
-      border:1px solid #f89d36;
-      border-radius: 7px;
-    }
-    .aboutu_cv1 >h2{
-      font-size: 5em;
-      position: relative;
-      top: -29px;
-    
-    }
-    .aboutu_con1{
-      position: relative;
-      width: 27em;
-      height: 10em;
-      top: 6em;
-      left: 4em;
-      border:1px solid #f89d36;
-      border-radius: 7px;
-    }
-    .aboutu_con1 >h2{
-      color: #f89d36;
-      font-size: 5em;
-      position: relative;
-      top: -29px;  
-    }
-  }
-  
-
-
-  /*-----------------------------------------------------------------END OF Media phone 360px landing page------------------------------------------------------------------ */
-
 
   /*-----------------------------------------------------------------Media phone 288px landing page------------------------------------------------------------------------- */
   
@@ -2117,492 +1756,9 @@ body{
   /*-----------------------------------------------------------------END OF Media phone 288px About me page------------------------------------------------------------------------- */
 
 
-  /*----------------------------------------------------------------- SKill page ------------------------------------------------------------------------- */
-  .skills{
-      position: relative;
-      width: 100vw;
-      height: 100vh;
-  }
-  .skill_tag h2{
-      font-family: 'Dosis';
-      font-size: 48px;
-      /* text-shadow: 4px 4px 4px #aaa; */
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      left:40%;
-      top: 0;
-      right: 0;
-      margin: auto;
-      font-size: 40px;
-  }
-  
-  .skills_img .skill_man{
-      position: relative;
-      width: 357px;
-      height: 420px;
-      left: 82px;
-      top: 171px;
-      margin: auto;
-  }
-  .skills_img .skill_man1{
-      position: relative;
-      width: 161px;
-      height: 116px;
-      left: -316px;
-      top: 135px;
-      margin: auto;
-      animation: glow2 2s ease-in infinite alternate;
-  }
-  
-  .skills_img .skill_man2{
-      position: relative;
-      width: 0;
-      height: 0;
-      left: -407px;
-      top: 108px;
-      margin: auto;
-  }
-  .skills_img .skill_man3{
-      position: relative;
-      width: 94px;
-      height: 69px;
-      left: -542px;
-      top: 31px;
-      margin: auto;
-  }
-  
-  .skills_img .skill_man4{
-      position: relative;
-      width: 128px;
-      height: 85px;
-      left: -270px;
-      top: 108px;
-      margin: auto;
-      animation: shake1 3s ease-in infinite alternate;
-  }
-  @keyframes shake1{
-      0%{}
-      25%,
-      50%,
-      75%{
-          transform: translate(.1em);
-      
-      }
-      10%,
-      35%,
-      60%{
-          transform: translateX(-.4em);
-           transform: translateY(-.2em);
-      }
-      85%,
-      100%{transform: translate(0);}
-  }
-  .skills_img .skill_man5{
-      position: relative;
-      width: 83px;
-      height: 57px;
-      left: -475px;
-      top: 185px;
-      margin: auto;
-      animation: shake2 3s ease-in infinite alternate;
-  }
-  
-  @keyframes shake2{
-      0%{opacity: 0.6;}
-      25%,
-      50%,
-      75%{
-          transform: translate(.6em);
-          opacity: 0.9;
-      
-      }
-      10%,
-      35%,
-      60%{
-          transform: translateX(-.2em);
-           transform: translateY(-.2em);
-      }
-      85%,
-      100%{transform: translate(0);
-          opacity: 0.9;}
-  }
-  .skills_img .skill_man6{
-      position: relative;
-      width: 246px;
-      height: 138px;
-      left: -526px;
-      top: -32px;
-      margin: auto;
-      animation: glow1 2s ease-in infinite alternate;
-  }
-  @keyframes glow1{
-      0%{}
-      25%{ box-shadow: 0 0 10px #2196f3, 0 0 25px #2196f3, 0 0 50px #2196f3 ;}
-      50%{}
-      75%{ box-shadow: 0 0 10px #2196f3, 0 0 25px #2196f3, 0 0 50px #2196f3 ;}
-      100%{}
-  }
-  .skills_img .skill_man7{
-      position: relative;
-      width: 0px;
-      height: 75px;
-      left: -607px;
-      top: 108px;
-      margin: auto;
-  }
-  .skills_img .skill_man8{
-      position: relative;
-      width: 91px;
-      height: 59px;
-      left: -1094px;
-      top: -221px;
-      margin: auto;
-      animation: shake3 3s ease-in infinite alternate;
-  }
-  @keyframes shake3{
-      0%{
-          opacity: 0.6;
-      }
-      25%,
-      50%,
-      75%{
-          transform: translateX(-.3em);
-          transform: translateY(-.3em);
-          opacity: 0.9;
-      
-      }
-      10%,
-      35%,
-      60%{
-          transform: translateX(-.1em);
-           transform: translateY(-.1em);
-      }
-      85%,
-      100%{transform: translate(0);}
-  }
-  .bar2{
-    position: absolute;
-    left: 46%;
-    top: 71px;
-    margin: auto;
-    width: 182px;
-    height: 3px;
-    background-color:#f89d36 ;
-  }
-  .bar3{
-    position: absolute;
-    left: 789px;
-    top: 63px;
-    margin: auto;
-    width: 18px;
-    height: 18px;
-    background-color:#f89d36 ;
-    transform: rotate(45deg);
-    
-  }
-  .sklills_bar{
-    position: absolute;
-    right: 0;
-    top: 170px;
-    margin: auto;
-    width: 850px;
-    height: 450px;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(3,1fr);
-  }
-  /* .java{border: 2px solid red;}
-  .css{border: 2px solid red;}
-  .html{border: 2px solid red;}
-  .js{border: 2px solid red;}
-  .node{border: 2px solid red;}
-  .sql{border: 2px solid red;}  */
-  
-  .java_img img{
-    width: 95px;
-    height: 95px;
-    top: -4px;
-    position: relative;
-  }
-  .java_txt h2{
-    position: relative;
-    top: -60px;
-    left: 75px;
-    font-size: 20px;
-    width: 100%;
-    height: 100%;
-  
-  }
-  .progres1{
-    position: relative;
-    top: -173px;
-    width: 302px;
-    left: 62px;
-    border-radius: 30px;
-    background-color: white;
-  
-  }
-  .progress-bar1{
-    width: 90%;
-    height: 12px;
-    border-radius: 30px;
-    transition: 0.4s linear;
-    background-color:  #CF5353;
-    animation: progress 5s 1 ;
-  }
-  
-  @keyframes progress{
-    0%{
-        width: 0%;
-        background:  #CF5353;
-  
-    }
-    100%{
-        width: 90%;
-        background:  #CF5353;
-        box-shadow: 0 0 40px  #CF5353;
-    }
-  }
-  .loader1{
-    --p:90;
-    animation: p 5s steps(1) 1;
-    counter-reset: p var(--p);
-    font-size: 21px;
-    position: absolute;
-    bottom: 23px;
-    left: 258px;
-  
-    
-  }
-  .loader1::after{
-    content: counter(p) "%";
-  }
-  @keyframes p{
-    0%{--p:0}
-    20%{--p:20}
-    30%{--p:30}
-    40%{--p:40}
-    50%{--p:50}
-    60%{--p:60}
-    70%{--p:70}
-    80%{--p:80}
-    90%{--p:90}
-    100%{--p:90}
-  }
-  .css_img img{
-    width: 80px;
-    height: 80px;
-  }
-  .css_txt h2{
-    position: relative;
-    top: -60px;
-    left: 75px;
-    font-size: 20px;
-    width: 100%;
-    height: 100%;
-  
-  }
-  .progress2{
-    position: relative;
-    top: -159px;
-    width: 302px;
-    left: 59px;
-    border-radius: 30px;
-    background-color: white;
-    border: 0.1px solid teal;
-  }
-  .progress-bar2{
-    width: 80%;
-    height: 12px;
-    left: 20px;
-    border-radius: 30px;
-    transition: 1s linear;
-    background-color: #1c88c7 ;
-    animation: progres2 5s 1;
-  
-  }
-  @keyframes progres2{
-    0%{
-        width: 0%;
-        background:  #1c88c7;
-  
-    }
-    100%{
-        width: 80%;
-        background:  #1c88c7;
-        box-shadow: 0 0 40px   #1c88c7;
-    }
-  }
-  .html_img img{
-    width: 75px;
-    height: 75px;
-  }
-  .html_txt h2{
-    position: relative;
-    top: -60px;
-    left: 75px;
-    font-size: 20px;
-    width: 100%;
-    height: 100%;
-  }
-  .progress3{
-    position: relative;
-    top: -152px;
-    width: 302px;
-    left: 62px;
-    border-radius: 30px;
-    background-color: white;
-  }
-  .progress-bar3{
-    width: 85%;
-    height: 12px;
-    border-radius: 30px;
-    transition: 0.4s linear;
-    background-color:  #FF6C39;
-    animation: progress3 5s 1 ;
-  }
-  @keyframes progress3{
-    0%{
-        width: 0%;
-        background:  #CF5353;
-  
-    }
-    100%{
-        width: 85%;
-        background:  #CF5353;
-        box-shadow: 0 0 40px  #CF5353;
-    }
-  }
-  .js_img img{
-    width: 80px;
-    height: 80px;
-  }
-  .js_txt h2{
-  
-    position: relative;
-    top: -60px;
-    left: 75px;
-    font-size: 20px;
-    width: 100%;
-    height: 100%;
-  }
-  .progress4{
-    position: relative;
-    top: -159px;
-    width: 302px;
-    left: 59px;
-    border-radius: 30px;
-    background-color: white;
-  }
-  .progress-bar-4{
-    width: 95%;
-    height: 12px;
-    border-radius: 30px;
-    transition: 0.4s linear;
-    background-color:  #CF5353;
-    animation: progress4 5s 1 ;
-  }
-  @keyframes progress4{
-    0%{
-        width: 0%;
-        background:  #CF5353;
-  
-    }
-    100%{
-        width: 95%;
-        background:  #CF5353;
-        box-shadow: 0 0 40px  #CF5353;
-    }
-  }
-  .node_img img{
-    width: 80px;
-    height: 80px;
-  }
-  .node_txt h2{
-    position: relative;
-    top: -60px;
-    left: 75px;
-    font-size: 20px;
-    width: 100%;
-    height: 100%;
-  }
-  .progress5{
-    position: relative;
-    top: -174px;
-    width: 302px;
-    left: 62px;
-    border-radius: 30px;
-    background-color: white;
-  
-  }
-  .progress-bar5{
-    width: 70%;
-    height: 12px;
-    border-radius: 30px;
-    transition: 0.4s linear;
-    background-color: #4CAF50;
-    animation: progress5 5s 1 ;
-  }
-  @keyframes progress5{
-    0%{
-        width: 0%;
-        background: #4CAF50;
-  
-    }
-    100%{
-        width: 70%;
-        background: #4CAF50;
-        box-shadow: 0 0 40px  #4CAF50;
-    }
-  }
-  .sql_img img{
-    width: 122px;
-    height: 73px;
-  }
-  .sql_txt h2{
-    position: relative;
-    top: -60px;
-    left: 75px;
-    font-size: 20px;
-    width: 100%;
-    height: 100%;
-  
-  }
-  .progress6{
-    position: relative;
-    top: -159px;
-    width: 302px;
-    left: 59px;
-    border-radius: 30px;
-    background-color: white;
-  }
-  .progress-bar6{
-    width: 272px;
-    height: 12px;
-    border-radius: 30px;
-    transition: 0.4s linear;
-    background-color:  #E39123;
-    animation: progress 5s 1 ;
-  }
-  @keyframes progress{
-    0%{
-        width: 0%;
-        background:   #E39123;
-  
-    }
-    100%{
-        width: 90%;
-        background:  #E39123;
-        box-shadow: 0 0 40px   #E39123;
-    }
-  }
+/*------------------------------------------------------------------- Media Guery OF 414px SKill page ------------------------------------------------------------- */
 
- /*--------------------------------------------------------------------END OF  SKill page ------------------------------------------------------------------------- */
- 
-/*------------------------------------------------------------------- Media Guery OF 360px SKill page ------------------------------------------------------------- */
-
-@media all and (max-width:375px){
+@media all and (max-width:414px){
   .skills{
     position: relative;
     width: 401vw;
@@ -3120,6 +2276,489 @@ body{
 
  /*------------------------------------------------------------------- Media Guery OF 360px SKill page ------------------------------------------------------------- */
 
+  /*----------------------------------------------------------------- SKill page ------------------------------------------------------------------------- */
+  .skills{
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+  }
+  .skill_tag h2{
+      font-family: 'Dosis';
+      font-size: 48px;
+      /* text-shadow: 4px 4px 4px #aaa; */
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left:40%;
+      top: 0;
+      right: 0;
+      margin: auto;
+      font-size: 40px;
+  }
+  
+  .skills_img .skill_man{
+      position: relative;
+      width: 357px;
+      height: 420px;
+      left: 82px;
+      top: 171px;
+      margin: auto;
+  }
+  .skills_img .skill_man1{
+      position: relative;
+      width: 161px;
+      height: 116px;
+      left: -316px;
+      top: 135px;
+      margin: auto;
+      animation: glow2 2s ease-in infinite alternate;
+  }
+  
+  .skills_img .skill_man2{
+      position: relative;
+      width: 0;
+      height: 0;
+      left: -407px;
+      top: 108px;
+      margin: auto;
+  }
+  .skills_img .skill_man3{
+      position: relative;
+      width: 94px;
+      height: 69px;
+      left: -542px;
+      top: 31px;
+      margin: auto;
+  }
+  
+  .skills_img .skill_man4{
+      position: relative;
+      width: 128px;
+      height: 85px;
+      left: -270px;
+      top: 108px;
+      margin: auto;
+      animation: shake1 3s ease-in infinite alternate;
+  }
+  @keyframes shake1{
+      0%{}
+      25%,
+      50%,
+      75%{
+          transform: translate(.1em);
+      
+      }
+      10%,
+      35%,
+      60%{
+          transform: translateX(-.4em);
+           transform: translateY(-.2em);
+      }
+      85%,
+      100%{transform: translate(0);}
+  }
+  .skills_img .skill_man5{
+      position: relative;
+      width: 83px;
+      height: 57px;
+      left: -475px;
+      top: 185px;
+      margin: auto;
+      animation: shake2 3s ease-in infinite alternate;
+  }
+  
+  @keyframes shake2{
+      0%{opacity: 0.6;}
+      25%,
+      50%,
+      75%{
+          transform: translate(.6em);
+          opacity: 0.9;
+      
+      }
+      10%,
+      35%,
+      60%{
+          transform: translateX(-.2em);
+           transform: translateY(-.2em);
+      }
+      85%,
+      100%{transform: translate(0);
+          opacity: 0.9;}
+  }
+  .skills_img .skill_man6{
+      position: relative;
+      width: 246px;
+      height: 138px;
+      left: -526px;
+      top: -32px;
+      margin: auto;
+      animation: glow1 2s ease-in infinite alternate;
+  }
+  @keyframes glow1{
+      0%{}
+      25%{ box-shadow: 0 0 10px #2196f3, 0 0 25px #2196f3, 0 0 50px #2196f3 ;}
+      50%{}
+      75%{ box-shadow: 0 0 10px #2196f3, 0 0 25px #2196f3, 0 0 50px #2196f3 ;}
+      100%{}
+  }
+  .skills_img .skill_man7{
+      position: relative;
+      width: 0px;
+      height: 75px;
+      left: -607px;
+      top: 108px;
+      margin: auto;
+  }
+  .skills_img .skill_man8{
+      position: relative;
+      width: 91px;
+      height: 59px;
+      left: -1094px;
+      top: -221px;
+      margin: auto;
+      animation: shake3 3s ease-in infinite alternate;
+  }
+  @keyframes shake3{
+      0%{
+          opacity: 0.6;
+      }
+      25%,
+      50%,
+      75%{
+          transform: translateX(-.3em);
+          transform: translateY(-.3em);
+          opacity: 0.9;
+      
+      }
+      10%,
+      35%,
+      60%{
+          transform: translateX(-.1em);
+           transform: translateY(-.1em);
+      }
+      85%,
+      100%{transform: translate(0);}
+  }
+  .bar2{
+    position: absolute;
+    left: 46%;
+    top: 71px;
+    margin: auto;
+    width: 182px;
+    height: 3px;
+    background-color:#f89d36 ;
+  }
+  .bar3{
+    position: absolute;
+    left: 789px;
+    top: 63px;
+    margin: auto;
+    width: 18px;
+    height: 18px;
+    background-color:#f89d36 ;
+    transform: rotate(45deg);
+    
+  }
+  .sklills_bar{
+    position: absolute;
+    right: 0;
+    top: 170px;
+    margin: auto;
+    width: 850px;
+    height: 450px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+  }
+  /* .java{border: 2px solid red;}
+  .css{border: 2px solid red;}
+  .html{border: 2px solid red;}
+  .js{border: 2px solid red;}
+  .node{border: 2px solid red;}
+  .sql{border: 2px solid red;}  */
+  
+  .java_img img{
+    width: 95px;
+    height: 95px;
+    top: -4px;
+    position: relative;
+  }
+  .java_txt h2{
+    position: relative;
+    top: -60px;
+    left: 75px;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+  
+  }
+  .progres1{
+    position: relative;
+    top: -173px;
+    width: 302px;
+    left: 62px;
+    border-radius: 30px;
+    background-color: white;
+  
+  }
+  .progress-bar1{
+    width: 90%;
+    height: 12px;
+    border-radius: 30px;
+    transition: 0.4s linear;
+    background-color:  #CF5353;
+    animation: progress 5s 1 ;
+  }
+  
+  @keyframes progress{
+    0%{
+        width: 0%;
+        background:  #CF5353;
+  
+    }
+    100%{
+        width: 90%;
+        background:  #CF5353;
+        box-shadow: 0 0 40px  #CF5353;
+    }
+  }
+  .loader1{
+    --p:90;
+    animation: p 5s steps(1) 1;
+    counter-reset: p var(--p);
+    font-size: 21px;
+    position: absolute;
+    bottom: 23px;
+    left: 258px;
+  
+    
+  }
+  .loader1::after{
+    content: counter(p) "%";
+  }
+  @keyframes p{
+    0%{--p:0}
+    20%{--p:20}
+    30%{--p:30}
+    40%{--p:40}
+    50%{--p:50}
+    60%{--p:60}
+    70%{--p:70}
+    80%{--p:80}
+    90%{--p:90}
+    100%{--p:90}
+  }
+  .css_img img{
+    width: 80px;
+    height: 80px;
+  }
+  .css_txt h2{
+    position: relative;
+    top: -60px;
+    left: 75px;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+  
+  }
+  .progress2{
+    position: relative;
+    top: -159px;
+    width: 302px;
+    left: 59px;
+    border-radius: 30px;
+    background-color: white;
+    border: 0.1px solid teal;
+  }
+  .progress-bar2{
+    width: 80%;
+    height: 12px;
+    left: 20px;
+    border-radius: 30px;
+    transition: 1s linear;
+    background-color: #1c88c7 ;
+    animation: progres2 5s 1;
+  
+  }
+  @keyframes progres2{
+    0%{
+        width: 0%;
+        background:  #1c88c7;
+  
+    }
+    100%{
+        width: 80%;
+        background:  #1c88c7;
+        box-shadow: 0 0 40px   #1c88c7;
+    }
+  }
+  .html_img img{
+    width: 75px;
+    height: 75px;
+  }
+  .html_txt h2{
+    position: relative;
+    top: -60px;
+    left: 75px;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+  }
+  .progress3{
+    position: relative;
+    top: -152px;
+    width: 302px;
+    left: 62px;
+    border-radius: 30px;
+    background-color: white;
+  }
+  .progress-bar3{
+    width: 85%;
+    height: 12px;
+    border-radius: 30px;
+    transition: 0.4s linear;
+    background-color:  #FF6C39;
+    animation: progress3 5s 1 ;
+  }
+  @keyframes progress3{
+    0%{
+        width: 0%;
+        background:  #CF5353;
+  
+    }
+    100%{
+        width: 85%;
+        background:  #CF5353;
+        box-shadow: 0 0 40px  #CF5353;
+    }
+  }
+  .js_img img{
+    width: 80px;
+    height: 80px;
+  }
+  .js_txt h2{
+  
+    position: relative;
+    top: -60px;
+    left: 75px;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+  }
+  .progress4{
+    position: relative;
+    top: -159px;
+    width: 302px;
+    left: 59px;
+    border-radius: 30px;
+    background-color: white;
+  }
+  .progress-bar-4{
+    width: 95%;
+    height: 12px;
+    border-radius: 30px;
+    transition: 0.4s linear;
+    background-color:  #CF5353;
+    animation: progress4 5s 1 ;
+  }
+  @keyframes progress4{
+    0%{
+        width: 0%;
+        background:  #CF5353;
+  
+    }
+    100%{
+        width: 95%;
+        background:  #CF5353;
+        box-shadow: 0 0 40px  #CF5353;
+    }
+  }
+  .node_img img{
+    width: 80px;
+    height: 80px;
+  }
+  .node_txt h2{
+    position: relative;
+    top: -60px;
+    left: 75px;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+  }
+  .progress5{
+    position: relative;
+    top: -174px;
+    width: 302px;
+    left: 62px;
+    border-radius: 30px;
+    background-color: white;
+  
+  }
+  .progress-bar5{
+    width: 70%;
+    height: 12px;
+    border-radius: 30px;
+    transition: 0.4s linear;
+    background-color: #4CAF50;
+    animation: progress5 5s 1 ;
+  }
+  @keyframes progress5{
+    0%{
+        width: 0%;
+        background: #4CAF50;
+  
+    }
+    100%{
+        width: 70%;
+        background: #4CAF50;
+        box-shadow: 0 0 40px  #4CAF50;
+    }
+  }
+  .sql_img img{
+    width: 122px;
+    height: 73px;
+  }
+  .sql_txt h2{
+    position: relative;
+    top: -60px;
+    left: 75px;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+  
+  }
+  .progress6{
+    position: relative;
+    top: -159px;
+    width: 302px;
+    left: 59px;
+    border-radius: 30px;
+    background-color: white;
+  }
+  .progress-bar6{
+    width: 272px;
+    height: 12px;
+    border-radius: 30px;
+    transition: 0.4s linear;
+    background-color:  #E39123;
+    animation: progress 5s 1 ;
+  }
+  @keyframes progress{
+    0%{
+        width: 0%;
+        background:   #E39123;
+  
+    }
+    100%{
+        width: 90%;
+        background:  #E39123;
+        box-shadow: 0 0 40px   #E39123;
+    }
+  }
+
+ /*--------------------------------------------------------------------END OF  SKill page ------------------------------------------------------------------------- */
+ 
 /*------------------------------------------------------------------- Media Guery OF 360px SKill page ------------------------------------------------------------- */
 
  @media all and (max-width:360px){
@@ -4253,6 +3892,7 @@ body{
     position: relative;
     width: 401vw;
     height: 400vh;
+    top: -39em;
   }
   .hob-name{
     font-family: 'Dosis';
@@ -4496,6 +4136,10 @@ body{
   
   div.container{
     margin: 50px;
+    position: relative;
+    width: 70%;
+    left: 22em;
+    top: 5em;
 
 }
 div.category button{
@@ -4707,10 +4351,40 @@ div.category button.active{
   /*  -----------------------------------------------------------------------Media 360px Creative Works------------------------------------------------------------------- */
 
   @media all and (max-width:360px){
+      
+  div.container{
+    margin: 50px;
+    position: relative;
+    width: 70%;
+    left: 22em;
+    top: 6em;
+
+}
+    div.category button{
+      margin: 10px;
+      padding: 5px 10px;
+      font-size: 58px;
+  }
+    div.category button{
+      margin: 10px;
+      border: none;
+      outline: none;
+      padding: 10px 20px;
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: bold;
+      color: rgb(114, 114, 114);
+      text-transform: uppercase;
+      cursor: pointer;
+      border-radius: 10px;
+      background-color: rgb(236, 236, 236);
+  }
     .creative-works{
       position: relative;
       width: 401vw;
       height: 451vh;
+      top: -132em;
+      bottom: 32em;
+      left: -9em;
       background-color: none;
     }
     .work-name{
