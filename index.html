@@ -1,372 +1,62 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <meta content="width=device-width intial-scale=1" name="viewport">
-    <!-- zoom -->
-
-    <!--Frame works-->
-    <link rel="stylesheet" href="Assests/css/style.css">
-    <link rel="stylesheet" href="Assests/css/normalize.css">
-
-    <!--End Frame works-->
-
- <!--Fonts-->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@700&family=Potta+One&display=swap" rel="stylesheet">
- <!--End fonts-->
-
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
 </head>
 <body>
-  
-    <script src="Assests/js/app.js" defer data-deferred="1"></script>
-    <script src="Assests/js/particles.js" ></script>
-    <script src="Assests/js/typed.js"></script>
-    <header>
-        <h2 class="logo">Portfolio</h2>
-        <h2 class="logo2">.</h2>    
-        <nav>
-            <ul class="navUl">
-                <li  class="home">
-                    <div class="line1"></div>
-                    <div class="line2"></div>
-                    <a href="#home">HOME</a> </li>
-                <li class="about"><a href="#about">ABOUT</a> </li>
-                <li class="myWorks"><a href="#myworks"> MY WORKS</a></li>
-                <li class="skills"><a href="#skills">SKILLS</a> </li>
-                <li class="service"><a href="#service">SERVICES</a> </li>
-                <li class="contact"><a href="#contact">CONTACT</a> </li> 
-                <div class="fb" onclick="window.open('https://www.facebook.com/hhddveje','_blank', 'location=yes,height=570,width=520,scrollbars=yes,status=yes')">
-                    <img src="Assests/img/fb.png" alt="">
-                </div>
-                <div class="link" onclick="window.open('https://www.linkedin.com/in/malindu-amesh-b39b591a4/','_blank', 'location=yes,height=570,width=520,scrollbars=yes,status=yes')">
-                    <img src="Assests/img/linked in.png" alt="">
-                </div>
-                <div class="insta" onclick="window.open('https://www.instagram.com/malindu.__/','_blank', 'location=yes,height=570,width=520,scrollbars=yes,status=yes')">
-                    <img src="Assests/img/insta.png" alt="">
-                </div> 
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section class="landing_page">
-            <div class="first_word1">HI! I'M</div>
-            <div class="first_word2">Malindu</div>
-            <div class="first_word3"><div class="header-area"><h2>Proffesional in  </h2><span class="animattte"></span></div> </div>
-            <div class="first_forth"></div>
-            <div id="particles-js"></div>
+    <script src="script.js"></script>
+        <!--image slider start-->
+        <div class="slider">
+            <div class="slides">
+        
+        <!--radio buttons start-->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+
+        <!--radio buttons end-->
+
+        <!--slide images start-->
+        <div class="slide first">
+            <img src="Assets/1.jpg" alt="">
+        </div>
+        <div class="slide ">
+            <img src="Assets/2.jpg" alt="">
+        </div>
+        <div class="slide ">
+            <img src="Assets/3.jpg" alt="">
+        </div>
+        <div class="slide ">
+            <img src="Assets/4.jpg" alt="">
+        </div>
+         <!--slide images end-->
+        </div>
+         <!--automatic navigation start-->
+         <div class="navigation-auto">
+             <div class="auto-btn1"></div>
+             <div class="auto-btn2"></div>
+             <div class="auto-btn3"></div>
+             <div class="auto-btn4"></div>
+         </div>
+         <!--automatic navigation end-->
+
+             <!--manual navigation start-->
+
+             <div class="navigation-manual">
+                 <label for="radio1" class="manual-btn"></label>
+                 <label for="radio2" class="manual-btn"></label>
+                 <label for="radio3" class="manual-btn"></label>
+                 <label for="radio4" class="manual-btn"></label>
+             </div>
+             <!--manual navigation end-->
+        </div>
+         <!--image slider end-->
            
-            <!-- <div class="mail">
-                <img src="Assests/img/GitHub-Mark-removebg-preview.png" alt="">
-            </div>     
-            <div class="tweet">
-                <img src="Assests/img/twitter_PNG1.png" alt="">
-            </div> -->
-
-            <!-- <article class="description1">
-                <div class="des1">
-                    <h2 class="d_11">Want AN Expert</h2>
-                    <h2 class="d_12">Experienced with all stages of the development<br> cycle for dynamic web projects.</h2>
-                    <h2 class="d_13">Hire Me ></h2>
-                </div>
-                <div class="des2">
-                    <h2 class="d_21">Unlimited Projects</h2>
-                    <h2 class="d_22">Experienced with all stages of the development <br>cycle for dynamic web projects.</h2>
-                    <h2 class="d_23">Supports ></h2>
-                </div>
-                <div class="des3">
-                    <h2 class="d_31">Let’s Discuss</h2>
-                    <h2 class="d_32">Experienced with all stages of the development <br>cycle for dynamic web projects.</h2>
-                    <h2 class="d_33">Contact Me ></h2>
-                </div>
-            </article>   -->
-        </section>
-        <!-- AboutMe -->
-        <section class="AboutMe" id="about">
-            <div class="description2">
-                <h2 class="desabout">ABOUT</h2>
-                <h2 class="desme">ME</h2>
-                <div class="bar1"></div>
-                <div class="square1"></div>
-            </div>
-            <!-- <div class="lanimg2">
-                <img src="Assests/img/landback6.jpg" alt="">
-            </div> -->
-            <article class="myPhoto">
-                <img src="Assests/img/IMG_5496.jpg" alt="">
-                <div class="myphotoborder"></div>
-            </article>
-            <section class="aboutus">
-                <div class="aboutus_name">Malindu Amesh</div>
-                <div> <br></div>
-                <div class="aboutus_job1">I’m a </div>
-                <div class="aboutus_job2">Software Engineer</div>
-                <div> <br></div>
-                <div class="aboutus_me">Obviously I'm a Software Engineer student who completing the first sem in GDSE programme in IJSE. Experienced with all stages of the development cycle for dynamic web projects. The as opposed to using 'Content here, content here', making it look like readable English<br>
-                    <br>
-                    The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</div>
-                    <div class="aboutu_img"><img src="Assests/img/signature.png" alt=""></div>
-                    <div class="aboutu_cv">
-                        <button class="aboutu_cv1">
-                            <h2>My Cv</h2>
-                        </button>
-                    </div>
-                    <div class="aboutu_contact">
-                        <button class="aboutu_con1">
-                            <h2>Contact</h2>
-                        </button>
-                    </div>   
-            </section>
-        </section>
-        <section class="skills" id="skills">
-            <div class="skill_tag">
-                <h2>PROGARMMING SKILLS</h2>
-                <div class="bar2"></div>
-                <div class="bar3"></div>
-            </div>
-            <article class="skills_img">
-                <img src="Assests/img/sijja/Untitled-3.png" alt="" class="skill_man">
-                <img src="Assests/img/sijja/Untitled-8.png" alt="" class="skill_man1">
-                <img src="Assests/img/sijja/Untitled-2.png" alt="" class="skill_man2">
-                <img src="Assests/img/sijja/Untitled-7.png" alt="" class="skill_man3">
-                <img src="Assests/img/sijja/Untitled-1.png" alt="" class="skill_man4">
-                <img src="Assests/img/sijja/Untitled-4.png" alt="" class="skill_man5">
-                <img src="Assests/img/sijja/Untitled-9.png" alt="" class="skill_man6">
-                <img src="Assests/img/sijja/Untitled-5.png" alt="" class="skill_man7">
-                <img src="Assests/img/sijja/Untitled-6.png" alt="" class="skill_man8">
-            </article>
-            <article class="sklills_bar">
-                <div class="java">
-                    <div class="java_img">
-                      
-                        <img src="Assests/img/java.png" alt="">
-                    </div>
-                    <div class="java_txt"><h2></h2></div>
-                    <div class="progres1">
-                    <div class="progress-bar1"></div>
-                    <div class="loader1" ></div>
-                </div>
-                </div>
-                <div class="css">
-                    <div class="css_img">
-                      
-                        <img src="Assests/img/css.png" alt="">
-                    </div>
-                    <div class="css_txt"><h2></h2></div>
-                    <div class="progress2">
-                    <div class="progress-bar2"></div>
-                    <div class="loader2"></div>
-                </div>
-                </div>
-                <div class="html">
-                    <div class="html_img">
-                      
-                        <img src="Assests/img/html.png" alt="">
-                    </div>
-                    <div class="html_txt"><h2></h2></div>
-                    <div class="progress3">
-                        <div class="progress-bar3"></div>
-                        <div class="loader3"></div>
-                    </div>
-                </div>
-                <div class="js">
-                    <div class="js_img">
-                        <img src="Assests/img/javascript.png" alt="">
-                    </div>
-                    <div class="js_txt"><h2></h2></div>
-                    <div class="progress4">
-                        <div class="progress-bar-4"></div>
-                        <div class="loader4"></div>
-                    </div>
-                </div>
-                <div class="node">
-                    <div class="node_img">
-                      
-                        <img src="Assests/img/Node.png" alt="">
-                    </div>
-                    <div class="node_txt"><h2></h2></div>
-                    <div class="progress5">
-                        <div class="progress-bar5"></div>
-                        <div class="loader5"></div>
-                    </div>
-                </div>
-                <div class="sql">
-                    <div class="sql_img">
-                        <img src="Assests/img/MySQL-512.png" alt="">
-                    </div>
-                    <div class="sql_txt"><h2></h2></div>
-                    <div class="progress6">
-                        <div class="progress-bar6"></div>
-                        <div class="loader6"></div>
-                    </div>
-                </div>
-            </article>
-        </section>
-        <section class="hobbies">
-            <div class="hob-name"><h2>BLOGS & INTERESTS</h2></div>
-            <div class="hob-line2"></div>
-            <div class="hob-line3"></div>
-            <div class="hob-description"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum is simply dummy text of the printing and typesetting industry</p></div>
-            <article class="hobbies-layout"></article>
-            <div class="Blog-1">
-                <div class="blog-Year-1"><h1>2020</h1></div>
-                <div class="blog-index-1">Moving my blog to Eleventy, Part 3: Creating Layouts</div>
-                <div class="blog-published-1">Published:June 25, 2020</div>
-                <div class="blog-index-3">Moving my blog to Eleventy, Part 2: Getting Started</div>
-                <div class="blog-published-3">Published:May 13, 2020</div>
-            </div>
-            <div class="Blog-2">
-                <div class="blog-Year-2"><h1>2019</h1></div>
-                <div class="blog-index-2">Hello, world. And why I'm blogging.</div>
-                <div class="blog-published-2">Published:June 25, 2019</div>
-            </div>
-        </section>
-        
-        <section class="creative-works" id="myworks">
-            <div class="work-name">CREATIVE WORKS</div>
-            <div class="work-line1"></div>
-            <div class="work-line2"></div>
-            <div class="work-nav"></div>
-
-                <!-- <input type="radio" id="nav-all" name="raidoBtn">
-                <input type="radio" id="nav-projects" name="raidoBtn">
-                <input type="radio" id="nav-ass" name="raidoBtn">
-                <input type="radio" id="nav-anime" name="raidoBtn">
-
-                <label for="nav-all" class="tag all">All</label>
-                <label for="nav-anime" class="tag anime">anime  </label>
-                <label for="nav-ass" class="tag ass">ass</label>
-                <label for="nav-projects" class="tag projects">projects</label>
-                
-                
-
-                <!-- <br> -->
-                <!-- <section class="nav-img">
-                    <img id="anmation1" src="Assests/img/Filter/animation.jpg" alt="" class="nav-anime">
-                    <img id="anmation2" src="Assests/img/Filter/anime2.jpg" alt="" class="nav-anime">
-                    <img id="assignment1" src="Assests/img/Filter/ass.1.jpg" alt="" class="nav-ass">
-                    <img id="project2" src="Assests/img/Filter/projects.jpg" alt="" class="nav-projects">
-                    <img id="project3" src="Assests/img/Filter/project3.jpg" alt="" class="nav-projects">
-                    <img id="project4" src="Assests/img/Filter/ass.3.jpg" alt="" class="nav-projects">
-
-                </section> --> -->
-                <div class="container">
-                    <div class="category">
-                        <button class="active">All</button>
-                        <button>Assignments</button>
-                        <button>Animation</button>
-                        <button>Projects</button>
-                    </div>
-                    <div class="product">
-                        <div class="itemBox" data-att ="assignments">
-                            <img  src="Assests/img/Filter/animation.jpg" alt="2">
-                        </div>
-                        <div class="itemBox" data-att ="assignments">
-                            <img src="Assests/img/Filter/anime2.jpg" alt="3">
-                        </div>
-                        <div class="itemBox" data-att ="assignments">
-                            <img  src="Assests/img/Filter/ass.1.jpg" alt="4">
-                        </div>
-                        <div class="itemBox" data-att ="animation">
-                            <img src="Assests/img/Filter/projects.jpg" alt="5">
-                        </div>
-                        <div class="itemBox" data-att ="animation">
-                            <img  src="Assests/img/Filter/project3.jpg" alt="6">
-                        </div>
-                        <div class="itemBox" data-att ="animation">
-                            <img  src="Assests/img/Filter/ass.3.jpg" alt="7">
-                        </div>
-                        <!-- <div class="itemBox" data-att ="projects">
-                            <img src="Assests/img/Filter/ass.3.jpg" alt="8">
-                        </div>
-                        <div class="itemBox" data-att ="projects">
-                            <img  src="Assests/img/Filter/project3.jpg" alt="9">
-                        </div>
-                        <div class="itemBox" data-att ="projects">
-                            <img src="Assests/img/Filter/anime2.jpg" alt="10">
-                        </div>
-                      -->
-                        
-                    </div>
-                </div>
-            <div class="works-button">
-                <h2>More Works ></h2>
-            </div>
-        </section>
-        <section class="projectMind">
-            <div class="project1img">
-                <img class="prj-Mind-img" src="Assests/img/Podcast-image-3-31-20.jpg" alt="">
-                <h1 class="prj-mnd-Title">Have a project in mind? I Am Available.</h1>
-                <h1 class="prj-mind-body">Obviously I'm a Software Developer. Experienced with all <br>
-                    stages of the development cycle for dynamic projects.</h1>
-                    <button onclick="forOrder()" id="prj-mind-btn" class="prj-mind-button">Get In Touch</button>
-            </div>
-        </section>
-        <section class="Contact-Us">
-
-            <div class="set-Title">
-            <div class="Cont-Title-1">CONTACT</div>
-            <div class="Cont-Title-2">ME</div>
-            <div class="con-line1"></div>
-            <div class="con-line2"></div>
-            </div>
-
-            <div class="con-Zt-Menu">
-                <div class="con-img-1">
-                    <img class="con-img-phone" src="https://img.icons8.com/carbon-copy/100/000000/phone.png"/>
-                    <div class="con-img-name-1">PHONE</div>
-                    <div class="con-img-body-1">Promising development turmoil inclusive education <br> transformative community</div>
-                    <div class="con-contOpt-1">0773942821</div>
-                </div>
-                <div class="con-img-2">
-                    <img  class="con-img-phone2" src="https://img.icons8.com/ios/100/000000/no-message--v2.png"/>
-                    <div class="con-img-name-2">PHONE</div>
-                    <div class="con-img-body-2">Promising development turmoil inclusive education <br> transformative community</div>
-                    <div class="con-contOpt-2">0773942821</div>
-                </div>
-                <div class="con-img-3">
-                    <img class="con-img-phone3" src="https://img.icons8.com/dotty/100/000000/worldwide-location.png"/>
-                    <div class="con-img-name-3">PHONE</div>
-                    <div class="con-img-body-3">Promising development turmoil inclusive education <br> transformative community</div>
-                    <div class="con-contOpt-3">0773942821</div>
-                </div>
-            </div>
-
-            <div class="con-My-img">
-                <div class="my-photo-con"><img class="my-photo-con-IMG" src="Assests/img/ssss.png" alt=""></div>
-                <div onclick="window.open('https://github.com/Malinducj?tab=repositories','_blank', 'location=yes,height=570,width=520,scrollbars=yes,status=yes')"><img class="con-social-gitHub" src="Assests/img/GitHub-Mark-removebg-preview.png" alt=""></div>
-                <div onclick="window.open('https://twitter.com/Malindu51891108','_blank', 'location=yes,height=570,width=520,scrollbars=yes,status=yes')" class="con-img-twitter"><img class="con-social-twitter" src="Assests/img/twitter_PNG1.png" alt=""></div>
-                <div onclick="window.open('https://gdse55.slack.com/ssb/redirect','_blank', 'location=yes,height=570,width=520,scrollbars=yes,status=yes')" class="con-img-slack"><img class="con-social-slack" src="Assests/img/slack.jpeg" alt=""></div>
-                <div onclick="window.open('https://www.facebook.com/hhddveje','_blank', 'location=yes,height=570,width=520,scrollbars=yes,status=yes')"><img class="con-social-facebook" src="Assests/img/fb.png" alt=""></div>
-                <div onclick="window.open('https://www.instagram.com/malindu.__/','_blank', 'location=yes,height=570,width=520,scrollbars=yes,status=yes')"><img class="con-social-instagram" src="Assests/img/insta.png" alt=""></div>
-                <div onclick="window.open('https://www.linkedin.com/in/malindu-amesh-b39b591a4/','_blank', 'location=yes,height=570,width=520,scrollbars=yes,status=yes')" class="con-img-linkdin"><img class="con-social-linkdin" src="Assests/img/linked in.png" alt=""></div>
-                <div onclick="window.open('https://stackoverflow.com/users/13123100/mad-monkey','_blank', 'location=yes,height=570,width=520,scrollbars=yes,status=yes')"><img class="con-social-stackoverflow" src="Assests/img/stack.png" alt=""></div>
-                <div onclick="window.open('https://www.linkedin.com/in/malindu-amesh-b39b591a4/','_blank', 'location=yes,height=570,width=520,scrollbars=yes,status=yes')" class="con-img-youtube"><img class="con-social-youtube" src="Assests/img/youtube.png" alt=""></div>
-            </div>
-            
-           <div class="con-submit">
-            <div class="form">
-                <input id="form-1-getIn" class="form-1" type="text" name="name" placeholder="Name">
-                <input class="form-2" type="text" name="Subject" placeholder="Subject">
-                <input class="form-4" type="text" name="Email" placeholder="Email">
-                <input class="form-5" type="text" name="Massage" placeholder="Massage">
-                <button class="form-6">Submit</button>
-            </div>
-           </div>
-        
-        </section>
-    </main>
-    <footer>
-        <h1 class="footer-name">MALINDU</h1>
-        <h1 class="footer-name1">.</h1>
-        <h1 class="footer-name2">© Copyright 2020 All Rights Resvered.Designed By Malindu</h1>
-    </footer>
-    <script>
-
-    </script>
-    <script src="Assests/js/script.js"></script>
-    <script src="Assests/js/jquery-3.6.0.min.js"></script>
-
+      
 </body>
 </html>
