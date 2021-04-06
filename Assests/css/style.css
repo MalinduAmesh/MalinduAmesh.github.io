@@ -434,7 +434,7 @@ body{
 
       /*-------------------------------------------------------Media phone-X 360px landing page---------------------------------------- */
   
-      @media all and (max-width:360px){
+      @media screen and (max-width:560px) and (min-width:360px) {
         .landing_page{
           position: relative;
           width: 401vw;
