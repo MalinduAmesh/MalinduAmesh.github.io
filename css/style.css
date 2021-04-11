@@ -78,7 +78,7 @@ color: rgb(177, 177, 177);
  }
 
  /*------------------------------------------------------------------------- @media (max-width:600px) ----------------------------------------------------*/
-@media (max-width:600px) {
+ @media screen and (max-width:700px) and (min-width:450px){
     .toggle-button{
         display: flex;
     }
@@ -98,7 +98,8 @@ color: rgb(177, 177, 177);
         left: -10em;
     }
     .navBar-links li a{
-        padding: .5rem 1rem;
+      padding: .5rem 1rem;
+      font-size: 3em;
     }
     .navBar-links.active{
         display: flex;
@@ -106,18 +107,23 @@ color: rgb(177, 177, 177);
     }
     .brand-logo img{
       position: relative;
+    width: 18em;
+    height: auto;
+    }
+    /* .brand-logo img{
+      position: relative;
       width: 13em;
       height: auto;
       left: 33em;
       top: 3px;
     
-   }
+   } */
 }
  /*------------------------------------------------------------------------- END OF @media (max-width:600px) ----------------------------------------------------*/
 
  /*------------------------------------------------------------------------- @media screen and (max-width:600px) and (min-width:450  px) ----------------------------------------------------*/
 
-@media screen and (max-width:600px) and (min-width:450px){
+@media screen and (max-width:450px) and (min-width:360px){
     .toggle-button{
         display: flex;
     }
@@ -144,6 +150,11 @@ color: rgb(177, 177, 177);
         display: flex;
         justify-content: center;
         
+    }
+    .brand-logo img{
+      position: relative;
+    width: 18em;
+    height: auto;
     }
 }
 @media (max-width:1000px) {
@@ -270,7 +281,7 @@ color: rgb(177, 177, 177);
                                                  
   /* -----------------------------------------------Start @media all and (max-width:560px)-------------------------------------------------- */
 
-  @media all and (max-width:600px){
+  @media screen and (max-width:700px) and (min-width:450px){
     .slider{
       width: 222vw;
       height: 109vh;
@@ -372,12 +383,12 @@ color: rgb(177, 177, 177);
  /* ------------------------------------------------Start @media all and (max-width:600px)---------------------------------------------- */
 
 
-  @media screen and (max-width:600px) and (min-width:360px){
+  @media screen and (max-width:450px) and (min-width:360px){
     .slider{
-      width: 222vw;
+      width: 279.2vw;
       height: 109vh;
       position: relative;
-      top: 18em;
+      top: 6.2em;
         border-radius: 0;
         overflow: hidden;
         background-color: cadetblue;
@@ -395,7 +406,7 @@ color: rgb(177, 177, 177);
         transition: 2s;
       }
       .slide img{
-        width: 222vw;
+        width: 279vw;
         height: 109vh;
       }
       /*css for manual slide navigation*/
@@ -473,7 +484,7 @@ color: rgb(177, 177, 177);
 /* <!------------------------------------------------------------image slider end-----------------------------------------------------> */
 
 .AboutMe{
-  position: absolute;
+  position: relative;
   width: 100vw;
   height: 100vh;
   /* background-color: cadetblue; */
