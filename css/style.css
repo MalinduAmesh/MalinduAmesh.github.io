@@ -750,6 +750,11 @@ color: rgb(177, 177, 177);
   height: 100vh;
   /* background-color: cadetblue; */
 }
+.aboutMeTo{
+  position: relative;
+  left: 4em;
+  top: 1px;
+}
 .aboutme-Topic h4{
   position: relative;
   left: 4em;
@@ -918,12 +923,12 @@ color: rgb(177, 177, 177);
   }
   .aboutme-Topic h4{
     position: relative;
-    left: 2em;
+    left: 1em;
     top: 1px;
     color: #1abc9c;
     line-height: 25px;
     font-family: 'Work Sans', sans-serif;
-    font-size: 4em;
+    font-size: 5em;
     font-style: normal;
     font-weight: 600;
     letter-spacing: -1px;
@@ -932,28 +937,28 @@ color: rgb(177, 177, 177);
   }
   .aboutme-Topic-tag h2{
     color: #666666;
-    line-height: 25px;
+    line-height: 38px;
     font-family: 'Carrois Gothic', sans-serif;
-    font-size: 27px;
+    font-size: 35px;
     font-style: normal;
     font-weight: 600;
     letter-spacing: -1px;
     text-transform: none;
     position: relative;
-    left: 4.9em;
-    top: -52px;
+    left: 2.5em;
+    top: -82px;
   }
   .aboutMe-P{
     position: relative;
     width: 62em;
-    left: 10.3em;
+    left: 6.3em;
     bottom: 3.4em;
   }
   .aboutMe-P p{
     color: #666666;
     font-family: 'Work Sans', sans-serif;
-    font-size: 23px;
-    line-height: 26px;
+    font-size: 30px;
+    line-height: 40px;
     font-style: normal;
     font-weight: 500;
   
