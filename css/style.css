@@ -124,6 +124,16 @@ color: rgb(177, 177, 177);
  /*------------------------------------------------------------------------- @media screen and (max-width:600px) and (min-width:450  px) ----------------------------------------------------*/
 
 @media screen and (max-width:450px) and (min-width:360px){
+  .toggle-button {
+    position: absolute;
+    top: 1.75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 63px;
+    height: 34px;
+  }
     .toggle-button{
         display: flex;
     }
@@ -144,7 +154,7 @@ color: rgb(177, 177, 177);
     }
     .navBar-links li a{
       padding: .5rem 1rem;
-      font-size: 2em;
+      font-size: 4em;
     }
     .navBar-links.active{
         display: flex;
