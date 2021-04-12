@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}body{
+    overflow-x: hidden;
 }
+
 .landingPage{
     position: relative;
     width: 100vw;
@@ -220,7 +223,7 @@ color: rgb(177, 177, 177);
 @media screen and (max-width:450px) and (min-width:360px){
     .toggle-button {
       position: absolute;
-      top: 1.75rem;
+      top: 0.75rem;
       right: 1rem;
       display: none;
       flex-direction: column;
@@ -257,9 +260,15 @@ color: rgb(177, 177, 177);
       }
       .brand-logo img{
         position: relative;
-      width: 18em;
+      width: 10em;
       height: auto;
       }
+      .toggle-button .bar {
+        height: 3px;
+        width: 77%;
+        background-color: black;
+        border-radius: 10px;
+    }
   }
   @media (max-width:1000px) {
       .navBar-links{
@@ -275,7 +284,7 @@ color: rgb(177, 177, 177);
 .AboutMe{
     display: flex;
     width: 100vw;
-    height: 100vh;
+    height: 63vh;
 }
 
 .aboutme-Topic h4{
@@ -322,13 +331,97 @@ color: rgb(177, 177, 177);
     line-height: 30px;
     font-style: normal;
     font-weight: 600;
+
   
   }
   .aboutMe-P{
       display: flex;
+      width: 50%;
+      left: 25em;
+      position: sticky;
 
   }
   
+  /*-------------------------------------------------------------------------  @media screen and (max-width:600px) and (min-width:450  px) ----------------------------------------------------*/
+
+  @media screen and (max-width:450px) and (min-width:360px){
+    .AboutMe{
+        display: flex;
+        width: 100vw;
+        height: 63vh;
+    }
+    
+    .aboutme-Topic h4{
+        display: flex;
+        justify-content: center;
+        margin-top: 92px;
+        /* margin-right: 2.4em; */
+        color: #1abc9c;
+        line-height: 25px;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 3.2em;
+        font-style: normal;
+        font-weight: 600;
+        letter-spacing: -1px;
+        text-transform: none;
+        line-height: 1em;
+    
+      }
+      
+    .aboutme-Topic-tag h2{
+        display: flex;
+        justify-content: center;
+        /* margin-right: 17.4em; */
+        margin-top: 8px;
+        color: #666666;
+        line-height: 37px;
+        font-family: 'Carrois Gothic', sans-serif;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 600;
+        letter-spacing: 0px;
+        text-transform: none;
+        left: 1em;
+        position: sticky;
+      }
+      
+    .aboutMe-P p{
+    
+        display: flex;
+        /* margin-right: 42em; */
+        /* transform: translate(32%, 30px); */
+        color: #666666;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 15px;
+        line-height: 30px;
+        font-style: normal;
+        font-weight: 600;
+    
+      
+      }
+      .aboutMe-P{
+          display: flex;
+          width: 90%;
+          left: 1em;
+          position: sticky;
+    
+      }
+      .aboutme-Topic-tag{
+        display: flex;
+     
+        left: 1em;
+        position: sticky;
+      }
+      .aboutme-Topic{
+        display: flex;
+      
+        left: 1em;
+        position: sticky;
+      }
+  }
+
+  /*------------------------------------------------------------------------- END OF  @media screen and (max-width:600px) and (min-width:450  px) ----------------------------------------------------*/
+
 /*----------------------------------------------- Item-Slider -----------------------------------------------*/
 
 .slider{
@@ -340,21 +433,31 @@ color: rgb(177, 177, 177);
     margin: 0 10px;
     background: #fff;
   }
-  .slider .card .img{
-    height: 200px;
-    width: 100%;
+  .slider .card:hover{
+transform: scale(0.9);
+
   }
+  .slider .card .img{
+    height: 230px;
+    width: 120%;
+  }
+
   .slider .card .img img{
-    height: 100%;
-    width: 100%;
+    height: auto;
+    width: 70%;
     object-fit: cover;
   }
   .slider .card .content{
-    padding: 10px 20px;
+    padding: 50px 40px;
   }
   .card .content .title{
-    font-size: 25px;
+    line-height: 37px;
+    font-family: 'Carrois Gothic', sans-serif;
+    font-size: 17px;
+    font-style: normal;
     font-weight: 600;
+    letter-spacing: 0px;
+    text-transform: none;
   }
   .card .content .sub-title{
     font-size: 20px;
@@ -367,9 +470,9 @@ color: rgb(177, 177, 177);
     margin: 10px 0;
   }
   .card .content .btn{
-    display: block;
+    display: flex;
     text-align: left;
-    margin: 10px 0;
+   justify-content: flex-start;
   }
   .card .content .btn button{
     background: #E74C3C;
@@ -384,4 +487,130 @@ color: rgb(177, 177, 177);
   }
   .card .content .btn button:hover{
     transform: scale(0.9);
+    background: #10b382;
   }
+  .item-Slider{
+    position: relative;
+    width: 100vw;
+    height: 120vh;
+    top: 0em;
+    
+  }
+  .Item-Cart2{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    top: -20em;
+  }
+  .item-cart-Topics{
+    display: flex;
+    justify-content: center;
+    margin-top: 92px;
+    /* margin-right: 2.4em; */
+    color: #1abc9c;
+    line-height: 25px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2.2em;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: -1px;
+    text-transform: none;
+    line-height: 1em;
+  }
+  .bar1{
+    position: absolute;
+    left: 46%;
+    top: 45px;
+    margin: auto;
+    width: 133px;
+    height: 3px;
+    background-color: #f89d36;
+  }
+  .item-cart-Topics h1{
+      font-size: 1em;
+  }
+  h2{
+    color: #d49815;
+    line-height: 25px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 800;
+    letter-spacing: -1px;
+    text-transform: none;
+    line-height: 1em;
+  }
+   /* -----------------------------------------------Start @media all and (max-width:450px)-------------------------------------------------- */
+
+ @media screen and (max-width:450px) and (min-width:360px){
+
+    .slider{
+        max-width: 1100px;
+        display: flex;
+      }
+      .slider .card{
+        flex: 1;
+        margin: 0 10px;
+        background: #fff;
+      }
+      .slider .card .img{
+        height: 125px;
+        width: 100%;
+      }
+      .slider .card .img img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+      .slider .card .content{
+        padding: 10px 20px;
+      }
+      .card .content .title{
+        font-size: 20px;
+        font-weight: 600;
+      }
+      .card .content .sub-title{
+        font-size: 20px;
+        font-weight: 600;
+        color: #E74C3C;
+        line-height: 20px;
+      }
+      .card .content p{
+        text-align: justify;
+        margin: 10px 0;
+      }
+      .card .content .btn{
+        display: block;
+        text-align: left;
+        margin: 10px 0;
+      }
+      .card .content .btn button{
+        background: #E74C3C;
+        color: #fff;
+        border: none;
+        outline: none;
+        font-size: 12px;
+        padding: 5px 8px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.2s;
+      }
+      .card .content .btn button:hover{
+        transform: scale(0.9);
+        background: #10b382;
+      }
+      .item-Slider{
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        top: 25em;
+      }
+      .Item-Cart2{
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        top: -18em;
+      }
+ }
+
+ /* -----------------------------------------------END @media all and (max-width:450px)-------------------------------------------------- */
