@@ -310,8 +310,8 @@ color: rgb(177, 177, 177);
 
    @media screen and (max-width:1496px) and (min-width:1000px){
     .slider{
-      width: 120vw;
-      height: 120vh;
+      width: 126.1vw;
+      height: 137vh;
       border-radius: 0;
       overflow: hidden;
       background-color: cadetblue;
@@ -329,8 +329,8 @@ color: rgb(177, 177, 177);
       transition: 3s;
     }
     .slide img{
-      width: 120vw;
-      height: 120vh;
+      width: 126.1vw;
+      height: 137vh;
     }
   
     /*css for manual slide navigation*/
@@ -425,7 +425,7 @@ color: rgb(177, 177, 177);
   @media screen and (max-width:1000px) and (min-width:700px){
    
 .slider{
-  width: 153vw;
+  width: 169.4vw;
   height: 100vh;
   border-radius: 0;
   overflow: hidden;
@@ -444,7 +444,7 @@ color: rgb(177, 177, 177);
   transition: 3s;
 }
 .slide img{
-  width: 153vw;
+  width: 169.4vw;
   height: 100vh;
 }
 
@@ -968,113 +968,105 @@ color: rgb(177, 177, 177);
  }
  /* -----------------------------------------------END @media all and (max-width:450px)-------------------------------------------------- */
 
- /* -----------------------------------------------Item-Slider----------------------------------------------- */
 
- 
-.item-Slider{
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-}
-.box{
-  width: 300px;
-  box-shadow: 2px 2px 30px rebeccapurple;
-  border-radius: 10px;
-  margin: 25px;
 
-}
-.slide-img{
-  height: 450px;
-  position: relative;
-}
-.slide-img img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  box-sizing: border-box;
-}
-.detail-Box{
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding:10px 20px;
-  box-sizing: border-box;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
-}
-.type{
-  display: flex;
-  flex-direction: column;
-  
-}
-.type a{
-  color: #222;
-  margin: 5px 0px;
-  font-weight: 700;
-  letter-spacing: 0.5px;
-  padding-right: 8px;
-}
-.type span{
-  color: rgba(26, 26, 26, 0.5);
-}
-.Read-More{
-  color: #333;
-  font-weight: 600;
-  font-size: 1.1rem;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  letter-spacing: 0.5px;
-}
-.overlay{
-  position: absolute;
-  left: 50%;
-  right: 50%;
-  transform: translate(-50%,-50%);
-  top: 50%;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(92, 95, 236, 0.6);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-.buy-btn{
-  width:160px ;
-  height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #fff;
-  color: #252252;
-  font-weight: 700;
-  border-radius: 20px;
-
-}
-.buy-btn:hover{
-  background-color: crimson !important;
-  color: rgb(0, 0, 0) !important;
-  transition: all ease 0.3s;
-  
-  font-weight: 700;
-  font-weight: bold;
-   
-}
-.overlay{
-  visibility: hidden;
-}
-.slide-img:hover .overlay{
-  visibility: visible;
-  animation: Item-fade 0.5s;
-}
-@keyframes Item-fade {
-  0%{
-      opacity: 0;
+.slider-box{
+  margin:20px;
+  height:350px;
+  width:250px;
+  position:relative;
+  background-color:#FFFFFF;
+  border-radius:5px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  border:1px solid rgba(187,187,187,0.40);
   }
-  100%{
-      opacity: 1;
-  }
-}
+  .slider-box a{
+    text-decoration:none;
+    text-align:center;}
+    .img-box{
+      height:170px;
+      }
+      .img-box img{
+        height:auto;
+        max-width:100%;
+        max-height:100%;}
+        .time{
+          position:absolute;
+          top:0px;
+          right:20px;
+          color:#f16007;}
+          .detail{
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+            box-sizing:border-box;
+            font-size:13px;
+            line-height:35px;}
+            .price{
+              color:#FFFFFF;
+              background-color:#ff555b;
+               line-height:20px;}
+               .cart{
+                 position:absolute;
+                 bottom:0px;
+                 height:45px;
+                 background-color:#ff696e;
+                 width:100%;
+                 display:flex;
+                 justify-content:center;
+                 align-items:center;}
+                 .cart a{
+                   color:#FFFFFF;}
+                   .slider-box:hover{
+                     box-shadow:2px 2px 12px rgba(47,47,47,0.40);
+                     }
+                     .slider-box:hover .img-box img{
+                       transform:scale(1.07);
+                       transition:all ease 0.3s;}
+                       .cart:hover{
+                         transform:scale(1.1);
+                         background-color:#fe9048;
+          box-shadow:2px 2px 12px rgba(47,47,47,0.40);
+          transition:all ease 0.1s;}
+          
+          
+          
+          
+          .heading{
+            display:flex;
+            justify-content:center;
+          }
+          .heading h1{
+            border-left:2px solid #000000;
+            Border-right:2px solid #000000;
+            background-color:#f05656;
+            text-shadow:2px 2px 12px rgba(69,66,66,0.3);
+            padding:0px 10px;
+            color:#FFFFFF;
+            margin:20px;
+            font-size:30px;
+            font-family:calibri;}
 
-/* -----------------------------------------------END of Item-Slider----------------------------------------------- */
+              .swiper-slide{
+                width:250px !important;
+                padding: 15px;
+                 }
+              .Item-Type2{
+                position: relative;
+                top: -19em;
+                width: 82%;
+                /* background: rebeccapurple; */
+                left: 11em;
+              }
+              .Item-Type1{
+                position: relative;
+                top: 0em;
+                width: 82%;
+                /* background: rebeccapurple; */
+                left: 11em;
+              }
