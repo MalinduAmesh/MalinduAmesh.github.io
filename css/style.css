@@ -6,7 +6,9 @@ body{
     width: 100vw;
     height: 100vh;
 }
-
+a{
+  text-decoration: none;
+}
 
  /* -----------------------------------------------Start @media all and (max-width:1496px)-------------------------------------------------- */
 /* @media screen and (max-width:1496px) and (min-width:1000px){ */
@@ -55,13 +57,13 @@ body{
 }
 
 .navBar-links li a{
-    text-decoration: none;
-    color: #1d1c1c;
-    font-size: 11.5px;
-    font-weight: 600;
-    letter-spacing: 2px;
-    padding: 1rem;
-    display: block;
+  text-decoration: none;
+  color: #1d1c1c;
+  font-size: 14.5px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  padding: 1rem;
+  display: block;
     
  
 }
@@ -72,7 +74,7 @@ color: rgb(177, 177, 177);
 
 .brand-logo img{
     position: relative;
-    width: 9em;
+    width: 13em;
     height: auto;
   
  }
@@ -538,7 +540,7 @@ color: rgb(177, 177, 177);
 
   @media screen and (max-width:700px) and (min-width:450px){
     .slider{
-      width: 223.1vw;
+      width: 235.7vw;
       height: 109vh;
       position: relative;
       top: 6.4em;
@@ -559,7 +561,7 @@ color: rgb(177, 177, 177);
         transition: 2s;
       }
       .slide img{
-        width: 223.1vw;
+        width: 235.7vw;
         height: 109vh;
       }
     
@@ -642,7 +644,7 @@ color: rgb(177, 177, 177);
 
   @media screen and (max-width:450px) and (min-width:360px){
     .slider{
-      width: 279.2vw;
+      width: 302.4vw;
       height: 109vh;
       position: relative;
       top: 6.2em;
@@ -663,7 +665,7 @@ color: rgb(177, 177, 177);
         transition: 2s;
       }
       .slide img{
-        width: 279vw;
+        width: 302.4vw;
         height: 109vh;
       }
       /*css for manual slide navigation*/
@@ -747,13 +749,13 @@ color: rgb(177, 177, 177);
 .AboutMe{
   position: relative;
   width: 100vw;
-  height: 100vh;
+  height: 52vh;
   /* background-color: cadetblue; */
 }
 .aboutMeTo{
   position: relative;
   left: 4em;
-  top: 1px;
+  top: 25px;
 }
 .aboutme-Topic h4{
   position: relative;
@@ -771,28 +773,28 @@ color: rgb(177, 177, 177);
 }
 .aboutme-Topic-tag h2{
   color: #666666;
-  line-height: 25px;
+  line-height: 37px;
   font-family: 'Carrois Gothic', sans-serif;
-  font-size: 17px;
+  font-size: 19px;
   font-style: normal;
   font-weight: 600;
-  letter-spacing: -1px;
+  letter-spacing: 0px;
   text-transform: none;
   position: relative;
-  left: 11.6em;
+  left: 10.2em;
   top: -52px;
 }
 .aboutMe-P{
   position: relative;
   width: 62em;
-  left: 15.3em;
+  left: 13em;
   bottom: 3.4em;
 }
 .aboutMe-P{
   color: #666666;
   font-family: 'Work Sans', sans-serif;
-  font-size: 13px;
-  line-height: 26px;
+  font-size: 15px;
+  line-height: 30px;
   font-style: normal;
   font-weight: 500;
 
@@ -802,8 +804,8 @@ color: rgb(177, 177, 177);
   .AboutMe{
     position: relative;
     width: 100vw;
-    height: 100vh;
-    top: 7em;
+    height: 59vh;
+    top: 11em;
 
     /* background-color: cadetblue; */
   }
@@ -965,3 +967,114 @@ color: rgb(177, 177, 177);
   }
  }
  /* -----------------------------------------------END @media all and (max-width:450px)-------------------------------------------------- */
+
+ /* -----------------------------------------------Item-Slider----------------------------------------------- */
+
+ 
+.item-Slider{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.box{
+  width: 300px;
+  box-shadow: 2px 2px 30px rebeccapurple;
+  border-radius: 10px;
+  margin: 25px;
+
+}
+.slide-img{
+  height: 450px;
+  position: relative;
+}
+.slide-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-sizing: border-box;
+}
+.detail-Box{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:10px 20px;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.type{
+  display: flex;
+  flex-direction: column;
+  
+}
+.type a{
+  color: #222;
+  margin: 5px 0px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  padding-right: 8px;
+}
+.type span{
+  color: rgba(26, 26, 26, 0.5);
+}
+.Read-More{
+  color: #333;
+  font-weight: 600;
+  font-size: 1.1rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  letter-spacing: 0.5px;
+}
+.overlay{
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(92, 95, 236, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.buy-btn{
+  width:160px ;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  color: #252252;
+  font-weight: 700;
+  border-radius: 20px;
+
+}
+.buy-btn:hover{
+  background-color: crimson !important;
+  color: rgb(0, 0, 0) !important;
+  transition: all ease 0.3s;
+  
+  font-weight: 700;
+  font-weight: bold;
+   
+}
+.overlay{
+  visibility: hidden;
+}
+.slide-img:hover .overlay{
+  visibility: visible;
+  animation: Item-fade 0.5s;
+}
+@keyframes Item-fade {
+  0%{
+      opacity: 0;
+  }
+  100%{
+      opacity: 1;
+  }
+}
+
+/* -----------------------------------------------END of Item-Slider----------------------------------------------- */
