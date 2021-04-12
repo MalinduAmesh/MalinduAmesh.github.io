@@ -41,7 +41,7 @@ $(document).ready(function() {
 //swiper script
 
 var swiper = new Swiper('.swiper-container', {
-    slidesPerView: 3.2,
+    slidesPerView: 0,
     spaceBetween: 30,
     pagination: {
       el: '.swiper-pagination',
