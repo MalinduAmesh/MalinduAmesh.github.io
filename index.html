@@ -1,20 +1,23 @@
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+    <title>Owl Carousel - Jquery Plugin</title>
+    <meta content="width=device-width intial-scale=1" name="viewport">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Anton|Cabin|Lato|Fjalla+One|Montserrat|Roboto&display=swap" rel="stylesheet">
 
-    <!-- Css -->
-    <link rel="stylesheet" href="css/swiper.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <!-- <link rel="stylesheet" href="css/lightslider.css"> -->
-    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 
-    <!-- script -->
-    <script src="js/jquery.js"></script>
-    <!-- <script src="js/lightslider.js"></script> -->
-  
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="style.css">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -23,17 +26,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Carrois+Gothic&display=swap" rel="stylesheet">
-
-    <title>Document</title>
-    <meta content="width=device-width intial-scale=1" name="viewport">
 </head>
+
 <body>
-
-    <section class="landing-page">
-
-        <!------------------------------------------------ Nav Bar Start  -------------------------------------------------->
+    <section class="landingPage">
+                <!------------------------------------------------ Nav Bar Start  -------------------------------------------------->
     <nav class="navBar">
-        <div class="brand-logo"><img src="Assets/logo transparent high resolution.png" alt="logo"></div>
+        <div class="brand-logo"><img src="logo transparent high resolution.png" alt="logo"></div>
         <div class="toggle-button">
             <span class="bar"></span>
             <span class="bar"></span>
@@ -51,64 +50,36 @@
     </div>
     </nav>
 
-    <!------------------------------------------------ END OF Nav Bar Start  -------------------------------------------------->
-
-    <!-----------------------------------------------------image slider start------------------------------------------------------>
-     <div class="slider">
-        <div class="slides">
-    
-    <!--radio buttons start-->
-        <input type="radio" name="radio-btn" id="radio1">
-        <input type="radio" name="radio-btn" id="radio2">
-        <input type="radio" name="radio-btn" id="radio3">
-        <input type="radio" name="radio-btn" id="radio4">
-
-    <!--radio buttons end-->
-
-    <!--slide images start-->
-    <div class="slide first">
-        <img src="Assets/1.jpg" alt="">
+    <div class="owl-carousel owl-theme">
+        <div class="slide slide-1">
+            <div class="slide-content">
+                <h1>Welcome To Tech Memorise</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In voluptas eaque nobis ducimus voluptate molestiae corporis mollitia atque totam eligendi voluptatem vitae, quibusdam, vero delectus repudiandae tempore sint officiis odio.</p>
+                <button>Subscribe</button>
+            </div>
+        </div>
+        <div class="slide slide-2">
+            <div class="slide-content">
+                <h1>Your True Tech Navigator</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In voluptas eaque nobis ducimus voluptate molestiae corporis mollitia atque totam eligendi voluptatem vitae, quibusdam, vero delectus repudiandae tempore sint officiis odio.</p>
+                <button>Comment</button>
+            </div>
+        </div>
+        <div class="slide slide-3">
+            <div class="slide-content">
+                <h1>Your True Source of Learning Web Dev</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In voluptas eaque nobis ducimus voluptate molestiae corporis mollitia atque totam eligendi voluptatem vitae, quibusdam, vero delectus repudiandae tempore sint officiis odio.</p>
+                <button>Like & Share</button>
+            </div>
+        </div>
     </div>
-    <div class="slide ">
-        <img src="Assets/2.jpg" alt="">
-    </div>
-    <div class="slide ">
-        <img src="Assets/3.jpg" alt="">
-    </div>
-    <div class="slide ">
-        <img src="Assets/4.jpg" alt="">
-    </div>
-     <!--slide images end-->
-    </div>
-     <!--automatic navigation start-->
-     <div class="navigation-auto">
-         <div class="auto-btn1"></div>
-         <div class="auto-btn2"></div>
-         <div class="auto-btn3"></div>
-         <div class="auto-btn4"></div>
-     </div>
-     <!--automatic navigation end-->
-
-         <!--manual navigation start-->
-
-         <div class="navigation-manual">
-             <label for="radio1" class="manual-btn"></label>
-             <label for="radio2" class="manual-btn"></label>
-             <label for="radio3" class="manual-btn"></label>
-             <label for="radio4" class="manual-btn"></label>
-         </div>
-         <!--manual navigation end-->
-    </div>
-
-     <!------------------------------------------------------------image slider end----------------------------------------------------->
-
-
 </section>
 
-    <section class="AboutMe">
+<section class="AboutMe">
+
     <div class="aboutMeTo">
         <div class="aboutme-Topic">
-            <h4>Gem City Exports Private Limited</h4>
+            <h4>Gem City Exports Company </h4>
         </div>
         <div class="aboutme-Topic-tag">
             <h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h2>
@@ -124,211 +95,37 @@
                     publishing software like Aldus PageMaker including versions of Lorem Ipsum.</P>
         </div>
     </div>
+
     </section>
-
-
-<!--slider 1 bags------------------------------------------>
-<div class="Item-Type1">
-<div class="heading">
-    <h1>Organic Spices / Natural Spices </h1>
-    
-    </div>
-    <!--swiper slider-->
-    <div class="swiper-container">
-        <div class="swiper-wrapper">
-        <!--slide 1-------------------------------------->
-          <div class="swiper-slide">
-          <div class="slider-box">
-    <p class="time"></p>
-    <div class="img-box">
-    <img src="Assets/2.jpg">
-    </div>
-    
-    <p class="detail">Arecanut 
-    
-    <a href="#" class="price"></a>
-    </p>
-    <div class="cart">
-    <a href="#">Learn More</a>
-    </div>
-    </div>
-          
-          </div>
-          
-          
-          
-          <!--slide 2-------------------------------------->
-          <div class="swiper-slide">
-          <div class="slider-box">
-    <p class="time"></p>
-    <div class="img-box">
-    <img src="Assets/projects.jpg">
-    </div>
-    
-    <p class="detail">cinnamon 
-    
-    <a href="#" class="price"></a>
-    </p>
-    <div class="cart">
-    <a href="#">Learn More</a>
-    </div>
-    </div>
-          
-          </div>
-          
-          
-          
-          
-          <!--slide 3-------------------------------------->
-          <div class="swiper-slide">
-          <div class="slider-box">
-    <div class="img-box">
-    <img src="Assets/project3.jpg">
-    </div>
-    
-    <p class="detail">Black pepper
-    
-    <a href="#" class="price"></a>
-    </p>
-    <div class="cart">
-    <a href="#">Learn More</a>
-    </div>
-    </div>
-          
-          </div>
-          
-          
-          
-          
-          <!--slide 4-------------------------------------->
-          <div class="swiper-slide">
-          <div class="slider-box">
-    <p class="time"></p>
-    <div class="img-box">
-    <img src="Assets/project2.jpg">
-    </div>
-    
-    <p class="detail">cardamom 
-    
-    <a href="#" class="price"></a>
-    </p>
-    <div class="cart">
-    <a href="#">Learn More</a>
-    </div>
-    </div>
-          
-          </div>
-          
-          
-          
-          <!--slide 5-------------------------------------->
-          <div class="swiper-slide">
-          <div class="slider-box">
-    <p class="time"></p>
-    <div class="img-box">
-    <img src="Assets/4.jpg">
-    </div>
-    
-    <p class="detail">Cloves
-    
-    <a href="#" class="price"></a>
-    </p>
-    <div class="cart">
-    <a href="#">Learn More</a>
-    </div>
-    </div>
-          
-          </div>
-          
-          
-          
-          
-          <!--slide 6-------------------------------------->
-          <div class="swiper-slide">
-          <div class="slider-box">
-    <p class="time"></p>
-    <div class="img-box">
-    <img src="Assets/3.jpg">
-    </div>
-    
-    <p class="detail">Vanila
-    
-    <a href="#" class="price"></a>
-    </p>
-    <div class="cart">
-    <a href="#">Learn More</a>
-    </div>
-    </div>
-          
-          </div>
-          
-          
-          
-                
-</div>
-
-
-</div>
-</div>
        
-    
-    <!--swiper  slider end-->
-    
-    <div class="Item-Type2">
-    <!--slider 2 clothes------------------------------------------>
-    <div class="heading">
-    <h1>Organic Coconut Products </h1></div>
-    <!--swiper slider-->
-    <div class="swiper-container">
-        <div class="swiper-wrapper">
-        <!--slide 1-------------------------------------->
-          <div class="swiper-slide">
-          <div class="slider-box">
-    <p class="time"></p>
-    <div class="img-box">
-    <img src="Assets/2.jpg">
-    </div>
-    
-    <p class="detail">King Coconut Water
-    
-    <a href="#" class="price"></a>
-    </p>
-    <div class="cart">
-    <a href="#">Learn More</a>
-    </div>
-    </div>
-          
-          </div>
-          
-          
-          
-          <!--slide 2-------------------------------------->
-          <div class="swiper-slide">
-          <div class="slider-box">
-    <p class="time"></p>
-    <div class="img-box">
-    <img src="Assets/1.jpg">
-    </div>
-    
-    <p class="detail">Coconut Water
-    
-    <a href="#" class="price"></a>
-    </p>
-    <div class="cart">
-    <a href="#">Learn More</a>
-    </div>
-    </div>
-          
-          </div>
-          
-           
-</div>
 
-</div>     
-      
-</div>
-          
-<script src="js/swiper.min.js"></script>
-<script src="js/script.js"></script>
+    <!-- Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Owl Carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- Custom Javascript -->
+    <script>
+    const toggleButton  = document.getElementsByClassName('toggle-button')[0]
+    const navbarLink  = document.getElementsByClassName('navBar-links')[0]
+
+    toggleButton.addEventListener('click',()=>{
+    navbarLink.classList.toggle('active')
+    })
+
+
+         $(document).ready(function () {
+            $(".owl-carousel").owlCarousel({
+                items:1,
+                loop:true,
+                nav:true,
+                dots:true,
+                autoplay:true,
+                autoplaySpeed:1000,
+                smartSpeed:1500,
+                autoplayHoverPause:true
+            });
+        });
+    </script>
 </body>
+
 </html>
