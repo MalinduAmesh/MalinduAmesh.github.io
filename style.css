@@ -758,13 +758,13 @@ transform: scale(0.9);
         position: relative;
         width: 100vw;
         height: 100vh;
-        top: -44px;
+        /* top: -44px; */
       }
       .Item-Cart2{
         position: relative;
         width: 100vw;
         height: 100vh;
-        top: -18em;
+        /* top: -18em; */
       }
  }
 
