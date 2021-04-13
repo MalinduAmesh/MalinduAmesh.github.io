@@ -1,35 +1,280 @@
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="normalize.css">
-    <style>
-        section{
-            width: 300px;
-            height: 300px;
-            background-color: blue;
-            animation-name: color;
-            animation-duration: 10s;
-            animation-iteration-count: infinite;
-        }
-        @keyframes color{
-            from{
-                background: red;
-                width: 600px;
-                
+    <title>Owl Carousel - Jquery Plugin</title>
+    <meta content="width=device-width intial-scale=1" name="viewport">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Anton|Cabin|Lato|Fjalla+One|Montserrat|Roboto&display=swap" rel="stylesheet">
 
-            }
-            to{
-                background-color: chartreuse;
-                height: 600px;
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 
-            }
-        }
-    </style>
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Carrois+Gothic&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <section></section>
+    <section class="landingPage">
+                <!------------------------------------------------ Nav Bar Start  -------------------------------------------------->
+    <nav class="navBar">
+        <div class="brand-logo"><img src="logo transparent high resolution.png" alt="logo"></div>
+        <div class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <div class="navBar-links">
+        <ul class="navUl">
+            
+            <li><a href="#home">HOME</a> </li>
+            <li><a href="#about">ABOUT</a> </li>
+            <li><a href="#myworks">OUR PRODUCTS</a></li>
+            <li><a href="#contact">CONTACT US</a> </li> 
+
+        </ul>
+    </div>
+    </nav>
+
+    <div class="owl-carousel owl-theme">
+        <div class="slide slide-1">
+            <div class="slide-content">
+                <h1>Welcome To Tech Memorise</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In voluptas eaque nobis ducimus voluptate molestiae corporis mollitia atque totam eligendi voluptatem vitae, quibusdam, vero delectus repudiandae tempore sint officiis odio.</p>
+                <button>Subscribe</button>
+            </div>
+        </div>
+        <div class="slide slide-2">
+            <div class="slide-content">
+                <h1>Your True Tech Navigator</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In voluptas eaque nobis ducimus voluptate molestiae corporis mollitia atque totam eligendi voluptatem vitae, quibusdam, vero delectus repudiandae tempore sint officiis odio.</p>
+                <button>Comment</button>
+            </div>
+        </div>
+        <div class="slide slide-3">
+            <div class="slide-content">
+                <h1>Your True Source of Learning Web Dev</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In voluptas eaque nobis ducimus voluptate molestiae corporis mollitia atque totam eligendi voluptatem vitae, quibusdam, vero delectus repudiandae tempore sint officiis odio.</p>
+                <button>Like & Share</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="AboutMe">
+
+    <div class="aboutMeTo">
+        <div class="aboutme-Topic">
+            <h4>Gem City Exports Company </h4>
+        </div>
+        <div class="aboutme-Topic-tag">
+            <h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h2>
+        </div>
+
+        <div class="aboutMe-P">
+            <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                 when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                  It has survived not only five centuries, but also the leap into electronic typesetting,
+                   remaining essentially unchanged. It was popularised in the 1960s with the release
+                    of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop 
+                    publishing software like Aldus PageMaker including versions of Lorem Ipsum.</P>
+        </div>
+    </div>
+
+    </section>
+
     
+    <section class="item-Slider">
+        <div class="item-cart-Topics"> <h1>Our Products</h1></div>    
+        <div class="bar1"></div>
+        <div class="square1"></div>
+        <h2>Organic Spices</h2>
+          
+        <div class=" slider owl-carousel">
+            <div class="card">
+              <div class="img">
+      <img src="Assets/1.png" alt=""></div>
+      <div class="content">
+                <div class="title">
+                    Ceylon cinnamon</div>
+      <div class="sub-title">
+      </div>
+      <p>
+     </p>
+      <div class="btn">
+                  <button>Read more</button>
+                </div>
+      </div>
+      </div>
+      <div class="card">
+              <div class="img">
+      <img src="Assets/2.png" alt=""></div>
+      <div class="content">
+                <div class="title">
+                    Organic pepper</div>
+      <div class="sub-title">
+      </div>
+      <p>
+       </p>
+      <div class="btn">
+                  <button>Read more</button>
+                </div>
+      </div>
+      </div>
+      <div class="card">
+        <div class="img">
+<img src="Assets/3.png" alt=""></div>
+<div class="content">
+          <div class="title">
+            White pepper</div>
+<div class="sub-title">
+</div>
+<p>
+</p>
+<div class="btn">
+            <button>Read more</button>
+          </div>
+</div>
+</div>
+<div class="card">
+    <div class="img">
+<img src="Assets/4.png" alt=""></div>
+<div class="content">
+      <div class="title">
+        Organic cloves</div>
+<div class="sub-title">
+</div>
+<p>
+ </p>
+<div class="btn">
+        <button>Read more</button>
+      </div>
+</div>
+</div>
+<div class="card">
+    <div class="img">
+<img src="Assets/5.png" alt=""></div>
+<div class="content">
+      <div class="title">
+        Organic turmeric</div>
+<div class="sub-title">
+</div>
+<p>
+</p>
+<div class="btn">
+        <button>Read more</button>
+      </div>
+</div>
+</div>
+      <div class="card">
+              <div class="img">
+      <img src="Assets/6.png" alt=""></div>
+      <div class="content">
+                <div class="title">
+                    Organic Vanila</div>
+      <div class="sub-title">
+      </div>
+      <p>
+      </p>
+      <div class="btn">
+                  <button>Read more</button>
+                </div>
+      </div>
+      </div>
+      </div>
+
+
+
+      <section class="Item-Cart2">
+        <h2>Organic Coconut Products</h2>
+          
+        <div class=" slider owl-carousel">
+            <div class="card">
+              <div class="img">
+      <img src="Assets/7.png" alt=""></div>
+      <div class="content">
+                <div class="title">
+                    Organic coconut water</div>
+      <div class="sub-title">
+      </div>
+      <p>
+      </p>
+      <div class="btn">
+                  <button>Read more</button>
+                </div>
+      </div>
+      </div>
+      <div class="card">
+        <div class="img">
+<img src="Assets/8.png" alt=""></div>
+<div class="content">
+          <div class="title">
+            Organic king coconut water</div>
+<div class="sub-title">
+</div>
+<p>
+ </p>
+<div class="btn">
+            <button>Read more</button>
+          </div>
+</div>
+</div>
+      
+      </div> 
+      </section>
+</section>
+       
+
+    <!-- Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Owl Carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- Custom Javascript -->
+    <script>
+    const toggleButton  = document.getElementsByClassName('toggle-button')[0]
+    const navbarLink  = document.getElementsByClassName('navBar-links')[0]
+
+    toggleButton.addEventListener('click',()=>{
+    navbarLink.classList.toggle('active')
+    })
+
+
+         $(document).ready(function () {
+            $(".owl-carousel").owlCarousel({
+                items:1,
+                loop:true,
+                nav:true,
+                dots:true,
+                autoplay:true,
+                autoplaySpeed:1000,
+                smartSpeed:1500,
+                autoplayHoverPause:true
+            });
+        });
+
+
+        $(".slider").owlCarousel({
+    loop: true,
+    autoplay: true,
+    autoplayTimeout: 2000, //2000ms = 2s;
+    autoplayHoverPause: true,
+  });
+    </script>
 </body>
+
 </html>
