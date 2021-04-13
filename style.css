@@ -570,15 +570,15 @@ transform: scale(0.9);
   .item-Slider{
     position: relative;
     width: 100vw;
-    height: 120vh;
+    height: 66vh;
     top: 0em;
     
   }
   .Item-Cart2{
     position: relative;
     width: 100vw;
-    height: 100vh;
-    top: -20em;
+    height: 66vh;
+    /* top: -20em; */
   }
   .item-cart-Topics{
     display: flex;
@@ -693,110 +693,12 @@ transform: scale(0.9);
     }
 
     /*------------------------------------------------------------------------ - END OF   @media screen and (max-width:700px) and (min-width:450  px) ----------------------------------------------------*/
-    @media all and  (min-width:450px){
-      h2 {
-        color: #d49815;
-        line-height: 25px;
-        font-family: 'Work Sans', sans-serif;
-        font-size: 1.5em;
-        font-style: normal;
-        font-weight: 800;
-        letter-spacing: -1px;
-        text-transform: none;
-        line-height: 4em;
-    }
-      .slider{
-          max-width: 1100px;
-          display: flex;
-        }
-        .slider .card{
-          flex: 1;
-          margin: 0 10px;
-          background: #fff;
-        }
-        .slider .card .img{
-          height: 125px;
-          width: 100%;
-        }
-        .slider .card .img img{
-          height: 100%;
-          width: 100%;
-          object-fit: cover;
-        }
-        .slider .card .content{
-          padding: 10px 20px;
-        }
-        .card .content .title{
-          font-size: 20px;
-          font-weight: 600;
-        }
-        .card .content .sub-title{
-          font-size: 20px;
-          font-weight: 600;
-          color: #E74C3C;
-          line-height: 20px;
-        }
-        .card .content p{
-          text-align: justify;
-          margin: 10px 0;
-        }
-        .card .content .btn{
-          display: block;
-          text-align: left;
-          margin: 10px 0;
-        }
-        .card .content .btn button{
-          background: #E74C3C;
-          color: #fff;
-          border: none;
-          outline: none;
-          font-size: 12px;
-          padding: 5px 8px;
-          border-radius: 5px;
-          cursor: pointer;
-          transition: 0.2s;
-        }
-        .card .content .btn button:hover{
-          transform: scale(0.9);
-          background: #10b382;
-        }
-        .item-Slider{
-          position: relative;
-          width: 100vw;
-          height: 100vh;
-          top: 0em;
-        }
-        .Item-Cart2{
-          position: relative;
-          width: 100vw;
-          height: 100vh;
-          top: -18em;
-        }
-  }
+
 
    /* -----------------------------------------------Start @media all and (max-width:450px)-------------------------------------------------- */
 
  @media screen and (max-width:450px) and (min-width:360px){
-  h2 {
-    color: #d49815;
-    line-height: 25px;
-    font-family: 'Work Sans', sans-serif;
-    font-size: 1.5em;
-    font-style: normal;
-    font-weight: 800;
-    letter-spacing: -1px;
-    text-transform: none;
-    line-height: 4em;
-}
-.bar1 {
-  position: absolute;
-  left: 35%;
-  top: 45px;
-  margin: auto;
-  width: 133px;
-  height: 3px;
-  background-color: #f89d36;
-}
+
     .slider{
         max-width: 1100px;
         display: flex;
@@ -868,73 +770,8 @@ transform: scale(0.9);
 
  /* -----------------------------------------------END @media all and (max-width:450px)-------------------------------------------------- */
 
- @media all and  (min-width:360px){
-
-  .slider{
-      max-width: 1100px;
-      display: flex;
-    }
-    .slider .card{
-      flex: 1;
-      margin: 0 10px;
-      background: #fff;
-    }
-    .slider .card .img{
-      height: 125px;
-      width: 100%;
-    }
-    .slider .card .img img{
-      height: 100%;
-      width: 100%;
-      object-fit: cover;
-    }
-    .slider .card .content{
-      padding: 10px 20px;
-    }
-    .card .content .title{
-      font-size: 20px;
-      font-weight: 600;
-    }
-    .card .content .sub-title{
-      font-size: 20px;
-      font-weight: 600;
-      color: #E74C3C;
-      line-height: 20px;
-    }
-    .card .content p{
-      text-align: justify;
-      margin: 10px 0;
-    }
-    .card .content .btn{
-      display: block;
-      text-align: left;
-      margin: 10px 0;
-    }
-    .card .content .btn button{
-      background: #E74C3C;
-      color: #fff;
-      border: none;
-      outline: none;
-      font-size: 12px;
-      padding: 5px 8px;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: 0.2s;
-    }
-    .card .content .btn button:hover{
-      transform: scale(0.9);
-      background: #10b382;
-    }
-    .item-Slider{
-      position: relative;
-      width: 100vw;
-      height: 100vh;
-      /* top: -44px; */
-    }
-    .Item-Cart2{
-      position: relative;
-      width: 100vw;
-      height: 100vh;
-      /* top: -18em; */
-    }
-}
+ .Contact-Us{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+ }
