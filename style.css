@@ -503,8 +503,9 @@ color: rgb(177, 177, 177);
 /*----------------------------------------------- Item-Slider -----------------------------------------------*/
 
 .slider{
-    max-width: 1100px;
+    max-width: 1400px;
     display: flex;
+    justify-content: center;
   }
   .slider .card{
     flex: 1;
@@ -577,7 +578,7 @@ transform: scale(0.9);
   .Item-Cart2{
     position: relative;
     width: 100vw;
-    height: 66vh;
+    height: 100vh;
     /* top: -20em; */
   }
   .item-cart-Topics{
@@ -619,7 +620,75 @@ transform: scale(0.9);
     line-height: 1em;
   }
 
-
+@media screen and (max-width:700px) and (min-width:450px){
+        .slider{
+            max-width: 1100px;
+            display: flex;
+          }
+          .slider .card{
+            flex: 1;
+            margin: 0 10px;
+            background: #fff;
+          }
+          .slider .card .img{
+            height: 125px;
+            width: 100%;
+          }
+          .slider .card .img img{
+            height: 100%;
+            width: 70%;
+            object-fit: cover;
+          }
+          .slider .card .content{
+            padding: 10px 20px;
+          }
+          .card .content .title{
+            font-size: 20px;
+            font-weight: 600;
+          }
+          .card .content .sub-title{
+            font-size: 20px;
+            font-weight: 600;
+            color: #E74C3C;
+            line-height: 20px;
+          }
+          .card .content p{
+            text-align: justify;
+            margin: 10px 0;
+          }
+          .card .content .btn{
+            display: block;
+            text-align: left;
+            margin: 10px 0;
+          }
+          .card .content .btn button{
+            background: #E74C3C;
+            color: #fff;
+            border: none;
+            outline: none;
+            font-size: 12px;
+            padding: 5px 8px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.2s;
+          }
+          .card .content .btn button:hover{
+            transform: scale(0.9);
+            background: #10b382;
+          }
+          .item-Slider{
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            top: 0em;
+          }
+          .Item-Cart2{
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            top: -18em;
+          }
+    }
     /*-------------------------------------------------------------------------  @media screen and (max-width:700px) and (min-width:450  px) ----------------------------------------------------*/
 
     @media screen and (max-width:700px) and (min-width:450px){
@@ -638,7 +707,7 @@ transform: scale(0.9);
           }
           .slider .card .img img{
             height: 100%;
-            width: 100%;
+            width: 70%;
             object-fit: cover;
           }
           .slider .card .content{
@@ -705,7 +774,8 @@ transform: scale(0.9);
       }
       .slider .card{
         flex: 1;
-        margin: 0 10px;
+        margin: 0px 10px;
+        margin-bottom: 100px;
         background: #fff;
       }
       .slider .card .img{
@@ -714,7 +784,7 @@ transform: scale(0.9);
       }
       .slider .card .img img{
         height: 100%;
-        width: 100%;
+        width: 70%;
         object-fit: cover;
       }
       .slider .card .content{
@@ -737,7 +807,7 @@ transform: scale(0.9);
       .card .content .btn{
         display: block;
         text-align: left;
-        margin: 10px 0;
+        margin: 10px 20px;
       }
       .card .content .btn button{
         background: #E74C3C;
@@ -757,15 +827,41 @@ transform: scale(0.9);
       .item-Slider{
         position: relative;
         width: 100vw;
-        height: 100vh;
-        /* top: -44px; */
+        height: 54vh;
+        top: 0em;
       }
       .Item-Cart2{
         position: relative;
         width: 100vw;
-        height: 100vh;
-        /* top: -18em; */
+        height: 54vh;
+        margin-top:50px ;
+      
       }
+      .item-cart-Topics {
+        display: flex;
+        justify-content: center;
+        margin-top: 92px;
+        margin-bottom: 36px;
+        /* margin-right: 2.4em; */
+        color: #1abc9c;
+        line-height: 25px;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 2.2em;
+        font-style: normal;
+        font-weight: 600;
+        letter-spacing: -1px;
+        text-transform: none;
+        line-height: 1em;
+    }
+    .bar1 {
+      position: absolute;
+      left: 33%;
+      top: 45px;
+      margin: auto;
+      width: 133px;
+      height: 3px;
+      background-color: #f89d36;
+  }
  }
 
  /* -----------------------------------------------END @media all and (max-width:450px)-------------------------------------------------- */

@@ -219,6 +219,9 @@
   <div class="btn">
               <button>Read more</button>
             </div>
+
+
+
   </div>
   </div>
   <div class="card">
@@ -273,9 +276,36 @@
 
         $(".slider").owlCarousel({
     loop: true,
+    items:4,
     autoplay: true,
     autoplayTimeout: 2000, //2000ms = 2s;
     autoplayHoverPause: true,
+    responsive : {
+        // breakpoint from 0 up
+        0: {
+            items: 2,
+            mouseDrag:true,
+            touchDrag:true
+        },
+        // breakpoint from 480 up
+        500: {
+            items: 2,
+            mouseDrag:true,
+            touchDrag:true
+        },
+        // breakpoint from 768 up
+        740: {
+            items: 3,
+            mouseDrag:true,
+            touchDrag:true
+        },
+        // breakpoint from 1024 up
+        980: {
+            items: 4,
+            mouseDrag:false,
+            touchDrag:false
+        }
+    }
   });
     
     </script>
