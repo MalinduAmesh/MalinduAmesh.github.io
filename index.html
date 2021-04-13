@@ -243,7 +243,48 @@
   </div> 
   </section>  
 <section class="Contact-Us">
-<p></p>
+    <div class="wrapper">
+        <div class="content">
+          <h1>CONTACT FORM</h1>
+          <p>Connect with us by sending your views.</p>
+        </div>
+      
+        <div class="form">
+      
+          <div class="top-form">
+            <div class="inner-form">
+              <div class="label">name</div>
+              <input type="text" placeholder="Jhon">
+            </div>
+            <div class="inner-form">
+              <div class="label">email</div>
+              <input type="text" placeholder="Example@gmail.com">
+            </div>
+            <div class="inner-form">
+              <div class="label">phone</div>
+              <input type="text" placeholder="1234567890">
+            </div>
+          </div>
+      
+          <div class="middle-form">
+            <div class="inner-form">
+              <div class="label">subject</div>
+              <input type="text" placeholder="Subject">
+            </div>
+          </div>
+      
+          <div class="bottom-form">
+            <div class="inner-form">
+              <div class="label">message</div>
+              <textarea placeholder="Your message"></textarea>
+            </div>
+          </div>
+      
+          <div class="btn-2">send form</div>
+      
+        </div>
+      </div>
+      
 </section>
 
     <!-- Jquery -->
@@ -307,7 +348,9 @@
         }
     }
   });
-    
+  $(".btn").click(function(){
+  $("input[type='text'], textarea").val("");
+});
     </script>
 
 </body>
