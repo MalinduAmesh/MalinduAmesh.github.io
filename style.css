@@ -426,7 +426,7 @@ color: rgb(177, 177, 177);
     .AboutMe{
         display: flex;
         width: 100vw;
-        height: 106vh;
+        height: 73vh;
     }
     
     .aboutme-Topic h4{
@@ -827,14 +827,14 @@ transform: scale(0.9);
       .item-Slider{
         position: relative;
         width: 100vw;
-        height: 54vh;
+        height: 40vh;
         top: 0em;
       }
       .Item-Cart2{
         position: relative;
         width: 100vw;
         height: 54vh;
-        margin-top:50px ;
+        margin-top:20px ;
       
       }
       .item-cart-Topics {
