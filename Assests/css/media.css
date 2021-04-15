@@ -431,7 +431,7 @@
 
     .AboutMe{
       width: 400vw;
-      height: 560vh;
+      height: 425vh;
       position: relative;
     }
     .description2{
@@ -612,11 +612,11 @@
 /* ---------------------------------------------------------------------skills-------------------------------------------------------- */ 
 /*------------------------------------------------------------------- Media Guery OF 414px SKill page ------------------------------------------------------------- */
 
-@media all and (max-width:414px){
+@media screen and (max-width:460px) and (min-width:360px){
     .skills{
       position: relative;
       width: 401vw;
-      height: 402vh;
+      height: 329vh;
   }
   .skill_tag h2{
       font-family: 'Dosis';
@@ -1130,3 +1130,821 @@
   
    /*------------------------------------------------------------------- Media Guery OF 360px SKill page ------------------------------------------------------------- */
   
+
+   /* ----------------------------------------------------------------------------Hobbies--------------------------------------------------------------------------- */
+   
+  /* ---------------------------------------------------------------------------Media 360px  HObbies-------------------------------------------------------------------------------------- */
+
+  @media screen and (max-width:460px) and (min-width:360px){
+    .hobbies{
+      position: relative;
+      width: 401vw;
+      height: 241vh;
+    }
+    .hob-name{
+      font-family: 'Dosis';
+      font-size: 48px;
+      /* text-shadow: 4px 4px 4px #aaa; */
+      position: absolute;
+      width: 400%;
+      height: 100%;
+      left: 13%;
+      top: -2em;
+      right: 0;
+      margin: auto;
+      font-size: 90px;
+    }
+    .hob-line2{
+      position: absolute;
+      left: 26%;
+      top: 8em;
+      margin: auto;
+      width: 45em;
+      height: 1em;
+      background-color: #f89d36;
+    }
+    .hob-line3{
+      position: absolute;
+      display: none;
+      left: 789px;
+      top: 63px;
+      margin: auto;
+      width: 18px;
+      height: 18px;
+      background-color:#f89d36 ;
+      transform: rotate(45deg);
+    }
+    .hob-description{
+      position: absolute;
+      top: 163px;
+      left: 9%;
+      margin: auto;
+      width: 18em;
+      height: 100px;
+      font-size: 4.2em; 
+    
+    }
+    .Blog-1{
+      position: relative;
+      width: 50em;
+      height: 16em;
+      left: 24em;
+      top: 39em;
+    
+    }
+    .blog-Year-1{
+      font-size: 3.2em;
+      position: relative;
+      left: -5em;
+    }
+    .blog-index-1{
+      color: #009688;
+      margin: -0 17px 15px 0;
+      font-size: 4em;
+      position: relative;
+      left: -4em;
+      top: -1em;
+    }
+    .blog-published-1{
+      font-size: 3.2em;
+      position: relative;
+      left: -5em;
+      top: -1em;
+    }
+    .blog-index-3{
+      color: #009688;
+      margin: -0 17px 15px 0;
+      font-size: 4em;
+      position: relative;
+      left: -4em;
+      top: 0em;
+  }
+    
+    .blog-published-3{
+      font-size: 3.2em;
+      position: relative;
+      left: -5em;
+      top: 0em;
+    }
+    .Blog-2{
+      position: relative;
+      width: 50em;
+      height: 16em;
+      left: 24em;
+      top: 11em;
+    }
+    .blog-Year-2{
+      font-size: 3.2em;
+      position: relative;
+      left: -5em;
+      top: 16em;
+    }
+    .blog-index-2{
+      color: #009688;
+      margin: -0 17px 15px 0;
+      font-size: 4em;
+      position: relative;
+      left: -4em;
+      top: 12em;
+    }
+    .blog-published-2{
+      font-size: 3.2em;
+      position: relative;
+      left: -5em;
+      top: 15em;
+    }
+    }
+  
+     /* ---------------------------------------------------------------------------Media 360px  HObbies-------------------------------------------------------------------------------------- */
+  
+  /*  -----------------------------------------------------------------------Media 360px Creative Works------------------------------------------------------------------- */
+
+  @media screen and (max-width:460px) and (min-width:360px){
+
+    .creative-works {
+      position: relative;
+      width: 437vw;
+      height: 698vh;
+      left: -14em;
+  }
+    div.container{
+      margin: 50px;
+      position: relative;
+      width: 70%;
+      left: 22em;
+  
+  }
+      div.category button{
+        margin: 10px;
+        padding: 5px 10px;
+        font-size: 58px;
+    }
+      div.category button{
+        margin: 10px;
+        border: none;
+        outline: none;
+        padding: 10px 20px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        color: rgb(114, 114, 114);
+        text-transform: uppercase;
+        cursor: pointer;
+        border-radius: 10px;
+        background-color: rgb(236, 236, 236);
+    }
+      .work-name{
+        font-family: 'Dosis';
+        font-size: 48px;
+        /* text-shadow: 4px 4px 4px #aaa; */
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 16%;
+        height: 1em;
+        top: -1.7em;
+        right: 0;
+        margin: auto;
+        font-size: 133px;
+      }
+      .work-line1{
+        position: absolute;
+        left: 28%;
+        top: -4em;
+        margin: auto;
+        width: 41em;
+        height: 14px;
+        background-color: #f89d36;
+      }
+      .work-line2{
+        display: none;
+        position: absolute;
+        left: 756px;
+        top: 63px;
+        margin: auto;
+        width: 18px;
+        height: 18px;
+        background-color:#f89d36 ;
+        transform: rotate(45deg);
+      }
+.product {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 23%;
+}
+.product div {
+  width: 100%;
+  height: auto;
+  margin: 10px;
+}
+.product div img {
+  width: 100%;
+  height: 51em;
+  transition: .2s;
+}
+      input{
+        display: none;
+      }
+      .tag{
+        font-size: 5.2em;
+        margin: 1.5rem 0.3em;
+        padding: 2px 1.2rem;
+        border-radius: 5px;
+        position: relative;
+        top: 256px;
+        left: 14%;
+        background-color: white;
+        display: inline-block;
+        color: black;
+        cursor: pointer;
+        border: 1px solid black;
+      }
+      .nav-img {
+        width: 1005px;
+        height: 200px;
+        position: relative;
+        left: 19%;
+        top: 197px;
+        transition: all .4s ease-in-out;
+        border-radius: 5px;
+      
+      }
+      .nav-img #anmation1{
+        position: relative;
+        left: -72px;
+        opacity: 1;
+        display: block;
+        transition: .5s ease;
+        backface-visibility: hidden;
+        width: 33em;
+        top: 9em;
+        height:55px;
+        border-radius: 5px;
+      }
+    
+      .nav-img #anmation1:hover{
+      filter: grayscale(50%);
+      }
+      .nav-img #anmation2{
+        width: 33em;
+        height: 45em;
+        bottom: 579px;
+        left: 475px;
+        position: relative;
+        border-radius: 5px;
+       
+      }
+      .nav-img #assignment1{
+        width: 33em;
+        height: 45em;
+        border-radius: 5px;
+        position: relative;
+        bottom: 555px;
+        left: -72px;
+      
+      }
+      .nav-img #project2{
+        width: 33em;
+        height: 45em;
+        position: relative;
+        top: -80em;
+        left: 475px;
+        border-radius: 5px;
+      }
+      .nav-img #project3{
+        width: 33em;
+        height: 45em;
+        position: relative;
+        bottom: 79em;
+        left: 475px;
+        border-radius: 5px;
+      }
+      .nav-img #project4{
+        width: 33em;
+        height: 45em;
+        position: relative;
+        bottom: 124em;
+        right: 72px;
+        border-radius: 5px;
+      
+      }
+      
+      #nav-projects:checked ~ .nav-img > img:not([class *="nav-projects"]),
+      #nav-ass:checked ~ .nav-img > img:not([class *="nav-ass"]),
+      #nav-anime:checked ~ .nav-img > img:not([class *="nav-anime"]){
+        width: 0;
+        height: 0;
+      }
+      #nav-all:checked ~ .all,
+      #nav-projects:checked ~ .projects,
+      #nav-ass:checked ~ .ass,
+      #nav-anime:checked ~ .anime{
+        background-color: #f89d36;
+        color: white;
+      }
+      .works-button{
+        width: 23em;
+        height: 8em;
+        position: relative;
+        bottom: -130em;
+        left: 0%;
+        margin: auto;
+        border: 1px solid #f89d36;
+        padding: 2px 1.2rem;
+      }
+      .works-button h2{
+        color: #f89d36;
+        font-size: 3em;
+      
+      }
+    }
+  
+    /*  -----------------------------------------------------------------------Media 360px Creative Works------------------------------------------------------------------- */
+  
+     
+   /*  --------------------------------------------------------------------------------Media Of 360px projectMind -------------------------------------------------------------------------------- */
+ @media all and (max-width:360px){
+  .projectMind{
+    position: relative;
+    background-color: darkblue;
+    width: 402vw;
+    height: 88vh;
+  }
+
+
+  .prj-Mind-img{
+    width: 100%;
+    height: 560px;
+    position: absolute;
+  }
+      
+.prj-mnd-Title{
+  z-index: 5;
+  position: absolute;
+  left: 4%;
+  width: 19em;
+  top: 62px;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  color: white;
+  font-size: 4.8em;
+}
+
+.prj-mind-body{
+  z-index: 5;
+  position: absolute;
+  left: 5%;
+  top: 184px;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  color: white;
+  font-size: 3.3em;
+}
+.prj-mind-button{
+  z-index: 5;
+  position: absolute;
+  left: -3%;
+  top: 289px;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 7em;
+  height: 115px;
+  border-radius: 3em;
+  cursor: zoom-in;
+  background-color: #f89d36;
+  font-weight: 700;
+  font-size: 3em;
+  
+}
+ }
+
+ /*  --------------------------------------------------------------------------------END Of Media 360px OfprojectMind -------------------------------------------------------------------------------- */
+
+
+ /*  --------------------------------------------------------------------------------Media Of 288px projectMind -------------------------------------------------------------------------------- */
+ @media all and (max-width:288px){
+  .projectMind{
+    position: relative;
+    background-color: darkblue;
+    width: 402vw;
+    height: 33vh;
+  }
+
+
+  .prj-Mind-img{
+    width: 100%;
+    height: 211px;
+    position: absolute;
+  }
+      
+.prj-mnd-Title{
+  z-index: 5;
+  position: absolute;
+  left: 16%;
+  top: 18px;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  color: white;
+  font-size: 2.8em;
+}
+
+.prj-mind-body{
+  z-index: 5;
+  position: absolute;
+  left: 29%;
+  top: 81px;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  color: white;
+  font-size: 1.3em;
+}
+.prj-mind-button{
+  z-index: 5;
+  position: absolute;
+  left: -3%;
+  top: 147px;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 8em;
+  height: 42px;
+  border-radius: 3em;
+  cursor: zoom-in;
+  background-color: #f89d36;
+  font-weight: 700;
+  
+}
+ }
+
+ /*  --------------------------------------------------------------------------------END Of Media OfprojectMind -------------------------------------------------------------------------------- */
+
+ /* --------------------------------------------------------------------------------Contact US-------------------------------------------------------------------------------- */
+ 
+ .Contact-Us{
+
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  
+
+
+ }
+ .set-Title{
+   position: relative;
+   left: 48px;
+ }
+ .Cont-Title-1{
+  font-family: 'Dosis';
+  /* text-shadow: 4px 4px 4px #aaa; */
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left:40%;
+  top: 0;
+  right: 0;
+  margin: auto;
+  font-size: 36px;
+ }
+ .Cont-Title-2{
+  font-family: 'Dosis';
+  /* text-shadow: 4px 4px 4px #aaa; */
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left:51%;
+  top: 0;
+  right: 0;
+  margin: auto;
+  font-size: 36px;
+ }
+ .con-line1{
+  position: absolute;
+  left: 41%;
+  top: 56px;
+  margin: auto;
+  width: 175px;
+  height: 3px;
+  background-color:#f89d36 ;
+}
+.con-line2{
+  position: absolute;
+  left: 706px;
+  top: 49px;
+  margin: auto;
+  width: 18px;
+  height: 18px;
+  background-color:#f89d36 ;
+  transform: rotate(45deg);
+}
+.con-Zt-Menu{
+  position: absolute;
+  top: 110px;
+  width: 100vw;
+  height: 223px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.con-img-1 {
+  position: relative;
+  width: calc(100vw/3);
+  height: 223px;
+
+}
+.con-img-phone{
+  width: 42px;
+  position: absolute;
+  top: 0;
+  left: 45%;
+}
+.con-img-name-1{
+  position: absolute;
+  top: 53px;
+  left: 45%;
+}
+.con-img-body-1{
+  position: absolute;
+  top: 103px;
+  left: 15%;
+}
+.con-contOpt-1{
+  position: absolute;
+  top: 170px;
+  left: 40%;
+}
+.con-img-2 {
+  position: relative;
+  width: calc(100vw/3);
+  height: 223px;
+
+}
+.con-img-phone2{
+  width: 42px;
+  position: absolute;
+  top: 0;
+  left: 45%;
+}
+.con-img-name-2{
+  position: absolute;
+  top: 53px;
+  left: 45%;
+}
+.con-img-body-2{
+  position: absolute;
+  top: 103px;
+  left: 15%;
+}
+.con-contOpt-2{
+  position: absolute;
+  top: 170px;
+  left: 40%;
+}
+.con-img-3 {
+  position: relative;
+  width: calc(100vw/3);
+  height: 223px;
+
+}
+.con-img-phone3{
+  width: 42px;
+  position: absolute;
+  top: 0;
+  left: 45%;
+}
+.con-img-name-3{
+  position: absolute;
+  top: 53px;
+  left: 45%;
+}
+.con-img-body-3{
+  position: absolute;
+  top: 103px;
+  left: 15%;
+}
+.con-contOpt-3{
+  position: absolute;
+  top: 170px;
+  left: 40%;
+}
+.con-My-img{
+  position: absolute;
+  top: 324px;
+  width: calc(100vw/2);
+  height: 403px;
+
+}
+.my-photo-con{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  border-radius: 50%;
+}
+.my-photo-con-IMG{
+  position: absolute;
+  width: 12.5em;
+  height: 12.5em;
+  border-radius: 50%;
+}
+.con-social-gitHub{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 19em;
+  margin: auto;
+  width: 55px;
+  height: 55px;
+  border-radius: 100px;
+
+
+}
+.con-img-twitter{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 18em;
+  bottom: 0;
+  margin: auto;
+  width: 55px;
+  height: 55px;
+  border-radius: 100px;
+
+}
+.con-social-twitter{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 7px;
+  top: 7px;
+}
+.con-img-slack{
+  position: absolute;
+  top: 0;
+  left: 18em;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 55px;
+  height: 55px;
+  border-radius: 100px;
+
+}
+.con-social-slack{
+  position: absolute;
+  top: 7px;
+  left: 8px;
+  width: 39px;
+  height: 41px;
+
+}
+.con-social-facebook{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: -18em;
+  margin: auto;
+  width: 51px;
+  height: 43px;
+  border-radius: 100px;
+
+
+}
+.con-social-instagram{
+  position: absolute;
+  top: -13em;
+  left: 0;
+  right: 13em;
+  bottom: 0;
+  margin: auto;
+  width: 63px;
+  height: 61px;
+  border-radius: 100px;
+
+
+}
+.con-img-linkdin{
+  position: absolute;
+  top: 0;
+  left: 13em;
+  right: 0;
+  bottom: 13em;
+  margin: auto;
+  width: 55px;
+  height: 55px;
+  border-radius: 100px;
+
+}
+.con-social-linkdin{
+  position: absolute;
+  width: 53px;
+  height: 42px;
+  left: 4px;
+  top: 5px;
+}
+.con-social-stackoverflow{
+  position: absolute;
+  top: 13em;
+  left: 0;
+  right: 13em;
+  bottom: 0;
+  margin: auto;
+  width: 55px;
+  height: 55px;
+  border-radius: 100px;
+
+
+}
+.con-img-youtube{
+  position: absolute;
+  top: 13em;
+  left: 13em;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 55px;
+  height: 55px;
+  border-radius: 100px;
+
+}
+.con-social-youtube{
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 40px;
+  height: 40px;
+
+}
+.con-submit{
+  position: absolute;
+  top: 21em;
+  left: 46.7em;
+  width: calc(100vw/2);
+  height: 392px;
+}
+
+.form-1{
+  position: relative;
+  width: 15em;
+  height: 3.5em;
+  margin: 18px 0 0 43px;
+  border-color: rgb(175, 175, 175);
+  display: inline;
+  border-radius: 16px;
+  color: black;
+}
+.form-2{
+  position: relative;
+  width: 15em;
+  height: 3.5em;
+  border-color: rgb(175, 175, 175);
+  display: inline;
+  border-radius: 16px;
+  margin: 0 0 0px 18px;
+  color: black;
+}
+.form-4{
+  position: relative;
+  width: 31.2em;
+  height: 3.5em;
+  border-color: rgb(175, 175, 175);
+  display: inline;
+  margin: 18px 0 0 43px;
+  border-radius: 16px;
+  color: black;
+}
+.form-5{
+  position: relative;
+  width: 31.2em;
+  height: 9.8em;
+  border-color: rgb(175, 175, 175);
+  display: inline;
+  margin: 18px 0 0 42px;
+  border-radius: 16px;
+  color: black;
+}
+.form-6{
+  position: relative;
+  width: 6.2em;
+  height: 2.3em;
+  display: inline;
+  background-color:#f89d36 ;
+  margin: 21x 1px 15px 10px;
+  color: white;
+  border-radius: 16px;
+  left: -31.5em;
+  right: -47px;
+  top: 114px;
+}
+ /* --------------------------------------------------------------------------------END Of Contact US-------------------------------------------------------------------------------- */
