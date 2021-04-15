@@ -1602,360 +1602,371 @@ div.category button.active{
 }
 
    /*  --------------------------------------------------------------------------------END Of projectMind -------------------------------------------------------------------------------- */
-    
- /* --------------------------------------------------------------------------------media Of 360px  Contact US-------------------------------------------------------------------------------- */
+   
+ /* --------------------------------------------------------------------------------Contact US-------------------------------------------------------------------------------- */
  
- @media all and (max-width:360px){
-  .Contact-Us{
+ .Contact-Us{
 
-    position: relative;
-    width: 400vw;
-    height: 400vh;
-    
+  position: relative;
+  width: 100vw;
+  height: 100vh;
   
-  
-   }
-   .set-Title{
-     position: relative;
-     left: 48px;
-   }
-   .Cont-Title-1{
-    font-family: 'Dosis';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 17%;
-    top: 0;
-    right: 0;
-    margin: auto;
-    font-size: 103px;
-   }
-   .Cont-Title-2{
-    font-family: 'Dosis';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 54%;
-    top: 0;
-    right: 0;
-    margin: auto;
-    font-size: 103px;
-   }
-   .con-line1{
-    position: absolute;
-    left: 25%;
-    top: 145px;
-    margin: auto;
-    width: 22em;
-    height: 13px;
-    background-color: #f89d36;
-  }
-  .con-line2{
-    position: absolute;
-    left: 706px;
-    top: 49px;
-    margin: auto;
-    width: 18px;
-    height: 18px;
-    background-color:#f89d36 ;
-    transform: rotate(45deg);
-    display: none;
-  }
-  .con-Zt-Menu{
-    position: absolute;
-    top: 172px;
-    width: 400vw;
-    height: 16em;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-  }
-  .con-img-1 {
-    position: relative;
-    width: calc(400vw/2);
-    height: 223px;
-  
-  }
-  .con-img-phone{
-    width: 9em;
-    position: absolute;
-    top: 0;
-    left: 45%;
-  }
-  .con-img-name-1{
-    position: absolute;
-    top: 141px;
-    left: 45%;
-    font-size: 2.4em;
-  }
-  .con-img-body-1{
-    position: absolute;
-    top: 218px;
-    left: 26%;
-    font-size: 34px;
-  }
-  .con-contOpt-1{
-    position: absolute;
-    top: 398px;
-    left: 37%;
-    font-size: 2.5em;
-}
-  
-  .con-img-2 {
-    position: relative;
-    width: calc(400vw/2);;
-    height: 223px;
-  
-  }
-  .con-img-phone2{
-    width: 9em;
-    position: absolute;
-    top: 0;
-    left: 45%;
-  }
-  .con-img-name-2{
-    position: absolute;
-    top: 141px;
-    left: 45%;
-    font-size: 2.4em;
-  }
-  .con-img-body-2{
-    position: absolute;
-    top: 218px;
-    left: 26%;
-    font-size: 34px;
-  }
-  .con-contOpt-2{
-    position: absolute;
-    top: 398px;
-    left: 37%;
-    font-size: 2.5em;
-}
-  
-  .con-img-3 {
-    position: relative;
-    width: calc(200px);
-    height: 223px;
-  
-  }
-  .con-img-phone3{
-    width: 9em;
-    position: absolute;
-    top: 28em;
-    left: -42em;
-  }
-  .con-img-name-3{
-    position: absolute;
-    top: 16em;
-    left: -17em;
-    font-size: 2.4em;
-  }
-  .con-img-body-3{
-    position: absolute;
-    top: 20em;
-    left: -26.5em;
-    font-size: 34px;
-  }
-  .con-contOpt-3{
-    position: absolute;
-    top: 16.3em;
-    left: -15em;
-    font-size: 3em;
-  }
-  .con-My-img{
-    position: absolute;
-    top: 324px;
-    width: calc(100vw/2);
-    height: 403px;
-    display: none;
-  
-  }
-  .my-photo-con{
-    position: absolute;
-    width: 200px;
-    height: 200px;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    border-radius: 50%;
-  }
-  .con-social-gitHub{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 19em;
-    margin: auto;
-    width: 55px;
-    height: 55px;
-    border-radius: 100px;
-    border: 1px solid green;
-  
-  }
-  .con-social-twitter{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 18em;
-    bottom: 0;
-    margin: auto;
-    width: 55px;
-    height: 55px;
-    border-radius: 100px;
-    border: 1px solid green;
-  
-  }
-  .con-social-slack{
-    position: absolute;
-    top: 0;
-    left: 18em;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    width: 55px;
-    height: 55px;
-    border-radius: 100px;
-    border: 1px solid green;
-  
-  }
-  .con-social-facebook{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: -18em;
-    margin: auto;
-    width: 55px;
-    height: 55px;
-    border-radius: 100px;
-    border: 1px solid green;
-  
-  }
-  .con-social-instagram{
-    position: absolute;
-    top: -13em;
-    left: 0;
-    right: 13em;
-    bottom: 0;
-    margin: auto;
-    width: 55px;
-    height: 55px;
-    border-radius: 100px;
-    border: 1px solid green;
-  
-  }
-  .con-social-linkdin{
-    position: absolute;
-    top: 0;
-    left: 13em;
-    right: 0;
-    bottom: 13em;
-    margin: auto;
-    width: 55px;
-    height: 55px;
-    border-radius: 100px;
-    border: 1px solid green;
-  
-  }
-  .con-social-stackoverflow{
-    position: absolute;
-    top: 13em;
-    left: 0;
-    right: 13em;
-    bottom: 0;
-    margin: auto;
-    width: 55px;
-    height: 55px;
-    border-radius: 100px;
-    border: 1px solid green;
-  
-  }
-  .con-social-youtube{
-    position: absolute;
-    top: 13em;
-    left: 13em;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    width: 55px;
-    height: 55px;
-    border-radius: 100px;
-    border: 1px solid green;
-  
-  }
-  .con-submit{
-    position: absolute;
-    top: 65em;
-    left: 7.7em;
-    width: 72em;
-    height: 392px;
 
-  }
-  
-  .form-1{
-    position: relative;
-    width: 16.5em;
-    height: 2.9em;
-    margin: 18px 0 0 43px;
-    border-color: rgb(175, 175, 175);
-    display: inline;
-    border-radius: 16px;
-    color: black;
-    font-size: 4em;
-  }
-  .form-2{
-    position: relative;
-    width: 16.5em;
-    height: 2.9em;
-    margin: 18px 0 0 43px;
-    border-color: rgb(175, 175, 175);
-    display: inline;
-    border-radius: 16px;
-    color: black;
-    font-size: 4em;
-  }
-  .form-4{
-    position: relative;
-    width: 16.5em;
-    height: 2.9em;
-    margin: 18px 0 0 43px;
-    border-color: rgb(175, 175, 175);
-    display: inline;
-    border-radius: 16px;
-    color: black;
-    font-size: 4em;
-  }
-  .form-5{
-    position: relative;
-    width: 16.5em;
-    height: 10.9em;
-    margin: 18px 0 0 43px;
-    border-color: rgb(175, 175, 175);
-    display: inline;
-    border-radius: 16px;
-    color: black;
-    font-size: 4em;
-  }
-  .form-6{
-    position: relative;
-    width: 6.2em;
-    height: 2.3em;
-    display: inline;
-    background-color: #f89d36;
-    margin: 21x 1px 15px 10px;
-    color: white;
-    border-radius: 16px;
-    left: 7.5em;
-    right: 0px;
-    top: 60px;
-    font-size: 51px;
-  }
+
+ }
+ .set-Title{
+   position: relative;
+   left: 48px;
+ }
+ .Cont-Title-1{
+  font-family: 'Dosis';
+  /* text-shadow: 4px 4px 4px #aaa; */
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left:40%;
+  top: 0;
+  right: 0;
+  margin: auto;
+  font-size: 36px;
+ }
+ .Cont-Title-2{
+  font-family: 'Dosis';
+  /* text-shadow: 4px 4px 4px #aaa; */
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left:51%;
+  top: 0;
+  right: 0;
+  margin: auto;
+  font-size: 36px;
+ }
+ .con-line1{
+  position: absolute;
+  left: 41%;
+  top: 56px;
+  margin: auto;
+  width: 175px;
+  height: 3px;
+  background-color:#f89d36 ;
+}
+.con-line2{
+  position: absolute;
+  left: 706px;
+  top: 49px;
+  margin: auto;
+  width: 18px;
+  height: 18px;
+  background-color:#f89d36 ;
+  transform: rotate(45deg);
+}
+.con-Zt-Menu{
+  position: absolute;
+  top: 110px;
+  width: 100vw;
+  height: 223px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.con-img-1 {
+  position: relative;
+  width: calc(100vw/3);
+  height: 223px;
 
 }
+.con-img-phone{
+  width: 42px;
+  position: absolute;
+  top: 0;
+  left: 45%;
+}
+.con-img-name-1{
+  position: absolute;
+  top: 53px;
+  left: 45%;
+}
+.con-img-body-1{
+  position: absolute;
+  top: 103px;
+  left: 15%;
+}
+.con-contOpt-1{
+  position: absolute;
+  top: 170px;
+  left: 40%;
+}
+.con-img-2 {
+  position: relative;
+  width: calc(100vw/3);
+  height: 223px;
 
- /* --------------------------------------------------------------------------------END Of Media Contact US-------------------------------------------------------------------------------- */
+}
+.con-img-phone2{
+  width: 42px;
+  position: absolute;
+  top: 0;
+  left: 45%;
+}
+.con-img-name-2{
+  position: absolute;
+  top: 53px;
+  left: 45%;
+}
+.con-img-body-2{
+  position: absolute;
+  top: 103px;
+  left: 15%;
+}
+.con-contOpt-2{
+  position: absolute;
+  top: 170px;
+  left: 40%;
+}
+.con-img-3 {
+  position: relative;
+  width: calc(100vw/3);
+  height: 223px;
+
+}
+.con-img-phone3{
+  width: 42px;
+  position: absolute;
+  top: 0;
+  left: 45%;
+}
+.con-img-name-3{
+  position: absolute;
+  top: 53px;
+  left: 45%;
+}
+.con-img-body-3{
+  position: absolute;
+  top: 103px;
+  left: 15%;
+}
+.con-contOpt-3{
+  position: absolute;
+  top: 170px;
+  left: 40%;
+}
+.con-My-img{
+  position: absolute;
+  top: 324px;
+  width: calc(100vw/2);
+  height: 403px;
+
+}
+.my-photo-con{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  border-radius: 50%;
+}
+.my-photo-con-IMG{
+  position: absolute;
+  width: 12.5em;
+  height: 12.5em;
+  border-radius: 50%;
+}
+.con-social-gitHub{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 19em;
+  margin: auto;
+  width: 55px;
+  height: 55px;
+  border-radius: 100px;
+
+
+}
+.con-img-twitter{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 18em;
+  bottom: 0;
+  margin: auto;
+  width: 55px;
+  height: 55px;
+  border-radius: 100px;
+
+}
+.con-social-twitter{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 7px;
+  top: 7px;
+}
+.con-img-slack{
+  position: absolute;
+  top: 0;
+  left: 18em;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 55px;
+  height: 55px;
+  border-radius: 100px;
+
+}
+.con-social-slack{
+  position: absolute;
+  top: 7px;
+  left: 8px;
+  width: 39px;
+  height: 41px;
+
+}
+.con-social-facebook{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: -18em;
+  margin: auto;
+  width: 51px;
+  height: 43px;
+  border-radius: 100px;
+
+
+}
+.con-social-instagram{
+  position: absolute;
+  top: -13em;
+  left: 0;
+  right: 13em;
+  bottom: 0;
+  margin: auto;
+  width: 63px;
+  height: 61px;
+  border-radius: 100px;
+
+
+}
+.con-img-linkdin{
+  position: absolute;
+  top: 0;
+  left: 13em;
+  right: 0;
+  bottom: 13em;
+  margin: auto;
+  width: 55px;
+  height: 55px;
+  border-radius: 100px;
+
+}
+.con-social-linkdin{
+  position: absolute;
+  width: 53px;
+  height: 42px;
+  left: 4px;
+  top: 5px;
+}
+.con-social-stackoverflow{
+  position: absolute;
+  top: 13em;
+  left: 0;
+  right: 13em;
+  bottom: 0;
+  margin: auto;
+  width: 55px;
+  height: 55px;
+  border-radius: 100px;
+
+
+}
+.con-img-youtube{
+  position: absolute;
+  top: 13em;
+  left: 13em;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 55px;
+  height: 55px;
+  border-radius: 100px;
+
+}
+.con-social-youtube{
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 40px;
+  height: 40px;
+
+}
+.con-submit{
+  position: absolute;
+  top: 21em;
+  left: 46.7em;
+  width: calc(100vw/2);
+  height: 392px;
+}
+
+.form-1{
+  position: relative;
+  width: 15em;
+  height: 3.5em;
+  margin: 18px 0 0 43px;
+  border-color: rgb(175, 175, 175);
+  display: inline;
+  border-radius: 16px;
+  color: black;
+}
+.form-2{
+  position: relative;
+  width: 15em;
+  height: 3.5em;
+  border-color: rgb(175, 175, 175);
+  display: inline;
+  border-radius: 16px;
+  margin: 0 0 0px 18px;
+  color: black;
+}
+.form-4{
+  position: relative;
+  width: 31.2em;
+  height: 3.5em;
+  border-color: rgb(175, 175, 175);
+  display: inline;
+  margin: 18px 0 0 43px;
+  border-radius: 16px;
+  color: black;
+}
+.form-5{
+  position: relative;
+  width: 31.2em;
+  height: 9.8em;
+  border-color: rgb(175, 175, 175);
+  display: inline;
+  margin: 18px 0 0 42px;
+  border-radius: 16px;
+  color: black;
+}
+.form-6{
+  position: relative;
+  width: 6.2em;
+  height: 2.3em;
+  display: inline;
+  background-color:#f89d36 ;
+  margin: 21x 1px 15px 10px;
+  color: white;
+  border-radius: 16px;
+  left: -31.5em;
+  right: -47px;
+  top: 114px;
+}
+ /* --------------------------------------------------------------------------------END Of Contact US-------------------------------------------------------------------------------- */
  
  /* --------------------------------------------------------------------------------media Of 288px Contact US-------------------------------------------------------------------------------- */
  
