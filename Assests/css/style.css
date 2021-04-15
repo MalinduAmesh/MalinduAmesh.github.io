@@ -1,0 +1,4390 @@
+
+body{
+
+    overflow-x: hidden;
+  }
+  
+  .landing_page{
+    position: relative;
+    width: 100vw;
+    height: 109vh;
+   
+    
+}
+#particles-js{
+  background: black;
+  height: 100%;
+}
+  header{
+    background-color: none;
+    position: relative;
+    background-color: none;
+    background-color: #eeeeee;
+    height: 52px;
+  }
+  .logo{
+    width: 150px;
+    height: 21px;
+    padding: 10px;
+    font-family: 'Noto Sans TC', sans-serif;
+  }
+  .logo2{
+    position: absolute;
+    left: 110px;
+    top: -3px;
+    height: 100px;
+    margin: auto;
+    color: #f89d36;
+    font-size: 37px;
+  }
+  
+  .navUl{
+    position: fixed;
+    list-style: none;
+    font-family: 'Play', sans-serif;
+    font-size: 13px;
+    position: absolute;
+    top: 6px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+  .navUl li{
+    color: white;
+    display: inline;
+    margin: 16px;
+    position: relative;
+    padding: 8px;
+   
+  }
+  body>header>nav>ul>li> a{
+    text-decoration: none;
+    color: black;
+  }   
+  
+  .home::before{
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 54px;
+    margin: auto;
+  
+  }
+  .home:hover::before{
+    animation: roll5 1s 1;
+  }
+  @keyframes roll5{
+    from{
+       border-bottom:2px solid #f89d36 ;
+       left: 8px;
+       right: 54px;
+   }to{
+       border-bottom:2px solid #f89d36 ;
+       left: 8px;
+       right: 15px;
+   }
+  
+  
+  }
+  
+  .about::before{
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    left: 8px;
+    right: 57px;
+    margin: auto;
+    border-bottom: 5px solid white; 
+  
+  }
+  
+  .about:hover::before{
+    animation:roll 1s infinite;
+  }
+  @keyframes roll{
+     from{
+        border-bottom:2px solid #f89d36 ;
+        left: 6px;
+        right: 56px;
+    }to{
+        border-bottom:2px solid #f89d36 ;
+        left: 6px;
+        right: 10px;
+    }
+  
+  
+  
+  }
+  .myWorks::before{
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    left: 8px;
+    right: 80px;
+    margin: auto;
+    border-bottom: 5px solid white; 
+  }
+  .myWorks:hover::before{
+    color: rgb(202, 197, 202);
+    animation:roll2 1.5s infinite;
+  }
+  @keyframes roll2{
+    from{
+       border-bottom:2px solid #f89d36 ;
+       left: 8px;
+       right: 79px;
+       
+   }
+   to{
+    border-bottom:2px solid #f89d36 ;
+    left: 8px;
+    right: 10px;
+   }
+  
+  }
+  .skills::after{
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    left: 9px;
+    right: 55px;
+    margin: auto;
+    border-bottom: 5px solid white; 
+  }
+  .skills:hover::after{
+    transition: 0.5s linear;
+    animation: roll3 1s 1;
+  }
+  @keyframes roll3{
+    from{
+       border-bottom:2px solid #f89d36 ;
+       left: 9px;
+       right: 49px;
+   }
+   to{
+    border-bottom:2px solid #f89d36 ;
+    left: 8px;
+    right: 13px;
+   }
+  
+  }
+  .service::before{
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    right: 76px;
+    margin: auto;
+    border-bottom: 5px solid white; 
+  
+  }
+  .service:hover::before{
+    animation: roll4 1s 1;
+  }
+  @keyframes roll4{
+    from{
+       border-bottom:2px solid #f89d36 ;
+       left: 10px;
+       right: 64px;
+   }
+   to{
+    border-bottom:2px solid #f89d36 ;
+    left: 10px;
+    right: 13px;
+   }
+  
+  }
+  
+  /* .contact a{
+    color: rgb(255, 253, 253)    ;
+  
+  }
+  .contact { 
+    background-color:#f89d36 ;
+    border: 2px solid #f89d36 ;
+    border-radius: 8px;
+    font-size: 16px;    
+    left: 364px;
+    font-weight: 600;
+    border: 2px solid rgb(255, 255, 255);
+    font-family: 'Ubuntu', sans-serif;
+  
+  }
+  .contact:hover{
+    background-color: #ffc40c ;
+    transition: 1s;
+  } */
+  
+  .first_word1{
+    position: absolute;
+    width: 627px;
+    height: 200px;
+    left: -616px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    padding: 0;
+    font-size: 80px;
+    color: white;
+    font-family: 'Noto Sans TC', sans-serif;
+  
+  } 
+  
+  .first_word2{
+    font-family: 'Noto Sans TC', sans-serif;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: -491px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    font-size: 80px;
+    color:#f89d36  ;
+  }
+  .first_word3{
+    font-family: 'Noto Sans TC', sans-serif;
+    width: 20em;
+    height: 200px;
+    position: absolute;
+    left: -11em;
+    right: 0;
+    bottom: 0;
+    top: 204px;
+    color: white;
+    margin: auto;
+    font-size: 40px;
+  }
+  .first_word3::before{
+    content: " ";
+  
+  }
+  .header-area h2{
+    font-size: 1.2em;
+    display: inline;
+  }
+  .animattte{
+    display: inline;
+    color:#f89d36 ;
+  }
+  .landimg img{
+    width: 800px;
+    height: 100vh;
+    position: absolute;
+    right: 0px;
+    top: 62px;
+  }
+  .lanimg2 img{
+    width: 800px;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+  }
+  /* png-transparent-place-vertu-management-brand-business-company-fb-miscellaneous-service-vector-icons-removebg-preview 1 */
+  
+  .fb{
+    position: absolute;
+    top: 0;
+    right: -420px;
+    margin: auto;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #f89d36 ;
+    border-radius: 20%;
+  }
+  .fb>img:nth-child(1){
+    position: absolute;
+    top: 4px;
+    bottom: 0;
+    right: 404px;
+    left: 3px;
+    margin: auto;
+    width: 37px;
+    height: 30px;
+  }
+  .link{
+    position: absolute;
+    top:0;
+    right: -300px;
+    margin: auto;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #f89d36 ;
+    border-radius: 20%;
+  }
+  .link>img{
+    position: absolute;
+    top: 1px;
+    bottom: 0;
+    right: 0;
+    left: 2px;
+    margin: auto;
+    width: 42px;
+    height: 27px;
+  }
+  .insta{
+    position: absolute;
+    top:0;
+    right: -360px;
+    margin: auto;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #f89d36 ;
+    border-radius: 20%;
+  }
+  .insta>img{
+    position: absolute;
+    top: 1px;
+    bottom: 0;
+    right: -56px;
+    left: -55px;
+    margin: auto;
+    width: 48px;
+    height: 48px;
+  }
+  
+  
+  .description1{
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 9px;
+    margin: auto;
+    width: 1007px;
+    height: 147px;
+    border-top-left-radius: 55px;
+    border-top-right-radius:55px ;
+    display: flex;
+    justify-content: flex-start;
+    background-color: 8C8C8C;
+  
+  
+  }
+  .des1{
+    display: inline;
+    border-top-left-radius: 50px;
+    width: calc(100%/3);
+    height: calc(100%);
+    position: relative;
+    left: 22px;
+    top: 14px;
+  }
+  .des1 .d_11{
+    color: black;
+    font-size: 20px;
+  
+  }
+  .des1 .d_12{
+    color: 777777;
+    font-size: 15px;
+  }
+  .des1 .d_13{
+    color: #f89d36;
+    font-size: 16px;
+  }
+  .des2{
+    display: inline;
+    width: calc(100%/3);
+    height: calc(100%);
+    position: relative;
+    left: 22px;
+    top: 14px;
+  }
+  .des2 .d_21{
+    color: black;
+    font-size: 20px;
+  
+  }
+  .des2 .d_22{
+    color: 777777;
+    font-size: 15px;
+  }
+  .des2 .d_23{
+    color: #f89d36;
+    font-size: 16px;
+  }
+  
+  .des3{
+    display: inline;
+    border-top-right-radius: 50px;
+    width: calc(100%/3);
+    height: calc(100%);
+    position: relative;
+    left: 22px;
+    top: 14px;
+  }
+  .des3 .d_31{
+    color: black;
+    font-size: 20px;
+  
+  }
+  .des3 .d_32{
+    color: 777777;
+    font-size: 15px;
+  }
+  .des3 .d_33{
+    color: #f89d36;
+    font-size: 16px;
+  }
+  
+  /*-------------------------------------------------------phone landing page---------------------------------------- */
+
+     /* ----------------------------------------------------------------------------ABOut me Page-------------------------------------------------------------- */
+ 
+
+  .AboutMe{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
+  .desabout{
+    font-family: 'Dosis';
+    font-size: 48px;
+    /* text-shadow: 4px 4px 4px #aaa; */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left:43%;
+    top: 0;
+    right: 0;
+    margin: auto;
+    font-size: 40px;
+  
+  
+  }
+  .desme{
+    font-family: 'Dosis', arial;
+    font-size: 48px;
+    /* text-shadow: 4px 4px 4px #aaa; */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 52%;
+    top: 0;
+    right: 0;
+    margin: auto;
+    font-size: 40px;
+  }
+  .bar1{
+    position: absolute;
+    left: 56%;
+    top: 22px;
+    margin: auto;
+    width: 147px;
+    height: 3px;
+    background-color:#f89d36 ;
+  }
+  .myPhoto > img{
+    position: absolute;
+    width: 316px;
+    height: 481px;
+    left: -694px;
+    top: 110px;
+    right: 0;
+    margin: auto;
+    border-radius: 20px;
+    z-index: 9;
+    
+  
+  }
+  .myPhoto > img:hover{
+    animation: shake 3s ease-in;
+  }
+  @keyframes shake{
+    0%{}
+    25%,
+    50%,
+    75%{
+        transform: translate(.1em);
+        box-shadow: 0px 7px 9px rgb(94, 87, 87);
+    }
+    10%,
+    35%,
+    60%{ transform: translate(-.1em);}
+    85%,
+    100%{transform: translate(0);}
+  }
+  .myphotoborder{
+    position: absolute;
+    width: 316px;
+    height: 481px;
+    left: -679px;
+    top: 112px;
+    right: 0;
+    margin: auto;
+    border-radius: 20px;
+    border: 5px solid#cccccc;
+  }
+  .aboutus{
+    position: absolute;
+    width: 655px;
+    height: 57%;
+    right: 181px;
+    top: 153px;
+    margin: auto;
+  }
+  .aboutus_name{
+    font-family: 'Dosis';
+    font-size: 24px;
+    color:#f89d36 ;
+  
+  }
+  .aboutus_job1{
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Potta One', cursive;
+    font-family: 'Sniglet', cursive; 
+    position: relative;
+    display: inline;
+  }
+  .aboutus_job2{
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Potta One', cursive;
+    font-family: 'Sniglet', cursive;
+    position: relative;
+    display: inline;
+    color:#f89d36 ;
+  }
+  .aboutus_me{
+    font-family: 'Advent Pro', sans-serif;
+  font-family: 'Merienda', cursive;
+  
+    
+  
+  }
+  .aboutu_img >img{
+    position: relative;
+    width: 117PX;
+    height: 65PX;
+    top: 16px;
+    left: -26px;
+  }
+  
+  .aboutu_cv1{
+    position: relative;
+    width: 97px;
+    height: 30px;
+    top: 28px;
+    background-color:#f89d36 ;
+    border:1px solid #f89d36;
+    border-radius: 7px;
+  }
+  .aboutu_cv1 >h2{
+    font-size: 14px;
+    position: relative;
+    top: -7px;
+  
+  }
+  .aboutu_con1{
+    position: relative;
+    width: 97px;
+    height: 30px;
+    left: 142px;
+    top: -2px;
+    border:1px solid #f89d36;
+    border-radius: 7px;
+  }
+  .aboutu_con1 >h2{
+    color: #f89d36;
+    font-size: 14px;
+    position: relative;
+    top: -7px;  
+  }  /*-------------------------------------------------------  Media phone 360px landing page---------------------------------------- */
+  
+ 
+  /*----------------------------------------------------------------- SKill page ------------------------------------------------------------------------- */
+  .skills{
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+  }
+  .skill_tag h2{
+      font-family: 'Dosis';
+      font-size: 48px;
+      /* text-shadow: 4px 4px 4px #aaa; */
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left:40%;
+      top: 0;
+      right: 0;
+      margin: auto;
+      font-size: 40px;
+  }
+  
+  .skills_img .skill_man{
+      position: relative;
+      width: 357px;
+      height: 420px;
+      left: 82px;
+      top: 171px;
+      margin: auto;
+  }
+  .skills_img .skill_man1{
+      position: relative;
+      width: 161px;
+      height: 116px;
+      left: -316px;
+      top: 135px;
+      margin: auto;
+      animation: glow2 2s ease-in infinite alternate;
+  }
+  
+  .skills_img .skill_man2{
+      position: relative;
+      width: 0;
+      height: 0;
+      left: -407px;
+      top: 108px;
+      margin: auto;
+  }
+  .skills_img .skill_man3{
+      position: relative;
+      width: 94px;
+      height: 69px;
+      left: -542px;
+      top: 31px;
+      margin: auto;
+  }
+  
+  .skills_img .skill_man4{
+      position: relative;
+      width: 128px;
+      height: 85px;
+      left: -270px;
+      top: 108px;
+      margin: auto;
+      animation: shake1 3s ease-in infinite alternate;
+  }
+  @keyframes shake1{
+      0%{}
+      25%,
+      50%,
+      75%{
+          transform: translate(.1em);
+      
+      }
+      10%,
+      35%,
+      60%{
+          transform: translateX(-.4em);
+           transform: translateY(-.2em);
+      }
+      85%,
+      100%{transform: translate(0);}
+  }
+  .skills_img .skill_man5{
+      position: relative;
+      width: 83px;
+      height: 57px;
+      left: -475px;
+      top: 185px;
+      margin: auto;
+      animation: shake2 3s ease-in infinite alternate;
+  }
+  
+  @keyframes shake2{
+      0%{opacity: 0.6;}
+      25%,
+      50%,
+      75%{
+          transform: translate(.6em);
+          opacity: 0.9;
+      
+      }
+      10%,
+      35%,
+      60%{
+          transform: translateX(-.2em);
+           transform: translateY(-.2em);
+      }
+      85%,
+      100%{transform: translate(0);
+          opacity: 0.9;}
+  }
+  .skills_img .skill_man6{
+      position: relative;
+      width: 246px;
+      height: 138px;
+      left: -526px;
+      top: -32px;
+      margin: auto;
+      animation: glow1 2s ease-in infinite alternate;
+  }
+  @keyframes glow1{
+      0%{}
+      25%{ box-shadow: 0 0 10px #2196f3, 0 0 25px #2196f3, 0 0 50px #2196f3 ;}
+      50%{}
+      75%{ box-shadow: 0 0 10px #2196f3, 0 0 25px #2196f3, 0 0 50px #2196f3 ;}
+      100%{}
+  }
+  .skills_img .skill_man7{
+      position: relative;
+      width: 0px;
+      height: 75px;
+      left: -607px;
+      top: 108px;
+      margin: auto;
+  }
+  .skills_img .skill_man8{
+      position: relative;
+      width: 91px;
+      height: 59px;
+      left: -1094px;
+      top: -221px;
+      margin: auto;
+      animation: shake3 3s ease-in infinite alternate;
+  }
+  @keyframes shake3{
+      0%{
+          opacity: 0.6;
+      }
+      25%,
+      50%,
+      75%{
+          transform: translateX(-.3em);
+          transform: translateY(-.3em);
+          opacity: 0.9;
+      
+      }
+      10%,
+      35%,
+      60%{
+          transform: translateX(-.1em);
+           transform: translateY(-.1em);
+      }
+      85%,
+      100%{transform: translate(0);}
+  }
+  .bar2{
+    position: absolute;
+    left: 46%;
+    top: 71px;
+    margin: auto;
+    width: 182px;
+    height: 3px;
+    background-color:#f89d36 ;
+  }
+  .bar3{
+    position: absolute;
+    left: 789px;
+    top: 63px;
+    margin: auto;
+    width: 18px;
+    height: 18px;
+    background-color:#f89d36 ;
+    transform: rotate(45deg);
+    
+  }
+  .sklills_bar{
+    position: absolute;
+    right: 0;
+    top: 170px;
+    margin: auto;
+    width: 850px;
+    height: 450px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+  }
+  /* .java{border: 2px solid red;}
+  .css{border: 2px solid red;}
+  .html{border: 2px solid red;}
+  .js{border: 2px solid red;}
+  .node{border: 2px solid red;}
+  .sql{border: 2px solid red;}  */
+  
+  .java_img img{
+    width: 95px;
+    height: 95px;
+    top: -4px;
+    position: relative;
+  }
+  .java_txt h2{
+    position: relative;
+    top: -60px;
+    left: 75px;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+  
+  }
+  .progres1{
+    position: relative;
+    top: -173px;
+    width: 302px;
+    left: 62px;
+    border-radius: 30px;
+    background-color: white;
+  
+  }
+  .progress-bar1{
+    width: 90%;
+    height: 12px;
+    border-radius: 30px;
+    transition: 0.4s linear;
+    background-color:  #CF5353;
+    animation: progress 5s 1 ;
+  }
+  
+  @keyframes progress{
+    0%{
+        width: 0%;
+        background:  #CF5353;
+  
+    }
+    100%{
+        width: 90%;
+        background:  #CF5353;
+        box-shadow: 0 0 40px  #CF5353;
+    }
+  }
+  .loader1{
+    --p:90;
+    animation: p 5s steps(1) 1;
+    counter-reset: p var(--p);
+    font-size: 21px;
+    position: absolute;
+    bottom: 23px;
+    left: 258px;
+  
+    
+  }
+  .loader1::after{
+    content: counter(p) "%";
+  }
+  @keyframes p{
+    0%{--p:0}
+    20%{--p:20}
+    30%{--p:30}
+    40%{--p:40}
+    50%{--p:50}
+    60%{--p:60}
+    70%{--p:70}
+    80%{--p:80}
+    90%{--p:90}
+    100%{--p:90}
+  }
+  .css_img img{
+    width: 80px;
+    height: 80px;
+  }
+  .css_txt h2{
+    position: relative;
+    top: -60px;
+    left: 75px;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+  
+  }
+  .progress2{
+    position: relative;
+    top: -159px;
+    width: 302px;
+    left: 59px;
+    border-radius: 30px;
+    background-color: white;
+    border: 0.1px solid teal;
+  }
+  .progress-bar2{
+    width: 80%;
+    height: 12px;
+    left: 20px;
+    border-radius: 30px;
+    transition: 1s linear;
+    background-color: #1c88c7 ;
+    animation: progres2 5s 1;
+  
+  }
+  @keyframes progres2{
+    0%{
+        width: 0%;
+        background:  #1c88c7;
+  
+    }
+    100%{
+        width: 80%;
+        background:  #1c88c7;
+        box-shadow: 0 0 40px   #1c88c7;
+    }
+  }
+  .html_img img{
+    width: 75px;
+    height: 75px;
+  }
+  .html_txt h2{
+    position: relative;
+    top: -60px;
+    left: 75px;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+  }
+  .progress3{
+    position: relative;
+    top: -152px;
+    width: 302px;
+    left: 62px;
+    border-radius: 30px;
+    background-color: white;
+  }
+  .progress-bar3{
+    width: 85%;
+    height: 12px;
+    border-radius: 30px;
+    transition: 0.4s linear;
+    background-color:  #FF6C39;
+    animation: progress3 5s 1 ;
+  }
+  @keyframes progress3{
+    0%{
+        width: 0%;
+        background:  #CF5353;
+  
+    }
+    100%{
+        width: 85%;
+        background:  #CF5353;
+        box-shadow: 0 0 40px  #CF5353;
+    }
+  }
+  .js_img img{
+    width: 80px;
+    height: 80px;
+  }
+  .js_txt h2{
+  
+    position: relative;
+    top: -60px;
+    left: 75px;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+  }
+  .progress4{
+    position: relative;
+    top: -159px;
+    width: 302px;
+    left: 59px;
+    border-radius: 30px;
+    background-color: white;
+  }
+  .progress-bar-4{
+    width: 95%;
+    height: 12px;
+    border-radius: 30px;
+    transition: 0.4s linear;
+    background-color:  #CF5353;
+    animation: progress4 5s 1 ;
+  }
+  @keyframes progress4{
+    0%{
+        width: 0%;
+        background:  #CF5353;
+  
+    }
+    100%{
+        width: 95%;
+        background:  #CF5353;
+        box-shadow: 0 0 40px  #CF5353;
+    }
+  }
+  .node_img img{
+    width: 80px;
+    height: 80px;
+  }
+  .node_txt h2{
+    position: relative;
+    top: -60px;
+    left: 75px;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+  }
+  .progress5{
+    position: relative;
+    top: -174px;
+    width: 302px;
+    left: 62px;
+    border-radius: 30px;
+    background-color: white;
+  
+  }
+  .progress-bar5{
+    width: 70%;
+    height: 12px;
+    border-radius: 30px;
+    transition: 0.4s linear;
+    background-color: #4CAF50;
+    animation: progress5 5s 1 ;
+  }
+  @keyframes progress5{
+    0%{
+        width: 0%;
+        background: #4CAF50;
+  
+    }
+    100%{
+        width: 70%;
+        background: #4CAF50;
+        box-shadow: 0 0 40px  #4CAF50;
+    }
+  }
+  .sql_img img{
+    width: 122px;
+    height: 73px;
+  }
+  .sql_txt h2{
+    position: relative;
+    top: -60px;
+    left: 75px;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+  
+  }
+  .progress6{
+    position: relative;
+    top: -159px;
+    width: 302px;
+    left: 59px;
+    border-radius: 30px;
+    background-color: white;
+  }
+  .progress-bar6{
+    width: 272px;
+    height: 12px;
+    border-radius: 30px;
+    transition: 0.4s linear;
+    background-color:  #E39123;
+    animation: progress 5s 1 ;
+  }
+  @keyframes progress{
+    0%{
+        width: 0%;
+        background:   #E39123;
+  
+    }
+    100%{
+        width: 90%;
+        background:  #E39123;
+        box-shadow: 0 0 40px   #E39123;
+    }
+  }
+
+ /*--------------------------------------------------------------------END OF  SKill page ------------------------------------------------------------------------- */
+ 
+/*------------------------------------------------------------------- Media Guery OF 360px SKill page ------------------------------------------------------------- */
+
+ @media all and (max-width:360px){
+  .skills{
+    position: relative;
+    width: 401vw;
+    height: 402vh;
+}
+.skill_tag h2{
+    font-family: 'Dosis';
+    font-size: 48px;
+    /* text-shadow: 4px 4px 4px #aaa; */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left:9%;
+    top: 0;
+    right: 0;
+    margin: auto;
+    font-size: 133px;
+}
+.skills_img{
+  display: none;
+}
+.skills_img .skill_man{
+    position: relative;
+    width: 357px;
+    height: 420px;
+    left: 82px;
+    top: 171px;
+    margin: auto;
+}
+.skills_img .skill_man1{
+    position: relative;
+    width: 161px;
+    height: 116px;
+    left: -316px;
+    top: 135px;
+    margin: auto;
+    animation: glow2 2s ease-in infinite alternate;
+}
+
+.skills_img .skill_man2{
+    position: relative;
+    width: 0;
+    height: 0;
+    left: -407px;
+    top: 108px;
+    margin: auto;
+}
+.skills_img .skill_man3{
+    position: relative;
+    width: 94px;
+    height: 69px;
+    left: -542px;
+    top: 31px;
+    margin: auto;
+}
+
+.skills_img .skill_man4{
+    position: relative;
+    width: 128px;
+    height: 85px;
+    left: -270px;
+    top: 108px;
+    margin: auto;
+    animation: shake1 3s ease-in infinite alternate;
+}
+@keyframes shake1{
+    0%{}
+    25%,
+    50%,
+    75%{
+        transform: translate(.1em);
+    
+    }
+    10%,
+    35%,
+    60%{
+        transform: translateX(-.4em);
+         transform: translateY(-.2em);
+    }
+    85%,
+    100%{transform: translate(0);}
+}
+.skills_img .skill_man5{
+    position: relative;
+    width: 83px;
+    height: 57px;
+    left: -475px;
+    top: 185px;
+    margin: auto;
+    animation: shake2 3s ease-in infinite alternate;
+}
+
+@keyframes shake2{
+    0%{opacity: 0.6;}
+    25%,
+    50%,
+    75%{
+        transform: translate(.6em);
+        opacity: 0.9;
+    
+    }
+    10%,
+    35%,
+    60%{
+        transform: translateX(-.2em);
+         transform: translateY(-.2em);
+    }
+    85%,
+    100%{transform: translate(0);
+        opacity: 0.9;}
+}
+.skills_img .skill_man6{
+    position: relative;
+    width: 246px;
+    height: 138px;
+    left: -526px;
+    top: -32px;
+    margin: auto;
+    animation: glow1 2s ease-in infinite alternate;
+}
+@keyframes glow1{
+    0%{}
+    25%{ box-shadow: 0 0 10px #2196f3, 0 0 25px #2196f3, 0 0 50px #2196f3 ;}
+    50%{}
+    75%{ box-shadow: 0 0 10px #2196f3, 0 0 25px #2196f3, 0 0 50px #2196f3 ;}
+    100%{}
+}
+.skills_img .skill_man7{
+    position: relative;
+    width: 0px;
+    height: 75px;
+    left: -607px;
+    top: 108px;
+    margin: auto;
+}
+.skills_img .skill_man8{
+    position: relative;
+    width: 91px;
+    height: 59px;
+    left: -1094px;
+    top: -221px;
+    margin: auto;
+    animation: shake3 3s ease-in infinite alternate;
+}
+@keyframes shake3{
+    0%{
+        opacity: 0.6;
+    }
+    25%,
+    50%,
+    75%{
+        transform: translateX(-.3em);
+        transform: translateY(-.3em);
+        opacity: 0.9;
+    
+    }
+    10%,
+    35%,
+    60%{
+        transform: translateX(-.1em);
+         transform: translateY(-.1em);
+    }
+    85%,
+    100%{transform: translate(0);}
+}
+.bar2{
+  position: absolute;
+  left: 23%;
+  top: 12em;
+  margin: auto;
+  width: 52em;
+  height: 13px;
+  background-color: #f89d36;
+}
+.bar3{
+  position: absolute;
+  left: 789px;
+  top: 63px;
+  margin: auto;
+  width: 18px;
+  height: 18px;
+  background-color:#f89d36 ;
+  transform: rotate(45deg);
+  
+}
+.sklills_bar{
+  position: absolute;
+  right: 0;
+  top: 170px;
+  margin: auto;
+  width: 850px;
+  height: 450px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(3,1fr);
+}
+/* .java{border: 2px solid red;}
+.css{border: 2px solid red;}
+.html{border: 2px solid red;}
+.js{border: 2px solid red;}
+.node{border: 2px solid red;}
+.sql{border: 2px solid red;}  */
+
+.java_img img{
+  width: 15em;
+  height: auto;
+  top: 176px;
+  left: -34em;
+  position: relative;
+}
+.java_txt h2{
+  position: relative;
+  top: -60px;
+  left: 75px;
+  font-size: 20px;
+  width: 100%;
+  height: 100%;
+
+}
+.progres1{
+  position: relative;
+  top: -9em;
+  width: 283%;
+  height: 59px;
+  left: -31em;
+  right: -22em;
+  border-radius: 30px;
+  background-color: white;
+  border: 2px solid rebeccapurple;
+
+}
+.progress-bar1{
+  width: 90%;
+  height: 12px;
+  border-radius: 30px;
+  transition: 0.4s linear;
+  background-color:  #CF5353;
+  animation: progress 5s 1 ;
+}
+
+@keyframes progress{
+  0%{
+      width: 0%;
+      background:  #CF5353;
+
+  }
+  100%{
+      width: 90%;
+      background:  #CF5353;
+      box-shadow: 0 0 40px  #CF5353;
+  }
+}
+.loader1{
+  --p:90;
+  animation: p 5s steps(1) 1;
+  counter-reset: p var(--p);
+  font-size: 21px;
+  position: absolute;
+  bottom: 23px;
+  left: 258px;
+
+  
+}
+.loader1::after{
+  content: counter(p) "%";
+}
+@keyframes p{
+  0%{--p:0}
+  20%{--p:20}
+  30%{--p:30}
+  40%{--p:40}
+  50%{--p:50}
+  60%{--p:60}
+  70%{--p:70}
+  80%{--p:80}
+  90%{--p:90}
+  100%{--p:90}
+}
+.css_img img{
+  width: 15em;
+  height: auto;
+  top: 62em;
+  left: -58em;
+  position: relative;
+}
+.css_txt h2{
+  position: relative;
+  top: -60px;
+  left: 75px;
+  font-size: 20px;
+  width: 100%;
+  height: 100%;
+
+}
+.progress2{
+  position: relative;
+  top: 43em;
+  width: 283%;
+  height: 59px;
+  left: -56em;
+  right: -22em;
+  border-radius: 30px;
+  background-color: white;
+  border: 2px solid rebeccapurple;
+}
+.progress-bar2{
+  width: 80%;
+  height: 12px;
+  left: 20px;
+  border-radius: 30px;
+  transition: 1s linear;
+  background-color: #1c88c7 ;
+  animation: progres2 5s 1;
+
+}
+@keyframes progres2{
+  0%{
+      width: 0%;
+      background:  #1c88c7;
+
+  }
+  100%{
+      width: 80%;
+      background:  #1c88c7;
+      box-shadow: 0 0 40px   #1c88c7;
+  }
+}
+.html_img img{
+  width: 15em;
+  height: auto;
+  top: 16em;
+  left: -31em;
+  position: relative;
+}
+.html_txt h2{
+  position: relative;
+  top: -60px;
+  left: 75px;
+  font-size: 20px;
+  width: 100%;
+  height: 100%;
+}
+.progress3{
+  position: relative;
+  top: -3em;
+  width: 283%;
+  height: 59px;
+  left: -29em;
+  right: -22em;
+  border-radius: 30px;
+  background-color: white;
+  border: 2px solid rebeccapurple;
+}
+.progress-bar3{
+  width: 85%;
+  height: 12px;
+  border-radius: 30px;
+  transition: 0.4s linear;
+  background-color:  #FF6C39;
+  animation: progress3 5s 1 ;
+}
+@keyframes progress3{
+  0%{
+      width: 0%;
+      background:  #CF5353;
+
+  }
+  100%{
+      width: 85%;
+      background:  #CF5353;
+      box-shadow: 0 0 40px  #CF5353;
+  }
+}
+.js_img img{
+  width: 15em;
+  height: auto;
+  top: 67em;
+  left: -57em;
+  position: relative;
+}
+.js_txt h2{
+
+  position: relative;
+  top: -60px;
+  left: 75px;
+  font-size: 20px;
+  width: 100%;
+  height: 100%;
+}
+.progress4{
+  position: relative;
+  top: 48em;
+  width: 283%;
+  height: 59px;
+  left: -55em;
+  right: -22em;
+  border-radius: 30px;
+  background-color: white;
+  border: 2px solid rebeccapurple;
+}
+.progress-bar-4{
+  width: 95%;
+  height: 12px;
+  border-radius: 30px;
+  transition: 0.4s linear;
+  background-color:  #CF5353;
+  animation: progress4 5s 1 ;
+}
+@keyframes progress4{
+  0%{
+      width: 0%;
+      background:  #CF5353;
+
+  }
+  100%{
+      width: 95%;
+      background:  #CF5353;
+      box-shadow: 0 0 40px  #CF5353;
+  }
+}
+.node_img img{
+  width: 15em;
+  height: auto;
+  top: 68em;
+  left: -29em;
+  position: relative;
+}
+.node_txt h2{
+  position: relative;
+  top: -60px;
+  left: 75px;
+  font-size: 20px;
+  width: 100%;
+  height: 100%;
+}
+.progress5{
+  position: relative;
+  top: 44em;
+  width: 283%;
+  height: 59px;
+  left: -28em;
+  right: -22em;
+  border-radius: 30px;
+  background-color: white;
+  border: 2px solid rebeccapurple;
+}
+.progress-bar5{
+  width: 70%;
+  height: 12px;
+  border-radius: 30px;
+  transition: 0.4s linear;
+  background-color: #4CAF50;
+  animation: progress5 5s 1 ;
+}
+@keyframes progress5{
+  0%{
+      width: 0%;
+      background: #4CAF50;
+
+  }
+  100%{
+      width: 70%;
+      background: #4CAF50;
+      box-shadow: 0 0 40px  #4CAF50;
+  }
+}
+.sql_img img{
+  width: 15em;
+  height: auto;
+  top: 89em;
+  left: -55em;
+  position: relative;
+}
+.sql_txt h2{
+  position: relative;
+  top: -60px;
+  left: 75px;
+  font-size: 20px;
+  width: 100%;
+  height: 100%;
+
+}
+.progress6{
+  position: relative;
+  top: 71em;
+  width: 283%;
+  height: 59px;
+  left: -55em;
+  right: -22em;
+  border-radius: 30px;
+  background-color: white;
+  border: 2px solid rebeccapurple;
+}
+.progress-bar6{
+  width: 272px;
+  height: 12px;
+  border-radius: 30px;
+  transition: 0.4s linear;
+  background-color:  #E39123;
+  animation: progress 5s 1 ;
+}
+@keyframes progress{
+  0%{
+      width: 0%;
+      background:   #E39123;
+
+  }
+  100%{
+      width: 90%;
+      background:  #E39123;
+      box-shadow: 0 0 40px   #E39123;
+  }
+}
+ }
+
+ /*------------------------------------------------------------------- Media Guery OF 360px SKill page ------------------------------------------------------------- */
+
+ /*----------------------------------------------------------------- Media Guery OF 288PX SKill page -------------------------------------------------------------- */
+  @media all and (max-width:288px){
+  .skills{
+    position: relative;
+    width: 100vw;
+    height: 386vh;
+}
+.skill_tag h2{
+    font-family: 'Dosis';
+    /* text-shadow: 4px 4px 4px #aaa; */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 95%;
+    top: 0;
+    right: 0;
+    margin: auto;
+    font-size: 117px;
+}
+.skills_img {
+    position: relative;
+    top: 83em;
+}
+
+.skills_img .skill_man{
+    position: relative;
+    width: 442px;
+    height: 563px;
+    left: 318px;
+    top: 295px;
+    margin: auto;
+}
+.skills_img .skill_man1{
+    position: relative;
+    width: 161px;
+    height: 116px;
+    left: -316px;
+    top: 135px;
+    margin: auto;
+    animation: glow2 2s ease-in infinite alternate;
+}
+
+.skills_img .skill_man2{
+    position: relative;
+    width: 0;
+    height: 0;
+    left: -407px;
+    top: 108px;
+    margin: auto;
+}
+.skills_img .skill_man3{
+    position: relative;
+    width: 94px;
+    height: 69px;
+    left: -542px;
+    top: 31px;
+    margin: auto;
+}
+
+.skills_img .skill_man4{
+    position: relative;
+    width: 128px;
+    height: 85px;
+    left: -270px;
+    top: 108px;
+    margin: auto;
+    animation: shake1 3s ease-in infinite alternate;
+}
+@keyframes shake1{
+    0%{}
+    25%,
+    50%,
+    75%{
+        transform: translate(.1em);
+    
+    }
+    10%,
+    35%,
+    60%{
+        transform: translateX(-.4em);
+         transform: translateY(-.2em);
+    }
+    85%,
+    100%{transform: translate(0);}
+}
+.skills_img .skill_man5{
+    position: relative;
+    width: 83px;
+    height: 57px;
+    left: -475px;
+    top: 185px;
+    margin: auto;
+    animation: shake2 3s ease-in infinite alternate;
+}
+
+@keyframes shake2{
+    0%{opacity: 0.6;}
+    25%,
+    50%,
+    75%{
+        transform: translate(.6em);
+        opacity: 0.9;
+    
+    }
+    10%,
+    35%,
+    60%{
+        transform: translateX(-.2em);
+         transform: translateY(-.2em);
+    }
+    85%,
+    100%{transform: translate(0);
+        opacity: 0.9;}
+}
+.skills_img .skill_man6{
+    position: relative;
+    width: 246px;
+    height: 138px;
+    left: -526px;
+    top: -32px;
+    margin: auto;
+    animation: glow1 2s ease-in infinite alternate;
+}
+@keyframes glow1{
+    0%{}
+    25%{ box-shadow: 0 0 10px #2196f3, 0 0 25px #2196f3, 0 0 50px #2196f3 ;}
+    50%{}
+    75%{ box-shadow: 0 0 10px #2196f3, 0 0 25px #2196f3, 0 0 50px #2196f3 ;}
+    100%{}
+}
+.skills_img .skill_man7{
+    position: relative;
+    width: 0px;
+    height: 75px;
+    left: -607px;
+    top: 108px;
+    margin: auto;
+}
+.skills_img .skill_man8{
+    position: relative;
+    width: 91px;
+    height: 59px;
+    left: -1094px;
+    top: -221px;
+    margin: auto;
+    animation: shake3 3s ease-in infinite alternate;
+}
+@keyframes shake3{
+    0%{
+        opacity: 0.6;
+    }
+    25%,
+    50%,
+    75%{
+        transform: translateX(-.3em);
+        transform: translateY(-.3em);
+        opacity: 0.9;
+    
+    }
+    10%,
+    35%,
+    60%{
+        transform: translateX(-.1em);
+         transform: translateY(-.1em);
+    }
+    85%,
+    100%{transform: translate(0);}
+}
+.bar2{
+  position: absolute;
+  left: 118%;
+  top: 276px;
+  margin: 00 0 0;
+  width: 38em;
+  height: 16px;
+  background-color: #f89d36;
+}
+.bar3{
+    position: absolute;
+    left: 789px;
+    top: 63px;
+    margin: auto;
+    width: 18px;
+    height: 18px;
+    background-color:#f89d36 ;
+    transform: rotate(45deg);
+    display: none;
+    
+}
+.sklills_bar{
+    position: absolute;
+    right: 0;
+    top: 28em;
+    left: 302px;
+    margin: auto;
+    width: 850px;
+    height: 450px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(1,1fr);
+}
+/* .java{border: 2px solid red;}
+.css{border: 2px solid red;}
+.html{border: 2px solid red;}
+.js{border: 2px solid red;}
+.node{border: 2px solid red;}
+.sql{border: 2px solid red;}  */
+
+.java_img img{
+    width: 200px;
+    height: 184px;
+    top: -27px;
+    left: -251px;
+    position: relative;
+}
+.java_txt h2{
+    position: relative;
+    top: -60px;
+    left: 75px;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+
+}
+.progres1{
+    width: 112%;
+    height: 33px;
+    left: -211px;
+    top: -313px;
+    position: relative;
+    border-radius: 30px;
+    border: 2px solid rebeccapurple;
+    background-color: white;
+
+}
+.progress-bar1{
+    width: 90%;
+    height: 12px;
+    border-radius: 30px;
+    transition: 0.4s linear;
+    background-color:  #CF5353;
+    animation: progress 5s 1 ;
+}
+
+@keyframes progress{
+    0%{
+        width: 0%;
+        background:  #CF5353;
+
+    }
+    100%{
+        width: 90%;
+        background:  #CF5353;
+        box-shadow: 0 0 40px  #CF5353;
+    }
+}
+.loader1{
+  --p: 90;
+  animation: p 5s steps(1) 1;
+  counter-reset: p var(--p);
+  font-size: 53px;
+  position: absolute;
+  bottom: 45px;
+  left: 847px;
+
+    
+}
+.loader1::after{
+    content: counter(p) "%";
+}
+@keyframes p{
+    0%{--p:0}
+    20%{--p:20}
+    30%{--p:30}
+    40%{--p:40}
+    50%{--p:50}
+    60%{--p:60}
+    70%{--p:70}
+    80%{--p:80}
+    90%{--p:90}
+    100%{--p:90}
+}
+.css_img img{
+    top: -27px;
+    left: -251px;
+    position: relative;
+    width: 115px;
+    height: 128px;
+}
+.css_txt h2{
+    position: relative;
+    top: -60px;
+    left: 75px;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+
+}
+.progress2{
+    position: relative;
+    width: 113%;
+    height: 33px;
+    left: -212px;
+    top: -218px;
+    border-radius: 30px;
+    background-color: white;
+    border: 0.1px solid teal;
+}
+.progress-bar2{
+    width: 80%;
+    height: 12px;
+    left: 20px;
+    border-radius: 30px;
+    transition: 1s linear;
+    background-color: #1c88c7 ;
+    animation: progres2 5s 1;
+
+}
+@keyframes progres2{
+    0%{
+        width: 0%;
+        background:  #1c88c7;
+
+    }
+    100%{
+        width: 80%;
+        background:  #1c88c7;
+        box-shadow: 0 0 40px   #1c88c7;
+    }
+}
+.html_img img{
+    top: 11px;
+    left: -251px;
+    position: relative;
+    width: 115px;
+    height: 128px;
+}
+.html_txt h2{
+    position: relative;
+    top: -60px;
+    left: 75px;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+}
+.progress3{
+    position: relative;
+    width: 113%;
+    height: 33px;
+    left: -212px;
+    top: -182px;
+    border-radius: 30px;
+    background-color: white;
+    border: 2px solid rosybrown;
+}
+.progress-bar3{
+    width: 85%;
+    height: 12px;
+    border-radius: 30px;
+    transition: 0.4s linear;
+    background-color:  #FF6C39;
+    animation: progress3 5s 1 ;
+}
+@keyframes progress3{
+    0%{
+        width: 0%;
+        background:  #CF5353;
+
+    }
+    100%{
+        width: 85%;
+        background:  #CF5353;
+        box-shadow: 0 0 40px  #CF5353;
+    }
+}
+.js_img img{
+    top: 38px;
+    left: -251px;
+    position: relative;
+    width: 115px;
+    height: 128px;
+}
+.js_txt h2{
+
+    position: relative;
+    top: -60px;
+    left: 75px;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+}
+.progress4{
+    position: relative;
+    width: 113%;
+    height: 33px;
+    left: -212px;
+    top: -153px;
+    border-radius: 30px;
+    background-color: white;
+    border: 2px solid skyblue;
+}
+.progress-bar-4{
+    width: 95%;
+    height: 12px;
+    border-radius: 30px;
+    transition: 0.4s linear;
+    background-color:  #CF5353;
+    animation: progress4 5s 1 ;
+}
+@keyframes progress4{
+    0%{
+        width: 0%;
+        background:  #CF5353;
+
+    }
+    100%{
+        width: 95%;
+        background:  #CF5353;
+        box-shadow: 0 0 40px  #CF5353;
+    }
+}
+.node_img img{
+    top: 27px;
+    left: -251px;
+    position: relative;
+    width: 115px;
+    height: 128px;
+}
+.node_txt h2{
+    position: relative;
+    top: -60px;
+    left: 75px;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+}
+.progress5{
+    position: relative;
+    width: 113%;
+    height: 33px;
+    left: -212px;
+    top: -149px ;
+    border-radius: 30px;
+    background-color: white;
+    border: 2px solid steelblue;
+
+}
+.progress-bar5{
+    width: 70%;
+    height: 12px;
+    border-radius: 30px;
+    transition: 0.4s linear;
+    background-color: #4CAF50;
+    animation: progress5 5s 1 ;
+}
+@keyframes progress5{
+    0%{
+        width: 0%;
+        background: #4CAF50;
+
+    }
+    100%{
+        width: 70%;
+        background: #4CAF50;
+        box-shadow: 0 0 40px  #4CAF50;
+    }
+}
+.sql_img img{
+    top: 64px;
+    left: -251px;
+    position: relative;
+    width: 115px;
+    height: 128px;
+}
+.sql_txt h2{
+    position: relative;
+    top: -60px;
+    left: 75px;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+
+}
+.progress6{
+    position: relative;
+    width: 113%;
+    height: 33px;
+    left: -212px;
+    top: -130px;
+    border-radius: 30px;
+    background-color: white;
+    border: 2px solid royalblue;
+}
+.progress-bar6{
+    width: 272px;
+    height: 12px;
+    border-radius: 30px;
+    transition: 0.4s linear;
+    background-color:  #E39123;
+    animation: progress 5s 1 ;
+}
+@keyframes progress{
+    0%{
+        width: 0%;
+        background:   #E39123;
+
+    }
+    100%{
+        width: 90%;
+        background:  #E39123;
+        box-shadow: 0 0 40px   #E39123;
+    }
+}
+  }
+   /*-----------------------------------------------------------------END OF MEdia 288PX SKill page ------------------------------------------------------------------------- */
+
+/*--------------------------------------------------------------------------------- BLOG page ------------------------------------------------------------------------- */
+  .hobbies{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+  }
+  .hob-name{
+    font-family: 'Dosis';
+    font-size: 48px;
+    /* text-shadow: 4px 4px 4px #aaa; */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left:40%;
+    top: 0;
+    right: 0;
+    margin: auto;
+    font-size: 22px;
+  }
+  .hob-line2{
+    position: absolute;
+    left: 46%;
+    top: 71px;
+    margin: auto;
+    width: 175px;
+    height: 3px;
+    background-color:#f89d36 ;
+  }
+  .hob-line3{
+    position: absolute;
+    left: 789px;
+    top: 63px;
+    margin: auto;
+    width: 18px;
+    height: 18px;
+    background-color:#f89d36 ;
+    transform: rotate(45deg);
+  }
+  .hob-description{
+    position: absolute;
+    top: 90px;
+    left: 30%;
+    margin: auto;
+    width: 700px;
+    height: 100px;
+    font-size: 1.2em; 
+  
+  }
+  .Blog-1{
+    position: relative;
+    width: 50em;
+    height: 16em;
+    left: 24em;
+    top: 12em;
+  
+  }
+  .blog-index-1{
+    color: #009688;
+    margin: -0 17px 15px 0;
+    font-size: 2em;
+  }
+  .blog-published-1{
+    font-size: 1.2em;
+  }
+  .blog-index-3{
+    color: #009688;
+    margin: 17px 17px 18px 0;
+    font-size: 2em;
+}
+  
+  .blog-published-3{
+    font-size: 1.2em;
+  }
+  .Blog-2{
+    position: relative;
+    width: 50em;
+    height: 16em;
+    left: 24em;
+    top: 11em;
+  }
+  .blog-index-2{
+    color: #009688;
+    margin: -0 17px 15px 0;
+    font-size: 2em;
+  }
+  .blog-published-2{
+    font-size: 1.2em;
+  }
+  /* ---------------------------------------------------------------------------HObbies END-------------------------------------------------------------------------------------- */
+ 
+  /* ---------------------------------------------------------------------------Media 360px  HObbies-------------------------------------------------------------------------------------- */
+
+  @media all and (max-width:360px){
+  .hobbies{
+    position: relative;
+    width: 401vw;
+    height: 400vh;
+    top: -39em;
+  }
+  .hob-name{
+    font-family: 'Dosis';
+    font-size: 48px;
+    /* text-shadow: 4px 4px 4px #aaa; */
+    position: absolute;
+    width: 400%;
+    height: 100%;
+    left: 13%;
+    top: -2em;
+    right: 0;
+    margin: auto;
+    font-size: 90px;
+  }
+  .hob-line2{
+    position: absolute;
+    left: 26%;
+    top: 8em;
+    margin: auto;
+    width: 45em;
+    height: 1em;
+    background-color: #f89d36;
+  }
+  .hob-line3{
+    position: absolute;
+    display: none;
+    left: 789px;
+    top: 63px;
+    margin: auto;
+    width: 18px;
+    height: 18px;
+    background-color:#f89d36 ;
+    transform: rotate(45deg);
+  }
+  .hob-description{
+    position: absolute;
+    top: 163px;
+    left: 9%;
+    margin: auto;
+    width: 18em;
+    height: 100px;
+    font-size: 4.2em; 
+  
+  }
+  .Blog-1{
+    position: relative;
+    width: 50em;
+    height: 16em;
+    left: 24em;
+    top: 39em;
+  
+  }
+  .blog-Year-1{
+    font-size: 3.2em;
+    position: relative;
+    left: -5em;
+  }
+  .blog-index-1{
+    color: #009688;
+    margin: -0 17px 15px 0;
+    font-size: 4em;
+    position: relative;
+    left: -4em;
+    top: -1em;
+  }
+  .blog-published-1{
+    font-size: 3.2em;
+    position: relative;
+    left: -5em;
+    top: -1em;
+  }
+  .blog-index-3{
+    color: #009688;
+    margin: -0 17px 15px 0;
+    font-size: 4em;
+    position: relative;
+    left: -4em;
+    top: 0em;
+}
+  
+  .blog-published-3{
+    font-size: 3.2em;
+    position: relative;
+    left: -5em;
+    top: 0em;
+  }
+  .Blog-2{
+    position: relative;
+    width: 50em;
+    height: 16em;
+    left: 24em;
+    top: 11em;
+  }
+  .blog-Year-2{
+    font-size: 3.2em;
+    position: relative;
+    left: -5em;
+    top: 16em;
+  }
+  .blog-index-2{
+    color: #009688;
+    margin: -0 17px 15px 0;
+    font-size: 4em;
+    position: relative;
+    left: -4em;
+    top: 12em;
+  }
+  .blog-published-2{
+    font-size: 3.2em;
+    position: relative;
+    left: -5em;
+    top: 15em;
+  }
+  }
+
+   /* ---------------------------------------------------------------------------Media 360px  HObbies-------------------------------------------------------------------------------------- */
+
+   /* ---------------------------------------------------------------------------Media 288px  HObbies-------------------------------------------------------------------------------------- */
+@media all and (max-width:288px){
+    .hobbies{
+        position: relative;
+        width: 400vw;
+        height: 400vh;
+      }
+      .hob-name{
+        font-family: 'Dosis';
+        font-size: 48px;
+        /* text-shadow: 4px 4px 4px #aaa; */
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 12%;
+        top: 0;
+        right: 0;
+        margin: auto;
+        font-size: 71px;
+      }
+      .hob-line2{
+        position: absolute;
+        left: 25%;
+        top: 247px;
+        margin: auto;
+        width: 584px;
+        height: 13px;
+        background-color: #f89d36;
+      }
+      .hob-line3{
+        position: absolute;
+        left: 789px;
+        top: 63px;
+        margin: auto;
+        width: 18px;
+        height: 18px;
+        background-color:#f89d36 ;
+        transform: rotate(45deg);
+        display: none;
+      }
+      .hob-description{
+        position: absolute;
+        top: 282px;
+        left: 10%;
+        margin: auto;
+        width: 964px;
+        height: 100px;
+        font-size: 64px;
+      
+      }
+      .Blog-1{
+        position: relative;
+        width: 50em;
+        height: 16em;
+        left: 20em;
+        top: 52em;
+    
+      
+      }
+      .blog-index-1{
+        color: #009688;
+        margin: -0 17px 15px 0;
+        font-size: 4em;
+        left: -2em;
+      }
+      .blog-published-1{
+        font-size: 2.2em;
+        left: -1em;
+      }
+      .blog-index-3{
+        color: #009688;
+        margin: 17px 17px 18px 0;
+        font-size: 4em;
+        left: -2em;
+    }
+      
+      .blog-published-3{
+        font-size: 2.2em;
+         left: -1em;
+      }
+      .Blog-2{
+        position: relative;
+        width: 50em;
+        height: 16em;
+        left: 9em;
+        top: 56em;
+      }
+      
+  .blog-Year-2{
+    font-size: 3.2em;
+    position: relative;
+    left: -2em;
+    top: 7em;
+  }
+  .blog-index-2{
+    color: #009688;
+    margin: -0 17px 15px 0;
+    font-size: 4em;
+    left: 1em;
+    top: 6em;
+  }
+  .blog-published-2{
+    font-size: 3.2em;
+    position: relative;
+    left: -5em;
+    top: 15em;
+  }
+      .blog-index-2{
+        color: #009688;
+        margin: -0 17px 15px 0;
+        font-size: 4em;
+      }
+      .blog-published-2{
+        font-size: 2.2em;
+        left: 3em;
+        top: 12em;
+      }
+
+}
+ /* ---------------------------------------------------------------------------END OF Media 288Px HObbies END-------------------------------------------------------------------------------------- */
+
+
+  /* -------------------------------------------------------------------------------Creative Works------------------------------------------------------------------ */
+  
+  div.container{
+    margin: 50px;
+    position: relative;
+    width: 70%;
+    left: 22em;
+    top: 5em;
+
+}
+div.category button{
+    margin: 10px;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: rgb(114, 114, 114);
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: rgb(236, 236, 236);
+}
+div.category button.active{
+    background-color: rgb(15, 153, 233,.7);
+    color: wheat;
+}
+.product{
+    display: flex;
+    flex-wrap: wrap;
+}
+.product div{
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+   margin: 10px;
+}
+.product div img{
+    width: 100%;
+    transition: .2s;
+}
+.product div img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+@media only screen and (max-width:659px){
+  div.category{
+      display: flex;
+      flex-direction: column;
+  }
+  div.category button{
+      margin: 10px;
+      padding: 5px 10px;
+      font-size: 11px;
+  }
+  .product div{
+      width: 100%;
+      height: 100%;
+      margin: 10px;
+  }
+} 
+  
+  .creative-works{
+    position: relative;
+    width: 100vw;
+    height: 161vh;
+    background-color: none;
+  }
+  .work-name{
+    font-family: 'Dosis';
+    font-size: 48px;
+    /* text-shadow: 4px 4px 4px #aaa; */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left:40%;
+    top: 0;
+    right: 0;
+    margin: auto;
+    font-size: 40px;
+  }
+  .work-line1{
+    position: absolute;
+    left: 44%;
+    top: 71px;
+    margin: auto;
+    width: 175px;
+    height: 3px;
+    background-color:#f89d36 ;
+  }
+  .work-line2{
+    position: absolute;
+    left: 756px;
+    top: 63px;
+    margin: auto;
+    width: 18px;
+    height: 18px;
+    background-color:#f89d36 ;
+    transform: rotate(45deg);
+  }
+  input{
+    display: none;
+  }
+  .tag{
+    font-size: 1.2em;
+    margin: 1.5rem 0.3em;
+    padding: 2px 1.2rem;
+    border-radius: 5px;
+    position: relative;
+    top: 90px;
+    left: 35%;
+    background-color: white;
+    display: inline-block;
+    color: black;
+    cursor: pointer;
+    border: 1px solid black;
+  }
+  .nav-img {
+    width: 1005px;
+    height: 500px;
+    position: relative;
+    left: 19%;
+    top: 197px;
+    transition: all .4s ease-in-out;
+    border-radius: 5px;
+  
+  }
+  .nav-img #anmation1{
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    width: 300px;
+    height: 402px;
+    border-radius: 5px;
+  }
+
+  .nav-img #anmation1:hover{
+  filter: grayscale(50%);
+
+  }
+  .nav-img #anmation2{
+    width: 300;
+    height: 201px;
+    bottom: 403px;
+    left: 311px;
+    position: relative;
+    border-radius: 5px;
+   
+  }
+  .nav-img #assignment1{
+    width: 300px;
+    height: 402px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 403px;
+    left: 318px;
+  
+  }
+  .nav-img #project2{
+    width: 300;
+    height: 201px;
+    position: relative;
+    top: 8px;
+    left: 15px;
+    border-radius: 5px;
+  }
+  .nav-img #project3{
+    width: 300px;
+    height: 402px;
+    position: relative;
+    bottom: 397px;
+    left: 312px;
+    border-radius: 5px;
+  }
+  .nav-img #project4{
+    width: 300;
+    height: 201px;
+    position: relative;
+    bottom: 397px;
+    right: 302px;
+    border-radius: 5px;
+  
+  }
+  
+  #nav-projects:checked ~ .nav-img > img:not([class *="nav-projects"]),
+  #nav-ass:checked ~ .nav-img > img:not([class *="nav-ass"]),
+  #nav-anime:checked ~ .nav-img > img:not([class *="nav-anime"]){
+    width: 0;
+    height: 0;
+  }
+  #nav-all:checked ~ .all,
+  #nav-projects:checked ~ .projects,
+  #nav-ass:checked ~ .ass,
+  #nav-anime:checked ~ .anime{
+    background-color: #f89d36;
+    color: white;
+  }
+  .works-button{
+    width: 90px;
+    height: 36px;
+    position: relative;
+    bottom: -527px;
+    left: 0%;
+    margin: auto;
+    border: 1px solid #f89d36;
+    padding: 2px 1.2rem;
+  }
+  .works-button h2{
+    color: #f89d36;
+    font-size: 14px;
+  
+  }
+
+  /*  -----------------------------------------------------------------------END Of Creative Works------------------------------------------------------------------- */
+  
+  /*  -----------------------------------------------------------------------Media 360px Creative Works------------------------------------------------------------------- */
+
+  @media all and (max-width:360px){
+      
+  div.container{
+    margin: 50px;
+    position: relative;
+    width: 70%;
+    left: 22em;
+    top: 6em;
+
+}
+    div.category button{
+      margin: 10px;
+      padding: 5px 10px;
+      font-size: 58px;
+  }
+    div.category button{
+      margin: 10px;
+      border: none;
+      outline: none;
+      padding: 10px 20px;
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: bold;
+      color: rgb(114, 114, 114);
+      text-transform: uppercase;
+      cursor: pointer;
+      border-radius: 10px;
+      background-color: rgb(236, 236, 236);
+  }
+    .creative-works{
+      position: relative;
+      width: 401vw;
+      height: 451vh;
+      top: -132em;
+      bottom: 32em;
+      left: -9em;
+      background-color: none;
+    }
+    .work-name{
+      font-family: 'Dosis';
+      font-size: 48px;
+      /* text-shadow: 4px 4px 4px #aaa; */
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 16%;
+      top: 0;
+      right: 0;
+      margin: auto;
+      font-size: 133px;
+    }
+    .work-line1{
+      position: absolute;
+      left: 28%;
+      top: 11em;
+      margin: auto;
+      width: 41em;
+      height: 14px;
+      background-color: #f89d36;
+    }
+    .work-line2{
+      display: none;
+      position: absolute;
+      left: 756px;
+      top: 63px;
+      margin: auto;
+      width: 18px;
+      height: 18px;
+      background-color:#f89d36 ;
+      transform: rotate(45deg);
+    }
+    input{
+      display: none;
+    }
+    .tag{
+      font-size: 5.2em;
+      margin: 1.5rem 0.3em;
+      padding: 2px 1.2rem;
+      border-radius: 5px;
+      position: relative;
+      top: 256px;
+      left: 14%;
+      background-color: white;
+      display: inline-block;
+      color: black;
+      cursor: pointer;
+      border: 1px solid black;
+    }
+    .nav-img {
+      width: 1005px;
+      height: 500px;
+      position: relative;
+      left: 19%;
+      top: 197px;
+      transition: all .4s ease-in-out;
+      border-radius: 5px;
+    
+    }
+    .nav-img #anmation1{
+      position: relative;
+      left: -72px;
+      opacity: 1;
+      display: block;
+      transition: .5s ease;
+      backface-visibility: hidden;
+      width: 33em;
+      top: 9em;
+      height: auto;
+      border-radius: 5px;
+    }
+  
+    .nav-img #anmation1:hover{
+    filter: grayscale(50%);
+    }
+    .nav-img #anmation2{
+      width: 33em;
+      height: 45em;
+      bottom: 579px;
+      left: 475px;
+      position: relative;
+      border-radius: 5px;
+     
+    }
+    .nav-img #assignment1{
+      width: 33em;
+      height: 45em;
+      border-radius: 5px;
+      position: relative;
+      bottom: 555px;
+      left: -72px;
+    
+    }
+    .nav-img #project2{
+      width: 33em;
+      height: 45em;
+      position: relative;
+      top: -80em;
+      left: 475px;
+      border-radius: 5px;
+    }
+    .nav-img #project3{
+      width: 33em;
+      height: 45em;
+      position: relative;
+      bottom: 79em;
+      left: 475px;
+      border-radius: 5px;
+    }
+    .nav-img #project4{
+      width: 33em;
+      height: 45em;
+      position: relative;
+      bottom: 124em;
+      right: 72px;
+      border-radius: 5px;
+    
+    }
+    
+    #nav-projects:checked ~ .nav-img > img:not([class *="nav-projects"]),
+    #nav-ass:checked ~ .nav-img > img:not([class *="nav-ass"]),
+    #nav-anime:checked ~ .nav-img > img:not([class *="nav-anime"]){
+      width: 0;
+      height: 0;
+    }
+    #nav-all:checked ~ .all,
+    #nav-projects:checked ~ .projects,
+    #nav-ass:checked ~ .ass,
+    #nav-anime:checked ~ .anime{
+      background-color: #f89d36;
+      color: white;
+    }
+    .works-button{
+      width: 23em;
+      height: 8em;
+      position: relative;
+      bottom: -130em;
+      left: 0%;
+      margin: auto;
+      border: 1px solid #f89d36;
+      padding: 2px 1.2rem;
+    }
+    .works-button h2{
+      color: #f89d36;
+      font-size: 3em;
+    
+    }
+  }
+
+  /*  -----------------------------------------------------------------------Media 360px Creative Works------------------------------------------------------------------- */
+  /* width: 401vw;
+  height: 100vh; */
+  /*  -----------------------------------------------------------------------Media 288px Creative Works------------------------------------------------------------------- */
+  @media all and (max-width:288px){
+
+    .creative-works{
+      position: relative;
+      width: 401vw;
+      height: 275vh;
+      background-color: none;
+    }
+    .work-name{
+      font-family: 'Dosis';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left:17%;
+      top: 0;
+      right: 0;
+      margin: auto;
+      font-size: 103px;
+    }
+    .work-line1{
+      position: absolute;
+      left: 27%;
+      top: 145px;
+      margin: auto;
+      width: 540px;
+      height: 13px;
+      background-color: #f89d36;
+    }
+    .work-line2{
+      position: absolute;
+      left: 756px;
+      top: 63px;
+      margin: auto;
+      width: 18px;
+      height: 18px;
+      background-color:#f89d36 ;
+      transform: rotate(45deg);
+      display: none;
+    }
+    input{
+      display: none;
+    }
+    .tag{
+      font-size: 3.2em;
+      margin: 5rem 0.1em;
+      padding: 0.1px 0.1rem;
+      border-radius: 5px;
+      position: relative;
+      top: 172px;
+      left: 32%;
+      background-color: white;
+      display: inline-block;
+      color: black;
+      cursor: pointer;
+      border: 1px solid black;
+    }
+    .nav-img {
+      width: 1005px;
+      height: 500px;
+      position: relative;
+      left: 19%;
+      top: 197px;
+      transition: all .4s ease-in-out;
+      border-radius: 5px;
+    
+    }
+    .nav-img #anmation1{
+      position: relative;
+      left: -72px;
+      opacity: 1;
+      display: block;
+      transition: .5s ease;
+      backface-visibility: hidden;
+      width: 408px;
+      height: 357px;
+      border-radius: 5px;
+    }
+  
+    .nav-img #anmation1:hover{
+    filter: grayscale(50%);
+    }
+    .nav-img #anmation2{
+      width: 408px;
+      height: 357px;
+      bottom: 403px;
+      left: 356px;
+      position: relative;
+      border-radius: 5px;
+     
+    }
+    .nav-img #assignment1{
+      width: 408px;
+      height: 402px;
+      border-radius: 5px;
+      position: relative;
+      bottom: -15px;
+      left: -56px;
+    
+    }
+    .nav-img #project2{
+      width: 408px;
+      height: 405px;
+      position: relative;
+      top: 35px;
+      left: -72px;
+      border-radius: 5px;
+    }
+    .nav-img #project3{
+      width: 408px;
+      height: 373px;
+      position: relative;
+      bottom: -3px;
+      left: -56px;
+      border-radius: 5px;
+    }
+    .nav-img #project4{
+      width: 408px;
+      height: 402px;
+      position: relative;
+      bottom: 801px;
+      right: 72px;
+      border-radius: 5px;
+  }
+    
+  
+    
+    #nav-projects:checked ~ .nav-img > img:not([class *="nav-projects"]),
+    #nav-ass:checked ~ .nav-img > img:not([class *="nav-ass"]),
+    #nav-anime:checked ~ .nav-img > img:not([class *="nav-anime"]){
+      width: 0;
+      height: 0;
+    }
+    #nav-all:checked ~ .all,
+    #nav-projects:checked ~ .projects,
+    #nav-ass:checked ~ .ass,
+    #nav-anime:checked ~ .anime{
+      background-color: #f89d36;
+      color: white;
+    }
+    .works-button{
+      width: 130px;
+      height: 63px;
+      position: relative;
+      /* bottom: 0; */
+      top: 59em;
+      left: 0%;
+      margin: auto;
+      border: 1px solid #f89d36;
+      padding: 2px 1.2rem;
+    }
+    .works-button h2{
+      color: #f89d36;
+      font-size: 20px;
+
+
+  }
+}
+
+  /*  -----------------------------------------------------------------------END Of Media Creative Works------------------------------------------------------------------- */
+
+  /*  --------------------------------------------------------------------------------projectMind -------------------------------------------------------------------------------- */
+  
+  
+  .projectMind{
+    position: relative;
+    background-color: darkblue;
+    width: 100vw;
+    height: 29vh;
+  }
+
+
+  .prj-Mind-img{
+    width: 100%;
+    height: 211px;
+    position: absolute;
+  }
+      
+.prj-mnd-Title{
+  z-index: 5;
+  position: absolute;
+  left: 28%;
+  top: 18px;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  color: white;
+  font-size: 2.3em;
+}
+.prj-mind-body{
+  z-index: 5;
+  position: absolute;
+  left: 36%;
+  top: 80px;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  color: white;
+  font-size: 1em;
+}
+.prj-mind-button{
+  z-index: 5;
+  position: absolute;
+  left: -3%;
+  top: 119px;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 7em;
+  height: 34px;
+  border-radius: 3em;
+  cursor: zoom-in;
+  background-color:#f89d36 ;
+  font-weight: 700;
+  
+}
+
+   /*  --------------------------------------------------------------------------------END Of projectMind -------------------------------------------------------------------------------- */
+    
+   /*  --------------------------------------------------------------------------------Media Of 360px projectMind -------------------------------------------------------------------------------- */
+ @media all and (max-width:360px){
+  .projectMind{
+    position: relative;
+    background-color: darkblue;
+    width: 402vw;
+    height: 88vh;
+  }
+
+
+  .prj-Mind-img{
+    width: 100%;
+    height: 560px;
+    position: absolute;
+  }
+      
+.prj-mnd-Title{
+  z-index: 5;
+  position: absolute;
+  left: 4%;
+  width: 19em;
+  top: 62px;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  color: white;
+  font-size: 4.8em;
+}
+
+.prj-mind-body{
+  z-index: 5;
+  position: absolute;
+  left: 5%;
+  top: 184px;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  color: white;
+  font-size: 3.3em;
+}
+.prj-mind-button{
+  z-index: 5;
+  position: absolute;
+  left: -3%;
+  top: 289px;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 7em;
+  height: 115px;
+  border-radius: 3em;
+  cursor: zoom-in;
+  background-color: #f89d36;
+  font-weight: 700;
+  font-size: 3em;
+  
+}
+ }
+
+ /*  --------------------------------------------------------------------------------END Of Media 360px OfprojectMind -------------------------------------------------------------------------------- */
+
+
+ /*  --------------------------------------------------------------------------------Media Of 288px projectMind -------------------------------------------------------------------------------- */
+ @media all and (max-width:288px){
+  .projectMind{
+    position: relative;
+    background-color: darkblue;
+    width: 402vw;
+    height: 33vh;
+  }
+
+
+  .prj-Mind-img{
+    width: 100%;
+    height: 211px;
+    position: absolute;
+  }
+      
+.prj-mnd-Title{
+  z-index: 5;
+  position: absolute;
+  left: 16%;
+  top: 18px;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  color: white;
+  font-size: 2.8em;
+}
+
+.prj-mind-body{
+  z-index: 5;
+  position: absolute;
+  left: 29%;
+  top: 81px;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  color: white;
+  font-size: 1.3em;
+}
+.prj-mind-button{
+  z-index: 5;
+  position: absolute;
+  left: -3%;
+  top: 147px;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 8em;
+  height: 42px;
+  border-radius: 3em;
+  cursor: zoom-in;
+  background-color: #f89d36;
+  font-weight: 700;
+  
+}
+ }
+
+ /*  --------------------------------------------------------------------------------END Of Media OfprojectMind -------------------------------------------------------------------------------- */
+
+ /* --------------------------------------------------------------------------------Contact US-------------------------------------------------------------------------------- */
+ 
+ .Contact-Us{
+
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  
+
+
+ }
+ .set-Title{
+   position: relative;
+   left: 48px;
+ }
+ .Cont-Title-1{
+  font-family: 'Dosis';
+  /* text-shadow: 4px 4px 4px #aaa; */
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left:40%;
+  top: 0;
+  right: 0;
+  margin: auto;
+  font-size: 36px;
+ }
+ .Cont-Title-2{
+  font-family: 'Dosis';
+  /* text-shadow: 4px 4px 4px #aaa; */
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left:51%;
+  top: 0;
+  right: 0;
+  margin: auto;
+  font-size: 36px;
+ }
+ .con-line1{
+  position: absolute;
+  left: 41%;
+  top: 56px;
+  margin: auto;
+  width: 175px;
+  height: 3px;
+  background-color:#f89d36 ;
+}
+.con-line2{
+  position: absolute;
+  left: 706px;
+  top: 49px;
+  margin: auto;
+  width: 18px;
+  height: 18px;
+  background-color:#f89d36 ;
+  transform: rotate(45deg);
+}
+.con-Zt-Menu{
+  position: absolute;
+  top: 110px;
+  width: 100vw;
+  height: 223px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.con-img-1 {
+  position: relative;
+  width: calc(100vw/3);
+  height: 223px;
+
+}
+.con-img-phone{
+  width: 42px;
+  position: absolute;
+  top: 0;
+  left: 45%;
+}
+.con-img-name-1{
+  position: absolute;
+  top: 53px;
+  left: 45%;
+}
+.con-img-body-1{
+  position: absolute;
+  top: 103px;
+  left: 15%;
+}
+.con-contOpt-1{
+  position: absolute;
+  top: 170px;
+  left: 40%;
+}
+.con-img-2 {
+  position: relative;
+  width: calc(100vw/3);
+  height: 223px;
+
+}
+.con-img-phone2{
+  width: 42px;
+  position: absolute;
+  top: 0;
+  left: 45%;
+}
+.con-img-name-2{
+  position: absolute;
+  top: 53px;
+  left: 45%;
+}
+.con-img-body-2{
+  position: absolute;
+  top: 103px;
+  left: 15%;
+}
+.con-contOpt-2{
+  position: absolute;
+  top: 170px;
+  left: 40%;
+}
+.con-img-3 {
+  position: relative;
+  width: calc(100vw/3);
+  height: 223px;
+
+}
+.con-img-phone3{
+  width: 42px;
+  position: absolute;
+  top: 0;
+  left: 45%;
+}
+.con-img-name-3{
+  position: absolute;
+  top: 53px;
+  left: 45%;
+}
+.con-img-body-3{
+  position: absolute;
+  top: 103px;
+  left: 15%;
+}
+.con-contOpt-3{
+  position: absolute;
+  top: 170px;
+  left: 40%;
+}
+.con-My-img{
+  position: absolute;
+  top: 324px;
+  width: calc(100vw/2);
+  height: 403px;
+
+}
+.my-photo-con{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  border-radius: 50%;
+}
+.my-photo-con-IMG{
+  position: absolute;
+  width: 12.5em;
+  height: 12.5em;
+  border-radius: 50%;
+}
+.con-social-gitHub{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 19em;
+  margin: auto;
+  width: 55px;
+  height: 55px;
+  border-radius: 100px;
+
+
+}
+.con-img-twitter{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 18em;
+  bottom: 0;
+  margin: auto;
+  width: 55px;
+  height: 55px;
+  border-radius: 100px;
+
+}
+.con-social-twitter{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 7px;
+  top: 7px;
+}
+.con-img-slack{
+  position: absolute;
+  top: 0;
+  left: 18em;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 55px;
+  height: 55px;
+  border-radius: 100px;
+
+}
+.con-social-slack{
+  position: absolute;
+  top: 7px;
+  left: 8px;
+  width: 39px;
+  height: 41px;
+
+}
+.con-social-facebook{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: -18em;
+  margin: auto;
+  width: 51px;
+  height: 43px;
+  border-radius: 100px;
+
+
+}
+.con-social-instagram{
+  position: absolute;
+  top: -13em;
+  left: 0;
+  right: 13em;
+  bottom: 0;
+  margin: auto;
+  width: 63px;
+  height: 61px;
+  border-radius: 100px;
+
+
+}
+.con-img-linkdin{
+  position: absolute;
+  top: 0;
+  left: 13em;
+  right: 0;
+  bottom: 13em;
+  margin: auto;
+  width: 55px;
+  height: 55px;
+  border-radius: 100px;
+
+}
+.con-social-linkdin{
+  position: absolute;
+  width: 53px;
+  height: 42px;
+  left: 4px;
+  top: 5px;
+}
+.con-social-stackoverflow{
+  position: absolute;
+  top: 13em;
+  left: 0;
+  right: 13em;
+  bottom: 0;
+  margin: auto;
+  width: 55px;
+  height: 55px;
+  border-radius: 100px;
+
+
+}
+.con-img-youtube{
+  position: absolute;
+  top: 13em;
+  left: 13em;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 55px;
+  height: 55px;
+  border-radius: 100px;
+
+}
+.con-social-youtube{
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 40px;
+  height: 40px;
+
+}
+.con-submit{
+  position: absolute;
+  top: 21em;
+  left: 46.7em;
+  width: calc(100vw/2);
+  height: 392px;
+}
+
+.form-1{
+  position: relative;
+  width: 15em;
+  height: 3.5em;
+  margin: 18px 0 0 43px;
+  border-color: rgb(175, 175, 175);
+  display: inline;
+  border-radius: 16px;
+  color: black;
+}
+.form-2{
+  position: relative;
+  width: 15em;
+  height: 3.5em;
+  border-color: rgb(175, 175, 175);
+  display: inline;
+  border-radius: 16px;
+  margin: 0 0 0px 18px;
+  color: black;
+}
+.form-4{
+  position: relative;
+  width: 31.2em;
+  height: 3.5em;
+  border-color: rgb(175, 175, 175);
+  display: inline;
+  margin: 18px 0 0 43px;
+  border-radius: 16px;
+  color: black;
+}
+.form-5{
+  position: relative;
+  width: 31.2em;
+  height: 9.8em;
+  border-color: rgb(175, 175, 175);
+  display: inline;
+  margin: 18px 0 0 42px;
+  border-radius: 16px;
+  color: black;
+}
+.form-6{
+  position: relative;
+  width: 6.2em;
+  height: 2.3em;
+  display: inline;
+  background-color:#f89d36 ;
+  margin: 21x 1px 15px 10px;
+  color: white;
+  border-radius: 16px;
+  left: -31.5em;
+  right: -47px;
+  top: 114px;
+}
+ /* --------------------------------------------------------------------------------END Of Contact US-------------------------------------------------------------------------------- */
+ 
+ /* --------------------------------------------------------------------------------media Of 360px  Contact US-------------------------------------------------------------------------------- */
+ 
+ @media all and (max-width:360px){
+  .Contact-Us{
+
+    position: relative;
+    width: 400vw;
+    height: 400vh;
+    
+  
+  
+   }
+   .set-Title{
+     position: relative;
+     left: 48px;
+   }
+   .Cont-Title-1{
+    font-family: 'Dosis';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 17%;
+    top: 0;
+    right: 0;
+    margin: auto;
+    font-size: 103px;
+   }
+   .Cont-Title-2{
+    font-family: 'Dosis';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 54%;
+    top: 0;
+    right: 0;
+    margin: auto;
+    font-size: 103px;
+   }
+   .con-line1{
+    position: absolute;
+    left: 25%;
+    top: 145px;
+    margin: auto;
+    width: 22em;
+    height: 13px;
+    background-color: #f89d36;
+  }
+  .con-line2{
+    position: absolute;
+    left: 706px;
+    top: 49px;
+    margin: auto;
+    width: 18px;
+    height: 18px;
+    background-color:#f89d36 ;
+    transform: rotate(45deg);
+    display: none;
+  }
+  .con-Zt-Menu{
+    position: absolute;
+    top: 172px;
+    width: 400vw;
+    height: 16em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .con-img-1 {
+    position: relative;
+    width: calc(400vw/2);
+    height: 223px;
+  
+  }
+  .con-img-phone{
+    width: 9em;
+    position: absolute;
+    top: 0;
+    left: 45%;
+  }
+  .con-img-name-1{
+    position: absolute;
+    top: 141px;
+    left: 45%;
+    font-size: 2.4em;
+  }
+  .con-img-body-1{
+    position: absolute;
+    top: 218px;
+    left: 26%;
+    font-size: 34px;
+  }
+  .con-contOpt-1{
+    position: absolute;
+    top: 398px;
+    left: 37%;
+    font-size: 2.5em;
+}
+  
+  .con-img-2 {
+    position: relative;
+    width: calc(400vw/2);;
+    height: 223px;
+  
+  }
+  .con-img-phone2{
+    width: 9em;
+    position: absolute;
+    top: 0;
+    left: 45%;
+  }
+  .con-img-name-2{
+    position: absolute;
+    top: 141px;
+    left: 45%;
+    font-size: 2.4em;
+  }
+  .con-img-body-2{
+    position: absolute;
+    top: 218px;
+    left: 26%;
+    font-size: 34px;
+  }
+  .con-contOpt-2{
+    position: absolute;
+    top: 398px;
+    left: 37%;
+    font-size: 2.5em;
+}
+  
+  .con-img-3 {
+    position: relative;
+    width: calc(200px);
+    height: 223px;
+  
+  }
+  .con-img-phone3{
+    width: 9em;
+    position: absolute;
+    top: 28em;
+    left: -42em;
+  }
+  .con-img-name-3{
+    position: absolute;
+    top: 16em;
+    left: -17em;
+    font-size: 2.4em;
+  }
+  .con-img-body-3{
+    position: absolute;
+    top: 20em;
+    left: -26.5em;
+    font-size: 34px;
+  }
+  .con-contOpt-3{
+    position: absolute;
+    top: 16.3em;
+    left: -15em;
+    font-size: 3em;
+  }
+  .con-My-img{
+    position: absolute;
+    top: 324px;
+    width: calc(100vw/2);
+    height: 403px;
+    display: none;
+  
+  }
+  .my-photo-con{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 50%;
+  }
+  .con-social-gitHub{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 19em;
+    margin: auto;
+    width: 55px;
+    height: 55px;
+    border-radius: 100px;
+    border: 1px solid green;
+  
+  }
+  .con-social-twitter{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 18em;
+    bottom: 0;
+    margin: auto;
+    width: 55px;
+    height: 55px;
+    border-radius: 100px;
+    border: 1px solid green;
+  
+  }
+  .con-social-slack{
+    position: absolute;
+    top: 0;
+    left: 18em;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 55px;
+    height: 55px;
+    border-radius: 100px;
+    border: 1px solid green;
+  
+  }
+  .con-social-facebook{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: -18em;
+    margin: auto;
+    width: 55px;
+    height: 55px;
+    border-radius: 100px;
+    border: 1px solid green;
+  
+  }
+  .con-social-instagram{
+    position: absolute;
+    top: -13em;
+    left: 0;
+    right: 13em;
+    bottom: 0;
+    margin: auto;
+    width: 55px;
+    height: 55px;
+    border-radius: 100px;
+    border: 1px solid green;
+  
+  }
+  .con-social-linkdin{
+    position: absolute;
+    top: 0;
+    left: 13em;
+    right: 0;
+    bottom: 13em;
+    margin: auto;
+    width: 55px;
+    height: 55px;
+    border-radius: 100px;
+    border: 1px solid green;
+  
+  }
+  .con-social-stackoverflow{
+    position: absolute;
+    top: 13em;
+    left: 0;
+    right: 13em;
+    bottom: 0;
+    margin: auto;
+    width: 55px;
+    height: 55px;
+    border-radius: 100px;
+    border: 1px solid green;
+  
+  }
+  .con-social-youtube{
+    position: absolute;
+    top: 13em;
+    left: 13em;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 55px;
+    height: 55px;
+    border-radius: 100px;
+    border: 1px solid green;
+  
+  }
+  .con-submit{
+    position: absolute;
+    top: 65em;
+    left: 7.7em;
+    width: 72em;
+    height: 392px;
+
+  }
+  
+  .form-1{
+    position: relative;
+    width: 16.5em;
+    height: 2.9em;
+    margin: 18px 0 0 43px;
+    border-color: rgb(175, 175, 175);
+    display: inline;
+    border-radius: 16px;
+    color: black;
+    font-size: 4em;
+  }
+  .form-2{
+    position: relative;
+    width: 16.5em;
+    height: 2.9em;
+    margin: 18px 0 0 43px;
+    border-color: rgb(175, 175, 175);
+    display: inline;
+    border-radius: 16px;
+    color: black;
+    font-size: 4em;
+  }
+  .form-4{
+    position: relative;
+    width: 16.5em;
+    height: 2.9em;
+    margin: 18px 0 0 43px;
+    border-color: rgb(175, 175, 175);
+    display: inline;
+    border-radius: 16px;
+    color: black;
+    font-size: 4em;
+  }
+  .form-5{
+    position: relative;
+    width: 16.5em;
+    height: 10.9em;
+    margin: 18px 0 0 43px;
+    border-color: rgb(175, 175, 175);
+    display: inline;
+    border-radius: 16px;
+    color: black;
+    font-size: 4em;
+  }
+  .form-6{
+    position: relative;
+    width: 6.2em;
+    height: 2.3em;
+    display: inline;
+    background-color: #f89d36;
+    margin: 21x 1px 15px 10px;
+    color: white;
+    border-radius: 16px;
+    left: 7.5em;
+    right: 0px;
+    top: 60px;
+    font-size: 51px;
+  }
+
+}
+
+ /* --------------------------------------------------------------------------------END Of Media Contact US-------------------------------------------------------------------------------- */
+ 
+ /* --------------------------------------------------------------------------------media Of 288px Contact US-------------------------------------------------------------------------------- */
+ 
+ @media all and (max-width:288px){
+  .Contact-Us{
+
+    position: relative;
+    width: 400vw;
+    height: 400vh;
+    
+  
+  
+   }
+   .set-Title{
+     position: relative;
+     left: 48px;
+   }
+   .Cont-Title-1{
+    font-family: 'Dosis';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 17%;
+    top: 0;
+    right: 0;
+    margin: auto;
+    font-size: 103px;
+   }
+   .Cont-Title-2{
+    font-family: 'Dosis';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 54%;
+    top: 0;
+    right: 0;
+    margin: auto;
+    font-size: 103px;
+   }
+   .con-line1{
+    position: absolute;
+    left: 25%;
+    top: 145px;
+    margin: auto;
+    width: 22em;
+    height: 13px;
+    background-color: #f89d36;
+  }
+  .con-line2{
+    position: absolute;
+    left: 706px;
+    top: 49px;
+    margin: auto;
+    width: 18px;
+    height: 18px;
+    background-color:#f89d36 ;
+    transform: rotate(45deg);
+    display: none;
+  }
+  .con-Zt-Menu{
+    position: absolute;
+    top: 172px;
+    width: 400vw;
+    height: 16em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .con-img-1 {
+    position: relative;
+    width: calc(400vw/2);
+    height: 223px;
+  
+  }
+  .con-img-phone{
+    width: 9em;
+    position: absolute;
+    top: 0;
+    left: 45%;
+  }
+  .con-img-name-1{
+    position: absolute;
+    top: 141px;
+    left: 45%;
+    font-size: 2.4em;
+  }
+  .con-img-body-1{
+    position: absolute;
+    top: 218px;
+    left: 26%;
+    font-size: 34px;
+  }
+  .con-contOpt-1{
+    position: absolute;
+    top: 398px;
+    left: 37%;
+    font-size: 2.5em;
+}
+  
+  .con-img-2 {
+    position: relative;
+    width: calc(400vw/2);;
+    height: 223px;
+  
+  }
+  .con-img-phone2{
+    width: 9em;
+    position: absolute;
+    top: 0;
+    left: 45%;
+  }
+  .con-img-name-2{
+    position: absolute;
+    top: 141px;
+    left: 45%;
+    font-size: 2.4em;
+  }
+  .con-img-body-2{
+    position: absolute;
+    top: 218px;
+    left: 26%;
+    font-size: 34px;
+  }
+  .con-contOpt-2{
+    position: absolute;
+    top: 398px;
+    left: 37%;
+    font-size: 2.5em;
+}
+  
+  .con-img-3 {
+    position: relative;
+    width: calc(200px);
+    height: 223px;
+  
+  }
+  .con-img-phone3{
+    width: 9em;
+    position: absolute;
+    top: 28em;
+    left: -33em;
+  }
+  .con-img-name-3{
+    position: absolute;
+    top: 16em;
+    left: -13.5em;
+    font-size: 2.4em;
+  }
+  .con-img-body-3{
+    position: absolute;
+    top: 20em;
+    left: -20.5em;
+    font-size: 34px;
+  }
+  .con-contOpt-3{
+    position: absolute;
+    top: 16.3em;
+    left: -12em;
+    font-size: 3em;
+  }
+  .con-My-img{
+    position: absolute;
+    top: 324px;
+    width: calc(100vw/2);
+    height: 403px;
+    display: none;
+  
+  }
+  .my-photo-con{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 50%;
+  }
+  .con-social-gitHub{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 19em;
+    margin: auto;
+    width: 55px;
+    height: 55px;
+    border-radius: 100px;
+    border: 1px solid green;
+  
+  }
+  .con-social-twitter{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 18em;
+    bottom: 0;
+    margin: auto;
+    width: 55px;
+    height: 55px;
+    border-radius: 100px;
+    border: 1px solid green;
+  
+  }
+  .con-social-slack{
+    position: absolute;
+    top: 0;
+    left: 18em;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 55px;
+    height: 55px;
+    border-radius: 100px;
+    border: 1px solid green;
+  
+  }
+  .con-social-facebook{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: -18em;
+    margin: auto;
+    width: 55px;
+    height: 55px;
+    border-radius: 100px;
+    border: 1px solid green;
+  
+  }
+  .con-social-instagram{
+    position: absolute;
+    top: -13em;
+    left: 0;
+    right: 13em;
+    bottom: 0;
+    margin: auto;
+    width: 55px;
+    height: 55px;
+    border-radius: 100px;
+    border: 1px solid green;
+  
+  }
+  .con-social-linkdin{
+    position: absolute;
+    top: 0;
+    left: 13em;
+    right: 0;
+    bottom: 13em;
+    margin: auto;
+    width: 55px;
+    height: 55px;
+    border-radius: 100px;
+    border: 1px solid green;
+  
+  }
+  .con-social-stackoverflow{
+    position: absolute;
+    top: 13em;
+    left: 0;
+    right: 13em;
+    bottom: 0;
+    margin: auto;
+    width: 55px;
+    height: 55px;
+    border-radius: 100px;
+    border: 1px solid green;
+  
+  }
+  .con-social-youtube{
+    position: absolute;
+    top: 13em;
+    left: 13em;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 55px;
+    height: 55px;
+    border-radius: 100px;
+    border: 1px solid green;
+  
+  }
+  .con-submit{
+    position: absolute;
+    top: 65em;
+    left: -0.3em;
+    width: 72em;
+    height: 392px;
+
+  }
+  
+  .form-1{
+    position: relative;
+    width: 16.5em;
+    height: 2.9em;
+    margin: 18px 0 0 43px;
+    border-color: rgb(175, 175, 175);
+    display: inline;
+    border-radius: 16px;
+    color: black;
+    font-size: 4em;
+  }
+  .form-2{
+    position: relative;
+    width: 16.5em;
+    height: 2.9em;
+    margin: 18px 0 0 43px;
+    border-color: rgb(175, 175, 175);
+    display: inline;
+    border-radius: 16px;
+    color: black;
+    font-size: 4em;
+  }
+  .form-4{
+    position: relative;
+    width: 16.5em;
+    height: 2.9em;
+    margin: 18px 0 0 43px;
+    border-color: rgb(175, 175, 175);
+    display: inline;
+    border-radius: 16px;
+    color: black;
+    font-size: 4em;
+  }
+  .form-5{
+    position: relative;
+    width: 16.5em;
+    height: 10.9em;
+    margin: 18px 0 0 43px;
+    border-color: rgb(175, 175, 175);
+    display: inline;
+    border-radius: 16px;
+    color: black;
+    font-size: 4em;
+  }
+  .form-6{
+    position: relative;
+    width: 6.2em;
+    height: 2.3em;
+    display: inline;
+    background-color: #f89d36;
+    margin: 21x 1px 15px 10px;
+    color: white;
+    border-radius: 16px;
+    left: 7.5em;
+    right: 0px;
+    top: 60px;
+    font-size: 51px;
+  }
+
+}
+
+ /* --------------------------------------------------------------------------------END Of Media Contact US-------------------------------------------------------------------------------- */
+
+  /* --------------------------------------------------------------------------------Footer-------------------------------------------------------------------------------- */
+ 
+ footer{
+  position: relative;
+  width: 100vw;
+  height: 61px;
+  background: #868686;
+}
+ 
+.footer-name{
+  position: absolute;
+  font-size: 1.2em;
+  left: 37em;
+  right: 0;
+  top: 0;
+  height: 0;
+  margin: auto;
+}
+.footer-name1{
+
+  position: absolute;
+  font-size: 2em;
+  left: 25.2em;
+  right: 0;
+  top: -11px;
+  height: 0;
+  margin: auto;
+  color: #f89d36;
+
+}
+.footer-name2{
+  position: absolute;
+  font-size: 1em;
+  left: 34em;
+  right: 0;
+  top: 34px;
+  height: 0;
+  margin: auto;
+}
+  /* --------------------------------------------------------------------------------END Of Media 360px Footer-------------------------------------------------------------------------------- */
+  @media all and (max-width:360px){
+    footer{
+      position: relative;
+      width: 400vw;
+      height: 188px;
+      background: #868686;
+    }
+     
+    .footer-name{
+      position: absolute;
+      font-size: 4.2em;
+      left: 6em;
+      right: 0;
+      top: 21px;
+      height: 0;
+      margin: auto;
+    }
+    .footer-name1{
+      position: absolute;
+      font-size: 3em;
+      left: 15em;
+      right: 0;
+      top: 0;
+      height: 0;
+      margin: auto;
+      color: #f89d36;
+    }
+    .footer-name2{
+      position: absolute;
+      font-size: 2.6em;
+      left: 1em;
+      right: 0;
+      top: 104px;
+      height: 0;
+      margin: auto;
+    }
+  }
+
+  /* --------------------------------------------------------------------------------END Of Media 288px Footer-------------------------------------------------------------------------------- */
+  @media all and (max-width:288px){
+    footer{
+      position: relative;
+      width: 400vw;
+      height: 188px;
+      background: #868686;
+    }
+     
+    .footer-name{
+      position: absolute;
+      font-size: 4.2em;
+      left: 8em;
+      right: 0;
+      top: 21px;
+      height: 0;
+      margin: auto;
+    }
+    .footer-name1{
+      position: absolute;
+      font-size: 3em;
+      left: 15em;
+      right: 0;
+      top: 0;
+      height: 0;
+      margin: auto;
+      color: #f89d36;
+    }
+    .footer-name2{
+      position: absolute;
+      font-size: 2.6em;
+      left: 4em;
+      right: 0;
+      top: 104px;
+      height: 0;
+      margin: auto;
+    }
+  }
+
