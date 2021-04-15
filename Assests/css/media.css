@@ -1,5 +1,146 @@
-/* /*-------------------------------------------------------Landing Page/*-------------------------------------------------------*/
+.navBar{
+  box-sizing: border-box;
+  position:fixed ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background-color:rgba(255, 255, 255, 0.5);
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  z-index: 10;
+  
+}
+.navUl{ 
+  font-family: 'Work Sans', sans-serif;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: -12em;
+}
 
+.navBar-links li{
+  list-style: none;
+  position: relative;
+  left: -12em;
+}
+
+.navBar-links li a{
+text-decoration: none;
+color: #1d1c1c;
+font-size: 14.5px;
+font-weight: 900;
+letter-spacing: 2px;
+padding: 1rem;
+display: block;
+  
+
+}
+
+.navBar-links li a:hover{
+color: rgb(177, 177, 177);
+}
+
+.brand-logo h2{
+  color: #1d1c1c;
+  font-size: 14.5px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  font-family: 'Work Sans', sans-serif;
+
+
+}
+
+.toggle-button{
+   position: absolute;
+   top: .75rem;
+   right: 1rem;
+   display: none;
+   flex-direction: column;
+   justify-content: space-between;
+   width: 30px;
+   height: 21px;
+}
+.toggle-button .bar{
+   height: 3px;
+   width: 100%;
+   background-color: black;
+   border-radius: 10px;
+}
+/* /*-------------------------------------------------------Landing Page/*-------------------------------------------------------*/
+@media screen and (max-width:460px) and (min-width:360px){
+  
+  .toggle-button {
+    position: absolute;
+    top: 1.75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 63px;
+    height: 34px;
+  }
+    .toggle-button{
+        display: flex;
+    }
+    .navBar-links{
+        width: 100%;
+        display: none;
+    }
+    .navBar{
+      position: absolute;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 400vw;
+      height: 11em;
+    }
+    .navBar-links ul{
+        flex-direction: column;
+    }
+    .navBar-links li{
+        text-align: center;
+        left: -10em;
+    }
+    .navBar-links li a{
+      padding: .5rem 1rem;
+      font-size: 4em;
+    }
+    .navBar-links.active{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .brand-logo img{
+      position: relative;
+    width: 18em;
+    height: auto;
+    }
+    .brand-logo h2 {
+      color: #1d1c1c;
+      font-size: 6em;
+      top: -47px;
+      position: relative;
+      font-weight: 900;
+      letter-spacing: 2px;
+      font-family: 'Work Sans', sans-serif;
+  }
+    .navUl {
+      list-style: none;
+      font-family: 'Play', sans-serif;
+      font-size: 40px;
+      position: absolute;
+      top: 20em;
+      left: 28em;
+      width: 551vw;
+      letter-spacing: 60px;
+      opacity: 0.4;
+      background: #98939e;
+      transform: translate(-50%, -50%);
+  }
+}
 
       /*-------------------------------------------------------Media phone-X 360px landing page---------------------------------------- */
   
@@ -12,188 +153,6 @@
          
           
       }
-        header{
-          background-color: none;
-          position: relative;
-          background-color: none;
-          background-color: #eeeeee;
-          height: 52px;
-        }
-        .logo{
-          width: 175px;
-          height: 48px;
-          padding: 10px;
-          font-size: 4em;
-          font-family: 'Noto Sans TC', sans-serif;
-        }
-        .logo2{
-          position: absolute;
-          left: 110px;
-          top: -3px;
-          height: 100px;
-          margin: auto;
-          color: #f89d36;
-          font-size: 37px;
-        }
-        
-        .navUl{
-          list-style: none;
-          font-family: 'Play', sans-serif;
-          font-size: 39px;
-          position: absolute;
-          top: 6px;
-          left: 20em;
-          width: 23em;
-          transform: translate(-50%, -50%);
-          
-        }
-        .navUl li{
-          color: white;
-          display: inline;
-          margin: 16px;
-          position: relative;
-          padding: 8px;
-         
-        }
-        body>header>nav>ul>li> a{
-          text-decoration: none;
-          color: black;
-        }   
-        
-        .home::before{
-          content: " ";
-          position: absolute;
-          bottom: 0;
-          left: 0;
-          right: 54px;
-          margin: auto;
-        
-        }
-        .home:hover::before{
-          animation: roll5 1s 1;
-        }
-        @keyframes roll5{
-          from{
-             border-bottom:2px solid #f89d36 ;
-             left: 8px;
-             right: 54px;
-         }to{
-             border-bottom:2px solid #f89d36 ;
-             left: 8px;
-             right: 15px;
-         }
-        
-        
-        }
-        
-        .about::before{
-          content: " ";
-          position: absolute;
-          bottom: 0;
-          left: 8px;
-          right: 57px;
-          margin: auto;
-          border-bottom: 5px solid white; 
-        
-        }
-        
-        .about:hover::before{
-          animation:roll 1s infinite;
-        }
-        @keyframes roll{
-           from{
-              border-bottom:2px solid #f89d36 ;
-              left: 6px;
-              right: 56px;
-          }to{
-              border-bottom:2px solid #f89d36 ;
-              left: 6px;
-              right: 10px;
-          }
-        
-        
-        
-        }
-        .myWorks::before{
-          content: " ";
-          position: absolute;
-          bottom: 0;
-          left: 8px;
-          right: 80px;
-          margin: auto;
-          border-bottom: 5px solid white; 
-        }
-        .myWorks:hover::before{
-          color: rgb(202, 197, 202);
-          animation:roll2 1.5s infinite;
-        }
-        @keyframes roll2{
-          from{
-             border-bottom:2px solid #f89d36 ;
-             left: 8px;
-             right: 79px;
-             
-         }
-         to{
-          border-bottom:2px solid #f89d36 ;
-          left: 8px;
-          right: 10px;
-         }
-        
-        }
-        .skills::after{
-          content: " ";
-          position: absolute;
-          bottom: 0;
-          left: 9px;
-          right: 55px;
-          margin: auto;
-          border-bottom: 5px solid white; 
-        }
-        .skills:hover::after{
-          transition: 0.5s linear;
-          animation: roll3 1s 1;
-        }
-        @keyframes roll3{
-          from{
-             border-bottom:2px solid #f89d36 ;
-             left: 9px;
-             right: 49px;
-         }
-         to{
-          border-bottom:2px solid #f89d36 ;
-          left: 8px;
-          right: 13px;
-         }
-        
-        }
-        .service::before{
-          content: " ";
-          position: absolute;
-          bottom: 0;
-          left: 10px;
-          right: 76px;
-          margin: auto;
-          border-bottom: 5px solid white; 
-        
-        }
-        .service:hover::before{
-          animation: roll4 1s 1;
-        }
-        @keyframes roll4{
-          from{
-             border-bottom:2px solid #f89d36 ;
-             left: 10px;
-             right: 64px;
-         }
-         to{
-          border-bottom:2px solid #f89d36 ;
-          left: 10px;
-          right: 13px;
-         }
-        
-        }
-        
         /* .contact a{
           color: rgb(255, 253, 253)    ;
         
@@ -213,21 +172,26 @@
           background-color: #ffc40c ;
           transition: 1s;
         } */
-        
+        .header-area h2 {
+          position: relative;
+          font-size: 1.2em;
+          display: inline;
+          right: 1em;
+          width: 129%;
+      }
         .first_word1{
           position: absolute;
-          width: 627px;
+          width: 100%;
           height: 200px;
-          left: -519px;
+          /* left: -655px; */
           top: 0;
-          right: 0;
+          right: -3.8em;
           bottom: 0;
           margin: auto;
           padding: 0;
-          font-size: 144px;
+          font-size: 186px;
           z-index: 5;
-          font-family: 'Noto Sans TC', sans-serif;
-        
+          font-weight: 900;
         } 
         
         .first_word2{
@@ -241,26 +205,39 @@
           bottom: 0;
           z-index: 5;
           margin: auto;
-          font-size: 144px;
+          font-size: 186px;
           color: #f89d36;
+          font-weight: 900;
         }
         .first_word3{
           font-family: 'Noto Sans TC', sans-serif;
-          width: 553px;
+          width: 100%;
           height: 200px;
           position: absolute;
-          left: -572px;
-          right: 0;
+          left: 2em;
+          /* right: 0; */
           bottom: 0;
-          top: 351px;
+          top: 597px;
           z-index: 5;
           margin: auto;
-          font-size: 84px;
+          font-size: 105px;
         }
         .first_word3::before{
           content: " ";
         
         }
+        .fb {
+          position: absolute;
+          top: 131em;
+          /* right: -420px; */
+          margin: auto;
+          width: 15em;
+          left: -73em;
+          height: 14em;
+          border: 1px solid #f89d36;
+          border-radius: 20%;
+          z-index: 9999;
+      }
         .landimg img{
           width: 82em;
           height: 342vh;
@@ -275,17 +252,6 @@
           right: 0;
         }
         /* png-transparent-place-vertu-management-brand-business-company-fb-miscellaneous-service-vector-icons-removebg-preview 1 */
-        
-        .fb{
-          position: absolute;
-          top: 0;
-          right: -420px;
-          margin: auto;
-          width: 40px;
-          height: 40px;
-          border: 1px solid #f89d36 ;
-          border-radius: 20%;
-        }
         .fb>img:nth-child(1){
           position: absolute;
           top: 4px;
@@ -293,18 +259,20 @@
           right: 404px;
           left: 3px;
           margin: auto;
-          width: 37px;
-          height: 30px;
+          width: 15em;
+          height: 8em;
         }
         .link{
           position: absolute;
-          top:0;
-          right: -300px;
+          top: 131em;
+          /* right: -420px; */
           margin: auto;
-          width: 40px;
-          height: 40px;
-          border: 1px solid #f89d36 ;
+          width: 15em;
+          left: -22em;
+          height: 14em;
+          border: 1px solid #f89d36;
           border-radius: 20%;
+          z-index: 9999;
         }
         .link>img{
           position: absolute;
@@ -313,18 +281,20 @@
           right: 0;
           left: 2px;
           margin: auto;
-          width: 42px;
-          height: 27px;
+          width: 11em;
+          height: 7em;
         }
         .insta{
           position: absolute;
-          top:0;
-          right: -360px;
+          top: 131em;
+          /* right: -420px; */
           margin: auto;
-          width: 40px;
-          height: 40px;
-          border: 1px solid #f89d36 ;
+          left: 19em;
+          width: 15em;
+          height: 14em;
+          border: 1px solid #f89d36;
           border-radius: 20%;
+          z-index: 9999;
         }
         .insta>img{
           position: absolute;
@@ -333,8 +303,8 @@
           right: -56px;
           left: -55px;
           margin: auto;
-          width: 48px;
-          height: 48px;
+          width: 15em;
+          height: 8em;
         }
         
         
@@ -475,13 +445,13 @@
     }
     .myPhoto > img{
       position: absolute;
-      width: 60em;
+      width: 68em;
       height: auto;
       left: -1em;
-      top: 114em;
+      top: 109em;
       right: 0;
       margin: auto;
-      border-radius: 20px;
+      border-radius: 124px;
       z-index: 9;
       
     
@@ -505,13 +475,13 @@
     }
     .myphotoborder{
       position: absolute;
-      width: 63em;
-      height: 89em;
+      width: 70em;
+      height: 100em;
       left: 2em;
-      top: 114em;
+      top: 109em;
       right: 0;
       margin: auto;
-      border-radius: 20px;
+      border-radius: 124px;
       border: 5px solid#cccccc;
     }
     .aboutus{

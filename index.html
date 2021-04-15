@@ -16,6 +16,12 @@
  <!--Fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@700&family=Potta+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Carrois+Gothic&display=swap" rel="stylesheet">
  <!--End fonts-->
 
 </head>
@@ -25,36 +31,54 @@
     <script src="Assests/js/particles.js" ></script>
     <script src="Assests/js/typed.js"></script>
     <header>
-        <h2 class="logo">Portfolio</h2>
-        <h2 class="logo2">.</h2>    
-        <nav>
+
+        <nav class="navBar">
+            <div class="brand-logo"> <h2>PortFolio</h2> </div>
+            <div class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <div class="navBar-links">
             <ul class="navUl">
-                <li  class="home">
-                    <div class="line1"></div>
-                    <div class="line2"></div>
-                    <a href="#home">HOME</a> </li>
-                <li class="about"><a href="#about">ABOUT</a> </li>
-                <li class="myWorks"><a href="#myworks"> MY WORKS</a></li>
-                <li class="skills"><a href="#skills">SKILLS</a> </li>
-                <li class="service"><a href="#service">SERVICES</a> </li>
-                <li class="contact"><a href="#contact">CONTACT</a> </li> 
-                <div class="fb" onclick="window.open('https://www.facebook.com/hhddveje','_blank', 'location=yes,height=570,width=520,scrollbars=yes,status=yes')">
-                    <img src="Assests/img/fb.png" alt="">
-                </div>
-                <div class="link" onclick="window.open('https://www.linkedin.com/in/malindu-amesh-b39b591a4/','_blank', 'location=yes,height=570,width=520,scrollbars=yes,status=yes')">
-                    <img src="Assests/img/linked in.png" alt="">
-                </div>
-                <div class="insta" onclick="window.open('https://www.instagram.com/malindu.__/','_blank', 'location=yes,height=570,width=520,scrollbars=yes,status=yes')">
-                    <img src="Assests/img/insta.png" alt="">
-                </div> 
+                
+                <li><a href="#lands">HOME</a> </li>
+                <li><a href="#about">ABOUT</a> </li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#hoobies">BLOGS</a></li>
+                <li><a href="#myworks">MY WORKS</a></li>
+                <li><a href="#contactus">CONTACT US</a> </li> 
+    
             </ul>
+            <div class="fb" onclick="window.open('https://www.facebook.com/hhddveje','_blank', 'location=yes,height=570,width=520,scrollbars=yes,status=yes')">
+                <img src="Assests/img/fb.png" alt="">
+            </div>
+            <div class="link" onclick="window.open('https://www.linkedin.com/in/malindu-amesh-b39b591a4/','_blank', 'location=yes,height=570,width=520,scrollbars=yes,status=yes')">
+                <img src="Assests/img/linked in.png" alt="">
+            </div>
+            <div class="insta" onclick="window.open('https://www.instagram.com/malindu.__/','_blank', 'location=yes,height=570,width=520,scrollbars=yes,status=yes')">
+                <img src="Assests/img/insta.png" alt="">
+            </div> 
+        </div>
         </nav>
+
+
+       
     </header>
     <main>
-        <section class="landing_page">
+        <section class="landing_page" id="lands">
             <div class="first_word1">HI! I'M</div>
             <div class="first_word2">Malindu</div>
             <div class="first_word3"><div class="header-area"><h2>Proffesional in  </h2><span class="animattte"></span></div> </div>
+            <div class="fb" onclick="window.open('https://www.facebook.com/hhddveje','_blank', 'location=yes,height=570,width=520,scrollbars=yes,status=yes')">
+                <img src="Assests/img/fbbbb.png" alt="">
+            </div>
+            <div class="link" onclick="window.open('https://www.linkedin.com/in/malindu-amesh-b39b591a4/','_blank', 'location=yes,height=570,width=520,scrollbars=yes,status=yes')">
+                <img src="Assests/img/liked.png" alt="">
+            </div>
+            <div class="insta" onclick="window.open('https://www.instagram.com/malindu.__/','_blank', 'location=yes,height=570,width=520,scrollbars=yes,status=yes')">
+                <img src="Assests/img/aaaasss.png" alt="">
+            </div> 
             <div class="first_forth"></div>
             <div id="particles-js"></div>
            
@@ -204,7 +228,7 @@
                 </div>
             </article>
         </section>
-        <section class="hobbies">
+        <section class="hobbies" id="hoobies">
             <div class="hob-name"><h2>BLOGS & INTERESTS</h2></div>
             <div class="hob-line2"></div>
             <div class="hob-line3"></div>
@@ -309,7 +333,7 @@
         </section>
 
 
-        <section class="Contact-Us">
+        <section class="Contact-Us" id="contactus">
 
             <div class="set-Title">
             <div class="Cont-Title-1">CONTACT</div>
