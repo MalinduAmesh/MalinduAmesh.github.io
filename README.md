@@ -1,2 +1,2 @@
 # PortFolio  URL
-https://malinduamesh.github.io/PortFolio/
+https://malinduamesh.github.io/
