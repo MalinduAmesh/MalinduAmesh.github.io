@@ -233,7 +233,7 @@ padding: 16px 0;
     right: 0;
     /* margin: auto; */
     border-radius: 20px;
-    z-index: 9;
+    /* z-index: 9; */
     margin-right: 193px;
     
   
@@ -262,6 +262,7 @@ padding: 16px 0;
     margin-right: 26px;
     margin-left: 57px;
     margin-top: 96px;
+    z-index: -1;
     /* top: 112px; */
     /* right: 0; */
     border-radius: 20px;
