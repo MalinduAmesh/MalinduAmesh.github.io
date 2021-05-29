@@ -95,7 +95,8 @@ padding: 16px 0;
 }
 
 .header .menu a:hover{
-    color: #24cdd5;
+    /* color: #24cdd5; */
+    color: #16a085;
 }
 
 
@@ -352,21 +353,21 @@ padding: 16px 0;
 
 /* ------------------------------------------------------Home Section-------------------------------------------- */
 .home{
-    margin-top: 100px;
+    margin-top: 73px;
 }
 .hero-text{
     font-family: 'Poppins','sans-serif' ;
 
 }
 .title{
-    
-    background-color: #0bceaf;
-    font-size: 14px;
-    line-height: 24px;
-    padding: 10px 30px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
+    /* #0bceaf */
+    background-color: #16a085;
+    font-size: 24px;
+    line-height: 53px;
+    padding: 16px 34px;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 35px;
     border-bottom-right-radius: 0px;
 
 }
@@ -415,6 +416,10 @@ padding: 16px 0;
    display: none;
 }
 
+.social-title img {
+    width: 49px;
+}
+/*-------------------------------------- About Section */
 
 .about{
     font-family: 'Poppins', sans-serif;
