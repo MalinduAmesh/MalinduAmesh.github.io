@@ -66,36 +66,25 @@
                         <li><a href="">Contact</a></li>
                     </ul>
                 </nav>
-                <footer>
-                    <div class="social">
-                        <a href=""><img src="Assests/insta.png" alt=""></a>
-                        <a href=""><img src="Assests/linked in.png" alt=""></a>
-                        <a href=""><img src="Assests/twitter_PNG1.png" alt=""></a>
-                    </div>
-                </footer>
+            
             </div>
         </header>
     </main>
 
     <!------------------------------------------ Home Section ------------------------------------------------------------>
-<br>
-<br>
-<br>
-<br>
-<br>
+<br><br><br><br><br>
     <section class="home container text-white">
         <div class="row">
             <div class=" col-md-6">
                 <div class="hero-text">
                     <span class="title">Hello I'm</span><br>
                     <span class="name">Malindu </span> <br>       
-                    <div class="first_word3"><div class="header-area"><h2>  </h2><span class="animattteddd"></span></div> </div>            
-                    <span class="description"> Proffesional in  Developing</span><br>
+                    <span class="description"> And I'm a <span class="rotate"> DEVELOPER ,Blogger , Freelancer, DESIGNER</span>  </span><br>
 
                     <div class="social-title">
-                        <a href=""><img src="Assests/insta.png" alt=""></a>
-                        <a href=""><img src="Assests/linked in.png" alt=""></a>
-                        <a href=""><img src="Assests/twitter_PNG1.png" alt=""></a>
+                        <a  href="https://github.com/MalinduAmesh"><img src="Assests/GitHub-Mark-removebg-preview.png" alt=""></a>
+                        <a  href="https://www.linkedin.com/in/malindu-amesh-b39b591a4/"><img class="t1" src="Assests/linked in.png" alt=""></a>
+                        <a href="https://twitter.com/Malindu51891108"><img class="t2" src="Assests/twitter_PNG1.png" alt=""></a>
                     </div>
 
 
@@ -103,15 +92,18 @@
             </div>
 
             <div class="col-md-6">
-                <div class="hero-img">
+                <div class="hero-img"> 
                     <div class="img-border">
+                        <div class="img-border-1"> 
                         <img src="Assests/hero2.JPG" class="img-fluid" alt="">
                     </div>
+                    </div>
+                   
+                        <!-- <div class="img-border"> -->
                 </div>
             </div>
 
         </div>
-
     </section>
 
 
@@ -471,7 +463,15 @@
 
     <script src="js/jquery-3.6.0.js"></script>
     <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js//bootstrap.min.js"></script>
+    <script src="js/jquery.simple-text-rotator.min.js"></script>
     <script>
+
+$(".rotate").textrotator({
+  animation: "fade", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
+  separator: ",", // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
+  speed: 1500 // How many milliseconds until the next word show.
+});
 
         $(document).ready(function(){
             $(".sidemenu-toggler").click(function(){
