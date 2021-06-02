@@ -340,7 +340,7 @@ padding: 16px 0;
 
 /* ------------------------------------------------------Home Section-------------------------------------------- */
 .home{
-    margin-top: 73px;
+    margin-top: 104px;
 }
 .hero-text{
     font-family: 'Poppins','sans-serif' ;
@@ -478,6 +478,71 @@ box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
     border-radius: 50px;
 }
 
+
+/* -------------------------------------------------------------- Service Section --------------------------------------------- */
+
+.box1{
+    background: #0b0b13;
+    padding: 40px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+/* .box1 ::before{
+    content: "";
+    position: absolute;
+    top: -220px;
+    left: -220px;
+    width: 200px;
+    height: 200px;
+    z-index: 1;
+    background:#0b0b13 ;
+    transition: cubic-bezier(0.39,0.58,0.57,1) all 0.5s;
+} */
+
+.box1::before{
+    content: "";
+    position: absolute;
+    top: -72px;
+    left: -40px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    z-index: -1;
+    opacity: 0.8;
+    background-color: #0bab64;
+    background-image: linear-gradient(315deg,#0bab64 0%, #0fcfa6 7%);
+    transition: cubic-bezier(0.39,0.58,0.57,1) all 0.15s;
+
+
+}
+
+.box1 .icon{
+    line-height: 60px;
+    font-size: 40px;
+    color: white;
+    /* z-index: 5; */
+}
+
+.box .content{
+padding-top: 25px;
+
+}
+
+.box1 h5 {
+    margin-bottom: 30px ;
+    color: white;
+    font-size: 25px;
+}
+.box1:hover::before{
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    border-radius: 0;
+}
 
 /*------------------------------------------------------------- Programming Skills ----------------------------------------------- */
 

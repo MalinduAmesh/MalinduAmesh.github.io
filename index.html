@@ -23,6 +23,11 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
 
+    <!-- <link rel="stylesheet" href="et-line/style.css> -->
+
+    <link rel="stylesheet" href="themify-icons.css"> 
+
+    <link href="http://yoursite.com/themify-icons.css" rel="stylesheet">
     <!-- Style Link -->
     <link rel="stylesheet" href="style.css">
 
@@ -75,12 +80,11 @@
 <br><br><br><br><br>
     <section class="home container text-white">
         <div class="row">
-            <div class=" col-md-6">
+            <div class=" col-md-8">
                 <div class="hero-text">
                     <span class="title">Hello I'm</span><br>
-                    <span class="name">Malindu </span> <br>       
-                    <span class="description"> And I'm a <span class="rotate"> DEVELOPER ,Blogger , Freelancer, DESIGNER</span>  </span><br>
-
+                    <span class="name">Malindu Amesh </span> <br>       
+                    <span class="description"> And I'm a <span class="rotate"> DEVELOPER,Blogger,Freelancer,DESIGNER</span>  </span><br>
                     <div class="social-title">
                         <a  href="https://github.com/MalinduAmesh"><img src="Assests/GitHub-Mark-removebg-preview.png" alt=""></a>
                         <a  href="https://www.linkedin.com/in/malindu-amesh-b39b591a4/"><img class="t1" src="Assests/linked in.png" alt=""></a>
@@ -91,7 +95,7 @@
                 </div>
             </div>
 
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <div class="hero-img"> 
                     <div class="img-border">
                         <div class="img-border-1"> 
@@ -153,6 +157,55 @@
                 </div>
             </div>
         </div>  
+    </section>
+
+    <!---------------------------------------------------------- MY services --------------------------------------------------->
+
+<br><br><br><br><br>
+
+    <section class="services">
+        <div class="container">
+            <h2>What I Do</h2>           
+            <div class="row col-sm-12">
+
+                <div class="col-lg-4">
+                    <div class="box1">
+                        <i class="icon ti-desktop"></i>
+                        <div class="content text-white">
+                            <br>
+                            <h5>App Development</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam placeat officia nihil expedita aperiam deleniti molestias quasi veniam.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="box1">
+                        <i class="icon ti-wand"></i>
+                        <div class="content text-white">
+                            <br>
+                            <h5>Web Design</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam placeat officia nihil expedita aperiam deleniti molestias quasi veniam.</p>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="box1">
+                        <i class="icon ti-world"></i>
+                        <div class="content text-white">
+                            <br>
+                            <h5>Web Development</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam placeat officia nihil expedita aperiam deleniti molestias quasi veniam.</p>
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+       </div>
     </section>
 
 
@@ -465,6 +518,8 @@
     <script src="js/isotope.pkgd.min.js"></script>
     <script src="js//bootstrap.min.js"></script>
     <script src="js/jquery.simple-text-rotator.min.js"></script>
+
+    <script src="script.js"></script>
     <script>
 
 $(".rotate").textrotator({
@@ -524,88 +579,6 @@ $(".rotate").textrotator({
         });
 
         const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
-
-function switchTheme(e) {
-    if (e.target.checked) {
-        document.documentElement.setAttribute('data-theme', 'dark');
-    }
-    else {
-        document.documentElement.setAttribute('data-theme', 'light');
-    }    
-}
-
-toggleSwitch.addEventListener('change', switchTheme, false);
-
-
-const name = document.getElementById('name');
-const email = document.getElementById('email');
-const message = document.getElementById('message');
-const contactForm = document.getElementById('contact-form');
-const errorElement = document.getElementById('error');
-const successMsg = document.getElementById('success-msg');
-const submitBtn = document.getElementById('submit');
-  
-const validate = (e) => {
-  e.preventDefault();
- 
-  if (name.value.length < 3) {
-    errorElement.innerHTML = 'Your name should be at least 3 characters long.';
-    return false;
-  } 
-  
-  if (!(email.value.includes('.') && (email.value.includes('@')))) {
-    errorElement.innerHTML = 'Please enter a valid email address.';
-    return false;
-  } 
-
-  if (!emailIsValid(email.value)) {
-    errorElement.innerHTML = 'Please enter a valid email address.';
-    return false;
-  }
-
-  if (message.value.length < 15) {
-    errorElement.innerHTML = 'Please write a longer message.';
-    return false;
-  }
-
-  errorElement.innerHTML = '';
-  successMsg.innerHTML = 'Thank you! I will get back to you as soon as possible.'; 
-
-  e.preventDefault();
-  setTimeout(function () {
-    successMsg.innerHTML = '';
-    document.getElementById('contact-form').reset();
-  }, 6000);
-
-  return true;
-
-}
-
-const emailIsValid = email => {
-  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-}
-
-submitBtn.addEventListener('click', validate);
-
-
-var typed = new Typed('.animattteddd', {
-    strings: ['Developer', 'Photographer','Designer'],
-  
-    stringsElement: null,
-  
-    typespeed:1,
-    backspeed:1,
-    startDelay: 1000,
-    backDelay: 1000,
-    fadeOut: false,
-    fadeOutClass: 'typed-fade-out',
-    fadeOutDelay: 500,
-    showCursor: true,
-    cursorChar: '|',
-    autoInsertCss: true,
-    loop:true,
-    smartBackspace: true // Default value
-  });
 
     </script>
 </body>
