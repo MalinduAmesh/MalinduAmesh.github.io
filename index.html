@@ -42,13 +42,13 @@
                 <h1 class="logo">
                     <a href=""><img src="Assests/logo-light.png" alt=""></a>
                 </h1>
-                <nav class="menu">
+                <nav class="menu" >
                     <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Skills</a></li>
-                        <li><a href="">Blog</a></li>
-                        <li><a href="">Contact</a></li>
+                        <li><a href="#home1">Home</a></li>
+                        <li><a href="#about1">About</a></li>
+                        <li><a href="#service1">Skills</a></li>
+                        <li><a href="#my-skills">Blog</a></li>
+                        <li><a href="#contact">Contact</a></li>
 
                     </ul>
                 </nav>
@@ -64,27 +64,28 @@
                 <a href="javascript:void(0);" class="close"></a>
                 <nav>
                     <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Skills</a></li>
-                        <li><a href="">Blog</a></li>
-                        <li><a href="">Contact</a></li>
+                        <li><a href="home1">Home</a></li>
+                        <li><a href="about1">About</a></li>
+                        <li><a href="#service1">Skills</a></li>
+                        <li><a href="#my-skills">Blog</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </nav>
             
             </div>
         </header>
     </main>
-
-    <!------------------------------------------ Home Section ------------------------------------------------------------>
 <br><br><br><br><br>
-    <section class="home container text-white">
+    <!------------------------------------------ Home Section ------------------------------------------------------------>
+
+    <section class="home container text-white" id="home1">
         <div class="row">
             <div class=" col-md-8">
                 <div class="hero-text">
                     <span class="title">Hello I'm</span><br>
                     <span class="name">Malindu Amesh </span> <br>       
-                    <span class="description"> And I'm a <span class="rotate"> DEVELOPER,Blogger,Freelancer,DESIGNER</span>  </span><br>
+                    <span class="description"> And I'm a <span class="rotate"> DEVELOPER&
+                        |Freelancer&Blogger&|&DESIGNER</span></span><br>
                     <div class="social-title">
                         <a  href="https://github.com/MalinduAmesh"><img src="Assests/GitHub-Mark-removebg-preview.png" alt=""></a>
                         <a  href="https://www.linkedin.com/in/malindu-amesh-b39b591a4/"><img class="t1" src="Assests/linked in.png" alt=""></a>
@@ -113,19 +114,14 @@
 
     <!--------------------------------------- About Section ------------------------------------------------>
 
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-
-    <section class="about">
+<br>
+    <section class="about" id="about1">
         <div class="container">
             <div class="row">
                 <div class="col-md-6  heroGot">
                 <!-- <img src="Assests/hero png.png" alt=""> -->
                 <article class="myPhoto">
-                    <img src="Assests/tenor.gif" alt="">
+                    <img src="" alt="">
                     <div class="myphotoborder"></div>
                 </article>
                 </div>
@@ -138,10 +134,11 @@
 
                     <h2>About Me </h2>
                     <br>
-
-                    <h2>I’m a Software Engineer </h2>
+                <div style="margin-bottom: 10px;">
+                    <h2 style="display: inline; color: rgb(0, 255, 170); "> I’m a </h2>
+                    <h2 style="display: inline; ">Software Engineer </h2>
                     <br>
-
+                </div>
                     <p>
                         Obviously I'm a Software Engineer student who completing the first sem in GDSE programme in IJSE. Experienced with all stages of the development cycle for dynamic web projects. The as opposed to using 'Content here, content here', making it look like readable English<br><br>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
                     </p>
@@ -152,7 +149,7 @@
                     <br>
 
                     <div class=""download-button>
-                        <a href="" class="btn btn-danger">Download CV</a>
+                        <a href="" class="btn btn-info">Download CV</a>
                     </div>
                 </div>
             </div>
@@ -160,12 +157,10 @@
     </section>
 
     <!---------------------------------------------------------- MY services --------------------------------------------------->
-
-<br><br><br><br><br>
-
-    <section class="services">
+<br><br>
+    <section class="services" id="service1">
         <div class="container">
-            <h2>What I Do</h2>           
+            <h2 class="ser-title">What I Do</h2>   <br>        
             <div class="row col-sm-12">
 
                 <div class="col-lg-4">
@@ -208,13 +203,9 @@
        </div>
     </section>
 
-
+<br><br><br><br>
     <!------------------------------------------------ Programming Skill  ---------------------------------------------------->
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+ 
     <section class="my-skills" id="my-skills">
         <div class="container">
             <div class="row">
@@ -472,33 +463,19 @@
     <br>    
 
     <section id="contact" class="Contact-Us">
-        <!--socail----------->
-        <div class="social">
-        <!--icons--------->
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-dribbble"></i></a>
-        <a href="#"><i class="fab fa-behance"></i></a>
-            
-        </div>
-        <!--contact-box------------->
+
+
         <div class="contact-box">
-        <!--heading---------->
         <div class="c-heading">
-        <h1>Get In Touch</h1>
-        <p>Call Or Email Us Regarding Question Or Issues</p>
+        <h1>Say Hello</h1>
+        <p>If you Want to hire me fill these</p>
         </div>
-        <!--inputs------------------>
         <div class="c-inputs">
-
-
-
 
     <form action="https://formsubmit.co/ameshmalindu006@gmail.com" method="POST">
         <input type="hidden" name="_subject" value="New Email Woooo!!">
         <input type="email" name="email" placeholder="Email Address" required>
-        <input type="hidden" name="_next" value="https://gemcityexport.com/">
+        <input type="hidden" name="_next" value="">
         <input type="text" name="message" placeholder="Write Your message" required>
         <textarea name="message" placeholder="Write Message"></textarea>
         <button type="submit">Send</button>
@@ -514,72 +491,22 @@
         </div>
         </section>
 
+        <footer>
+            <div class="container">
+                <div class="row col-sm-12">
+                    <div class="cont-footer">
+
+                    <h6>Copyright &copy; 2021 Malindu Amesh.All Rights Reserved</h6>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
     <script src="js/jquery-3.6.0.js"></script>
     <script src="js/isotope.pkgd.min.js"></script>
     <script src="js//bootstrap.min.js"></script>
     <script src="js/jquery.simple-text-rotator.min.js"></script>
 
     <script src="script.js"></script>
-    <script>
-
-$(".rotate").textrotator({
-  animation: "fade", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
-  separator: ",", // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
-  speed: 1500 // How many milliseconds until the next word show.
-});
-
-        $(document).ready(function(){
-            $(".sidemenu-toggler").click(function(){
-                $(".sidemenu").addClass("active");
-            });
-            $(".close").click(function(){
-                $(".sidemenu").removeClass("active"); 
-            });
-
-
-            $(window).scroll(function(){
-                var sc = $(window).scrollTop();
-                if(sc > 150){
-                    $(".header").addClass("sticky");
-
-                }else{
-
-                }
-            });
-
-
-            $(window).on("load",function(){
-                var $container = $('.filterContainer');
-                $container.isotope({
-                    filter:'*',
-                    animationOptions:{
-                        queue:true
-                    }
-                });
-
-
-                $('.partfolio-nav li').click(function(){
-                     $('.partfolio-nav .current').removeClass('current');
-                     var selector = $(this).attr('data-filter');
-                     $container.isotope({
-                         filter: selector,
-                         animationOptions: {
-                            queue: true
-                         }
-
-                     });
-                     return false
-                });
-            });
-
-            $('#gallery-filter').mixItUp();
-
-
-
-        });
-
-        const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
-
-    </script>
 </body>
 </html>
